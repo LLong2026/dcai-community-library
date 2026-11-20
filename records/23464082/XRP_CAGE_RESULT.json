@@ -1,0 +1,20 @@
+{
+ "asset": "The Cage Is Working v1.0",
+ "asset_hash": "f439f1307cf3657cce4e95b18a53678a2ae5691b191e5961cdfbebaf650265d7",
+ "hop1": {
+  "txid": "E0FE2A6809AF70153C3ADDC176BF965BDCDEBA0B86DA5E5FC36DFA0B747CA806",
+  "ledger_index": 107754066,
+  "from": "rBbxYuBkzK6UxKXhvUi8uNtdxhD1h7ZFGR",
+  "to": "rDSbkAZbUHQPdjDzShvze2gTGYBHDExX8C"
+ },
+ "hop2": {
+  "txid": "63C9ABA8ABC0D8114CB88DCC621BE4E89F8EEDC716E2B62CA4724283C238C182",
+  "ledger_index": 107754080,
+  "from": "rDSbkAZbUHQPdjDzShvze2gTGYBHDExX8C",
+  "to": "rBbxYuBkzK6UxKXhvUi8uNtdxhD1h7ZFGR"
+ },
+ "readback": "digest byte-identical both directions (verified via AccountTx decode)",
+ "a_balance_after": 29.476285,
+ "total_fee_drops": 20,
+ "g4": "PASS"
+}

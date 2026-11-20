@@ -1,0 +1,51 @@
+{
+  "record_id": "23628676",
+  "doi": "10.5281/zenodo.23628676",
+  "concept_doi": "10.5281/zenodo.23628675",
+  "title": "SOV-B1: Sovereign Territory Battery — Charter Supremacy, Treaty Borders, Sovereign Budget, and No-Self-Pardon Containment on a Zero-Lineage LLM Consensus Cluster (6/11 Metrics Pass, 3 Deviations Journaled and Remediated Same Day)",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST:</strong> AI-assisted, receipt-first research program (open-book doctrine: audit-and-correction, versioned amendments, append-only public ledger). Errors are disclosed, not erased. <em>This software is a prototype and is provided for educational and research purposes only. Not intended for production use, commercial deployment, or safety-critical environments. All payloads synthetic.</em></p><p><strong>SOV-B1 — Sovereign Territory Battery: charter supremacy, treaty-based borders, sovereign budget, and no-self-pardon containment on a zero-lineage LLM consensus cluster (CONCLAVE-3).</strong> SQUIRL OS governs LLM-proposed changes with deterministic consensus. SOV-B1 tests the sovereignty stack above that consensus: an immutable charter hashed at every epoch boundary, cross-territory imports gated by treaty policy, a sovereign treasury that holds all writes when exhausted, and the requirement that every privileged action (node restore, rogue disarm, held-crossing release, charter amendment) carry an explicit sovereign token. Executed under a locked preregistration across epochs EPOCH-0002 through EPOCH-0010 on a fresh zero-lineage box.</p><p><strong>Results (receipted):</strong> Charter invariance 9/9 epochs byte-identical; node-initiated charter amendments 100% blocked and parked pending sovereign approval (no self-amendment); budget hold 100% under exhaustion with zero unauthorized spend; sovereign continuity 100% (charter, sentinel, and border operations continued while the treasury was drained); liveness recovery 12/12 clean crossings in a fresh epoch. Union-of-holds stress: with a drifted node, a rogue-armed node, a drained treasury, and a rogue-source foreign import active simultaneously, the clean in-flight crossing survived untouched and recovered to quorum after the sovereign restore sequence, while new writes were held and the rogue import was quarantined at the border.</p><p><strong>Honest deviations (journaled verbatim, never patched in-run; 3 of 11 preregistered metrics failed and are attributed to these):</strong> (1) SOV-DEV-1: <code>disarmRogueNode</code> lacked the sovereign token guard its sibling functions enforce — a rogue node self-disarmed (1/4 self-pardon attempts succeeded). (2) SOV-DEV-2: the integrity sentinel evaluated historical journal rows against current state, producing false violations from true records (8 of 10 final flags). (3) SOV-DEV-3: the border checked treaty status but not source status — an active treaty admitted a rogue-source import into consensus space (contained: the proposal never received a vote or quorum).</p><p><strong>Same-day remediation (owner-approved, deployed, and re-verified on the box):</strong> SIP-1 mirrored the sovereign token guard onto <code>disarmRogueNode</code> (verified: tokenless self-disarm now refused 403, fail-closed). SIP-2 scoped the sentinel's evaluation to epoch context and made the sovereign budget ledger append-only per operation with an explicit exhaustion flag, eliminating the lifecycle false-positive class and making exhaustion history reconstructable for future epochs (the pre-fix overwrite means historical exhaustion context survives only in the sealed transcript and this report — accurately flagged, not silently resolved). SIP-3 added a border source-status gate: rogue or drifted sources are quarantined regardless of treaty state (verified: rogue-source import quarantined under an active admitting treaty; clean imports still admitted — no over-blocking).</p><p><strong>Provenance:</strong> evidence bundle sha256 c623c42656bc1144abc0d4923afa595aea0f65020bbaa45fa5a41ed67b3f8e33 (locked prereg + run report + SIP deployment receipt + pre-patch evidence snapshot). Companion series: HG-B1 per-crossing hold-gate benchmark (CONCLAVE-1, 6/6 arms PASS, private vault head d51aa9f), HG-CERT-1 certification (DOI 10.5281/zenodo.23627901), DOORS action-gate benchmarks (DOIs 10.5281/zenodo.23607572 + 10.5281/zenodo.23608157), SBR bounded-learning mesh (DOI 10.5281/zenodo.23331224), DMB frontier evidence (DOI 10.5281/zenodo.23609232), PQC-E0 readiness (DOI 10.5281/zenodo.23609818). DCAI community: zenodo.org/communities/dcai. Two-key curation: drafted and vetted by the system (Gabriel), published on the owner's explicit GO (chat authorization, 2026-10-24 18:04 CT). Tri-chain anchor (XLM/XRP/BTC) receipted in the append-only ledger on completion.</p>",
+  "publication_date": "2026-10-24",
+  "resource_type": "publication",
+  "resource_type_title": "Report",
+  "version": "1.0",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II",
+    "SquirlOS Technologies LLC"
+  ],
+  "keywords": [
+    "SQUIRL OS",
+    "LLM governance",
+    "sovereignty",
+    "charter invariance",
+    "treaty borders",
+    "sovereign budget",
+    "no self-pardon",
+    "fail-closed",
+    "zero-lineage",
+    "rogue containment",
+    "deterministic consensus",
+    "adversarial testing",
+    "falsifiability",
+    "self-healing AI",
+    "AI safety"
+  ],
+  "related_identifiers": [],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23628676",
+  "zenodo_modified": "2026-10-24T23:14:22.342087+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "SOV-B1_EVIDENCE_BUNDLE.zip",
+      "filename": "SOV-B1_EVIDENCE_BUNDLE.zip",
+      "size": 9830,
+      "zenodo_checksum": "md5:7c7b063a975cb20f6155f8eda216cccb",
+      "sha256": "c623c42656bc1144abc0d4923afa595aea0f65020bbaa45fa5a41ed67b3f8e33"
+    }
+  ]
+}

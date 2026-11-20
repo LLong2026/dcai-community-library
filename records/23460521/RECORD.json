@@ -1,0 +1,50 @@
+{
+  "record_id": "23460521",
+  "doi": "10.5281/zenodo.23460521",
+  "concept_doi": "10.5281/zenodo.23460520",
+  "title": "GCT-TOK-1: Full-Stream Hash-Only Tokenization of the Governed Cognitive Training Method (Draft) - Ceremony Record",
+  "description": "Ceremony record for GCT-TOK-1: the third full-stream tokenization performed by SQUIRL OS (after the patent genesis seed 19/693,343 and the DGPNM v1.1 paper 64/119,191).\n\nASSET: \"Method for Governed Cognitive Training\" - unfiled provisional patent draft (77,908 bytes).\nHASH-ONLY DOCTRINE: the document contents are NOT included in this record and are not distributed on any rail or surface. Only the 32-byte SHA-256 digest is public: 7fe0258684f8bee28069a8e53275fdd7ed33c71600055274dd5839c4de5b2c8b. This record is a priority-of-possession timestamp, not a publication.\n\nCEREMONY (executed 2026-10-18, ledger 0206, four-horsemen repository):\n- G1 BIND: Bitcoin mainnet OP_RETURN tx f76cc76f03aa7b8b604ecba4bab012c2cdd020ec278cd1dace6c70e540dbf892, confirmed in block 972053. Payload SQDR + 0x01 + 32-byte digest (37 bytes, hash-only).\n- G2 SEND: XRPL mainnet custody round trip A to B to A, memo SQDR-XRP-ANCHOR-1 + digest byte-exact on both hops (HOP1 415F01D3...BCF65A ledger 107746772; HOP2 7F3F147E...417B7F5 ledger 107746777).\n- G3 PULL-BACK: keyless blockstream.info read; OP_RETURN byte-exact vs the asset digest. Binary verdict: DELIVERED.\n- G4 RECEIPTS: this bundle - runlog (sha 035203e5...fda653f6), frozen prereg (sha 98f0a8f0...fb432c9), result JSON, XRP hashes, the 32-byte digest binary, and the round-trip script.\n\nTrustless verification: paste the digest into the Genesis Viewer hash drop (https://deterministic-code-dsos.base44.app/genesis-viewer) - the viewer fetches the anchored Bitcoin transaction itself and compares the bytes in your browser.\n\nDual Mesh Benchmark: NOT MEASURED.\n\nThis software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All data is synthetic. Authorization: Leon GO (chat authorization, 2026-10-18).",
+  "publication_date": "2026-10-19",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "hash-only",
+    "bitcoin-anchoring",
+    "op-return",
+    "xrpl",
+    "tokenization",
+    "zero-trust",
+    "SQUIRL OS",
+    "priority-of-possession"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23460521",
+  "zenodo_modified": "2026-10-19T02:15:21.902863+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "GCT_TOK1_CEREMONY_2026-10-18.zip",
+      "filename": "GCT_TOK1_CEREMONY_2026-10-18.zip",
+      "size": 5052,
+      "zenodo_checksum": "md5:1c59641c27ee79be4c31738dd3260206",
+      "sha256": "db4644ed5ec01074643eb5309a3dda5ac2f6645dfb652206d3bce1c06fe45a51"
+    }
+  ]
+}

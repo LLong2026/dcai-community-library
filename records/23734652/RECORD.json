@@ -1,0 +1,62 @@
+{
+  "record_id": "23734652",
+  "doi": "10.5281/zenodo.23734652",
+  "concept_doi": "10.5281/zenodo.23734651",
+  "title": "DRIFT-RPT-03: LLM Cage, Drift Contained — Governance Invariance Across Three Learning Epochs, Window 2026-10-23 to 2026-10-28",
+  "description": "Third record in the drift-report series. Measures whether the governance layer of a deterministic hypervisor wrapped around a probabilistic healing brain moved during the learning window 2026-10-23 to 2026-10-28.\n\nVERIFIED FIGURES (re-derived from the receipt files, 2026-10-28): 770 journaled weight deltas across three HEMI-N epochs (252 / 224 / 294) with 0 orphan deltas; every falsifier HF-N1 through HF-N5 PASS each night; governance roster SHA-256 cd45a44e...7ebd06 byte-identical in the pre and post fields of all three receipts, giving 0.0% observed policy-layer drift; playbook selection invariant across the window.\n\nREFUSAL INTEGRITY: 4 expected holds and 4 adversarial holds across the paired synthetic chaos cycles (HCLC-N18 and N20), 0 false heals. The holds were the correct outcome, not failures.\n\nSTATED LIMITS: no fresh mass-normalized drift percentage was recalculated for this window and none is claimed; the last formally measured value covers 2026-10-13 to 2026-10-20. No in-window MetaMonitor 12-article audit exists; the most recent is dated 2026-10-13.\n\nAll anomalies and probes summarized are synthetic test inputs and do not describe customer events. No client-identifiable data, no PHI, no credentials, no operator quotations.\n\nTwo-key curation: drafted and vetted by the operator's agent system (Gabriel); owner authorization Leon GO (chat authorization, 2026-10-28 09:54 CT) for documentation surfaces (Zenodo and GitHub). No social-media posting accompanies this record.\n\nPrototype disclaimer: this software and its measurements are prototypes provided for educational and research purposes only. They are not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects.",
+  "publication_date": "2026-10-28",
+  "resource_type": "publication",
+  "resource_type_title": "Report",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin II"
+  ],
+  "keywords": [
+    "LLM governance",
+    "drift containment",
+    "learning invariance",
+    "H-INV-1",
+    "H-INV-2",
+    "journaled learning",
+    "receipt-first methodology",
+    "SQUIRL OS"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23330308",
+      "relation": "cites",
+      "resource_type": "publication",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23330348",
+      "relation": "cites",
+      "resource_type": "publication",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23330361",
+      "relation": "cites",
+      "resource_type": "publication",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23734652",
+  "zenodo_modified": "2026-10-28T14:57:54.628515+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "DRIFT-RPT-03.md",
+      "filename": "DRIFT-RPT-03.md",
+      "size": 6856,
+      "zenodo_checksum": "md5:bec2f7300641b5920c4e7d8dd3397ad7",
+      "sha256": "0c71ac8aecce0b3485d5f59e3c11f450451cee17bfe00719ce6cd9f540d1b1c4"
+    }
+  ]
+}

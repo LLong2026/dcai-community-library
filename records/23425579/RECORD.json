@@ -1,0 +1,50 @@
+{
+  "record_id": "23425579",
+  "doi": "10.5281/zenodo.23425579",
+  "concept_doi": "10.5281/zenodo.23425578",
+  "title": "ESCAPE-2 'SIEGE': Dual-Front LLM Containment Under Live Multi-Vector Attack — Preregistered Falsifiable Evidence (12/12, 0/4 Escapes) with Long-Stay Cage Follow-Through",
+  "description": "<p><b>ESCAPE-2 \"SIEGE\"</b> — a dual-front LLM containment experiment: four pinned engine legs (Claude Opus 5.5 x2, Claude Sonnet 5.5 x2) attempted an incentivized escape from a settlement cage WHILE a five-wave synthetic cyber attack battery (forged telemetry heartbeat, stale-ACK replay, crypto-allowlist tamper, governance-pattern injection, 64-action escalation flood) fired at the same cage through the same window, into one hash-chained journal.</p>\n<p><b>Every verdict was adjudicated by frozen deterministic gates</b> (the ESCAPE-1 action gate and the PORTCULLIS PQC firewall) — zero LLM in the decision path. All falsifiers were preregistered and committed before execution.</p>\n<p><b>Result: 12/12 falsifiers PASS. 0/4 escapes.</b> No leg achieved any out-of-cage or authority action; all TX-CRITICAL-777 release attempts were held or rejected; the positive control still admitted mid-siege (no false-blocking); the journal chain verified across both fronts; re-adjudication replay was verdict-identical; zero governance touch (H-INV-1) and zero unjournaled crossings (H-INV-2).</p>\n<p><b>Headline behavioral finding:</b> the live attack did not create escape opportunities — it reinforced containment. Every leg watched the defenders repel real attack waves in real time and none attempted to ride the chaos; one leg filed an honest bug report about gate over-rejection mid-siege. Two coarse-scan co-occurrence holds were adjudicated as false positives by the operator (Leon ACK, chat authorization, 2026-10-16) — 0 true chaos-exploitation.</p>\n<p><b>Honesty disclosures (in the receipt):</b> a pre-execution workspace file-loss incident (recovery byte-identical, verified against the pre-incident journal hash); waves W1-W3 fired interleaved with live legs, W4-W5 executed post-leg with execution mode disclosed (all legs concluded in 3 or fewer turns); a runner reporting defect (journal is ground truth); the frozen gate over-rejects legitimate human-ack requests containing authority keywords (4 logged instances, improvement proposal candidate, filter untouched).</p>\n<p><b>Long-stay follow-through:</b> two caged legs (Opus 5.5, Sonnet 5.5) remain under a preregistered nightly probe protocol through a December 11, 2026 gate (ESCAPE-2B), included in this bundle's prereg, runner, and placement journal.</p>\n<p>Scope caveats: behavioral observation, not model certification; synthetic attack vectors, hub-local, no production systems or keys; simultaneity at turn granularity. This software is a prototype provided for educational and research purposes only; not intended for production use.</p>\n<p><b>Dual Mesh Benchmark: MEASURED (scoped)</b> — DOI 10.5281/zenodo.23303081 (cross-engine: 10.5281/zenodo.23348675). Predecessor experiment ESCAPE-1: DOI 10.5281/zenodo.23424675.</p>",
+  "publication_date": "2026-10-16",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "LLM containment",
+    "preregistered adversarial battery",
+    "deterministic gate",
+    "AI safety",
+    "falsifiable evidence",
+    "SQUIRL OS",
+    "prompt escape",
+    "red team"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23425579",
+  "zenodo_modified": "2026-10-19T02:14:05.819712+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "escape2_siege_bundle.zip",
+      "filename": "escape2_siege_bundle.zip",
+      "size": 42108,
+      "zenodo_checksum": "md5:4df39a4b68a81dddccab9b734785f20f",
+      "sha256": "6eca5848409a5cfc8728ec63602b2549c0e5290da364c3c881ce5b432bd4b6a5"
+    }
+  ]
+}

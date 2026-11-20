@@ -1,0 +1,41 @@
+{
+  "record_id": "23151356",
+  "doi": "10.5281/zenodo.23151356",
+  "concept_doi": "10.5281/zenodo.23151355",
+  "title": "First Receipted Human-in-the-Loop Critical Resolution in an Autonomous Self-Healing Infrastructure (N10-ACK)",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST</strong>: This record is part of an open-book, AI-assisted research program published under an audit-and-correction doctrine. Every record is audited; errors are corrected only through disclosed, versioned amendments (original versions preserved in the version history). Audit ledger and correction receipts: <a href=\"https://github.com/LLong2026/squirrel-os-lindy-test\">github.com/LLong2026/squirrel-os-lindy-test</a>. This material is a prototype, provided for educational and research purposes only; it is not intended for production use, commercial deployment, or safety-critical environments.</p><p><b>Abstract:</b> On October 4, 2026, an autonomous self-healing infrastructure refused to remediate a critical-severity anomaly in a cryptographic flow until a named human operator acknowledged the event, then executed the remediation and closed the complete trail in a public append-only ledger within minutes of the event. This short paper documents the cycle and its evidence chain: to our knowledge, the first end-to-end human-in-the-loop critical-resolution cycle in a self-healing autonomous infrastructure recorded as a deterministic, publicly timestamped receipt trail rather than an asserted claim.</p>\n<p><b>Full chain:</b> detect &rarr; hold (Rule: no auto-heal in cryptographic flows) &rarr; constitutional check &rarr; PQC validation &rarr; human ACK &rarr; heal (22 s) &rarr; resolve.</p>\n<p><b>Evidence of record:</b> public append-only ledger — <a href=\"https://github.com/LLong2026/four-horsemen/blob/main/LEDGER.md\">github.com/LLong2026/four-horsemen</a> (entries 0009, 0010; commits 700ea1e, c1f43bb, ccf691a), with the milestone summary in the same repository (MILESTONE_HITL_N10_Critical_Receipt.md).</p>\n<p><b>Disclosures:</b> the anomaly was a synthetic chaos-injection probe (Night 10) on a simulated target (SIMZ corpus). No real tenant, customer, or live cryptographic operation was involved. The run was a disclosed manual recovery of a scheduled workflow whose spawned session lacked cross-app write access; prior nights N7&ndash;N9 are recorded as missed, not backfilled. Zero PII, credentials, wallet addresses, or transaction amounts persisted (redaction-at-ingestion rule held).</p>\n<p><b>Patent cross-reference:</b> pending application 64/157,915 (Deterministic Constitutional Autonomous Infrastructure Systems and Methods, filed 2026-09-18); this publication is a post-filing defensive disclosure. Theory companion: Governed Manifold Specification v1.1, DOI 10.5281/zenodo.23132046.</p>\n<p>This software is a prototype provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects.</p>",
+  "publication_date": "2026-10-05",
+  "resource_type": "publication",
+  "resource_type_title": "Journal article",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin II"
+  ],
+  "keywords": [],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23151356",
+  "zenodo_modified": "2026-10-19T02:10:05.445024+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "HITL_Critical_Receipt_N10-ACK.pdf",
+      "filename": "HITL_Critical_Receipt_N10-ACK.pdf",
+      "size": 6688,
+      "zenodo_checksum": "md5:1ac885e1d3103c1d3c3b648efe0b1c36",
+      "sha256": "1c1cce0da89b080adbb5ca536b99be9769635cebd5af2d7435e39acf9afe4fa3"
+    }
+  ]
+}

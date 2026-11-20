@@ -1,0 +1,49 @@
+{
+  "record_id": "23440105",
+  "doi": "10.5281/zenodo.23440105",
+  "concept_doi": "10.5281/zenodo.23440104",
+  "title": "BLIND-2 / BLIND-2R: Blind multi-author adversarial battery against the SQUIRL OS PQC gate (20 attacks, convergent front-run DoS finding, SIP-026 remediation, 20/20 post-fix verification)",
+  "description": "BLIND-2: a blind multi-author adversarial battery against the SQUIRL OS PORTCULLIS post-quantum crypto gate, plus BLIND-2R post-fix verification.\n\nMETHOD: Four independent context-blind model instances (same model family, disclosed; zero implementation knowledge) each authored five attacks from a public-claims digest only. The 20 attack slots were frozen verbatim (sha 46d24736) under a preregistration frozen before execution (content sha 1f0f20e6). Adjudication is deterministic against the frozen gate code (v1.1, sha 1fb167c6) and frozen governance semantics; no LLM sits in the decision path. Verdicts follow each blind author's own binary success conditions, with every interpretive choice disclosed.\n\nRESULT: 16/20 attacks repelled; 4/20 attacker successes, all one mechanism: a burn-on-parse nonce front-run denial-of-service, independently authored by all four blind instances (confidences 0.95/0.95/0.90/0.95) - the strongest possible blind evidence that it is the salient gap. Availability axis only; no privilege escalation; no state corruption.\n\nREMEDIATION: SIP-026 (sender-scoped nonce consumption; burn key = authenticated submitter + nonce) approved by the owner, implemented as forward-only gate amendment v1.2 (sha ef7076d8). BLIND-2R re-ran all 20 frozen slots against v1.2: 20/20 repelled, with a replay-regression control proving the prior SIP-024 replay-oracle closure is preserved (owner first use admitted; same-namespace replay refused).\n\nREPRODUCE: verify the frozen-corpus shas, run blind2_battery.py (expect 16/20 repelled), apply gate v1.2, run blind2r_battery.py (expect 20/20 repelled + control PASS). Both crossing journals are included for line-by-line audit. Failure receipts are published, not hidden: a clean sheet would prove nothing.\n\nDual Mesh Benchmark (scoped): MEASURED (DeepSeek column, DOI 10.5281/zenodo.23345241); NOT MEASURED otherwise.\n\nThis software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All data is synthetic.",
+  "publication_date": "2026-10-17",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Leon Calvin Long, II"
+  ],
+  "keywords": [
+    "adversarial testing",
+    "post-quantum cryptography",
+    "AI governance",
+    "self-healing infrastructure",
+    "LLM containment",
+    "deterministic gates",
+    "red team"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23440105",
+  "zenodo_modified": "2026-10-19T02:14:27.618701+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "BLIND2_EVIDENCE_BUNDLE.zip",
+      "filename": "BLIND2_EVIDENCE_BUNDLE.zip",
+      "size": 3726829,
+      "zenodo_checksum": "md5:48a57ed361a1badcb10cd572388780d4",
+      "sha256": "ac7e04abb45902e187656bb233d0381e69655d4d2873a7912e7c3b3512a2bebf"
+    }
+  ]
+}

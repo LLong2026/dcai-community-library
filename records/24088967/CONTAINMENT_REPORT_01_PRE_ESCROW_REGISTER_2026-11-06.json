@@ -1,0 +1,1059 @@
+{
+ "generated": "2026-11-06T17:40:00Z",
+ "auditor": "conclave-live/hub_content_audit.py (hub side, full paging)",
+ "escrow_era_start": "2026-11-03T17:47:00",
+ "boxes": {
+  "C1": {
+   "journal_rows": 305,
+   "distinct_digests": 305,
+   "verified": 225,
+   "pre_era_unverifiable": 80,
+   "absent_at_submission": 0,
+   "mismatch": 0,
+   "extra_refused_escrow_rows": 4,
+   "violations": 0,
+   "pre_era_rows": [
+    {
+     "digest": "e3b0c44298fc1c14",
+     "journaled_at": "2026-10-24T17:51:02",
+     "epoch": "EPOCH-0001",
+     "row": "6adcf0068f6eb2da3d0f9303"
+    },
+    {
+     "digest": "9f86d081884c7d65",
+     "journaled_at": "2026-10-24T17:51:45",
+     "epoch": "EPOCH-0001",
+     "row": "6adcf032ab3b8203248f0ba8"
+    },
+    {
+     "digest": "03ac674216f3e15c",
+     "journaled_at": "2026-10-24T18:01:29",
+     "epoch": "EPOCH-0001",
+     "row": "6adcf27adb4d6d52e899c78f"
+    },
+    {
+     "digest": "ed5c3f765f5ff641",
+     "journaled_at": "2026-10-24T18:01:40",
+     "epoch": "EPOCH-0002",
+     "row": "6adcf285b86321a0c1477757"
+    },
+    {
+     "digest": "db01d67528ca75f9",
+     "journaled_at": "2026-10-24T18:01:52",
+     "epoch": "EPOCH-0002",
+     "row": "6adcf29190ddca1e9f458b80"
+    },
+    {
+     "digest": "b6537e5c4f9ea9e7",
+     "journaled_at": "2026-10-24T18:02:02",
+     "epoch": "EPOCH-0002",
+     "row": "6adcf29a88dceeadbde2592d"
+    },
+    {
+     "digest": "4381de6401199e00",
+     "journaled_at": "2026-10-24T18:03:06",
+     "epoch": "EPOCH-0002",
+     "row": "6adcf2dbab3b8203248f0e50"
+    },
+    {
+     "digest": "5e2a40b2bbabdb6a",
+     "journaled_at": "2026-10-24T18:03:15",
+     "epoch": "EPOCH-0002",
+     "row": "6adcf2e31d916ec810ac5563"
+    },
+    {
+     "digest": "e08caf98b7a004fa",
+     "journaled_at": "2026-10-24T18:03:54",
+     "epoch": "EPOCH-0002",
+     "row": "6adcf30b6057d830964b5844"
+    },
+    {
+     "digest": "f0642615b438e52b",
+     "journaled_at": "2026-10-24T18:04:05",
+     "epoch": "EPOCH-0002",
+     "row": "6adcf315a633f3984c1de98f"
+    },
+    {
+     "digest": "c9f24c2ed08e419f",
+     "journaled_at": "2026-10-24T18:04:13",
+     "epoch": "EPOCH-0002",
+     "row": "6adcf31e19b66956de83ee87"
+    },
+    {
+     "digest": "e47bebdd6352a869",
+     "journaled_at": "2026-10-24T18:04:28",
+     "epoch": "EPOCH-0002",
+     "row": "6adcf32df1d454ccc64f9345"
+    },
+    {
+     "digest": "8fb0ddfc0c88c8f3",
+     "journaled_at": "2026-10-24T18:05:18",
+     "epoch": "EPOCH-0002",
+     "row": "6adcf35fdc3f979a62d1954c"
+    },
+    {
+     "digest": "4501ef4824bb3d19",
+     "journaled_at": "2026-10-24T18:05:26",
+     "epoch": "EPOCH-0002",
+     "row": "6adcf37e5b5e9a333cb8b221"
+    },
+    {
+     "digest": "9dcdc97b585493f7",
+     "journaled_at": "2026-10-24T18:06:00",
+     "epoch": "EPOCH-0002",
+     "row": "6adcf388ba5bc360dde8b8e3"
+    },
+    {
+     "digest": "50f783cf754cf417",
+     "journaled_at": "2026-10-24T18:06:31",
+     "epoch": "EPOCH-0003",
+     "row": "6adcf3a84886b9e3c57a7a43"
+    },
+    {
+     "digest": "81052b4a7c300fa4",
+     "journaled_at": "2026-10-24T18:06:43",
+     "epoch": "EPOCH-0003",
+     "row": "6adcf3b3ddbeb0b3f6ea20ec"
+    },
+    {
+     "digest": "643e8b497becee35",
+     "journaled_at": "2026-10-24T18:06:53",
+     "epoch": "EPOCH-0003",
+     "row": "6adcf3be4728027a8b9fe1c9"
+    },
+    {
+     "digest": "bf4432611b44d38c",
+     "journaled_at": "2026-10-24T18:07:01",
+     "epoch": "EPOCH-0003",
+     "row": "6adcf3c55aa45a1995d100dd"
+    },
+    {
+     "digest": "ac7f0fe6f156f5c7",
+     "journaled_at": "2026-10-24T18:08:48",
+     "epoch": "EPOCH-0003",
+     "row": "6adcf43117df02ee7529414e"
+    },
+    {
+     "digest": "638069739b88ef00",
+     "journaled_at": "2026-10-24T18:08:56",
+     "epoch": "EPOCH-0003",
+     "row": "6adcf43843fa11feb1d3ddca"
+    },
+    {
+     "digest": "1dd8e699b056eea9",
+     "journaled_at": "2026-10-24T18:09:28",
+     "epoch": "EPOCH-0004",
+     "row": "6adcf458f3e588d74bdfd75a"
+    },
+    {
+     "digest": "81f47d1b10081d5e",
+     "journaled_at": "2026-10-24T18:56:18",
+     "epoch": "EPOCH-0005",
+     "row": "6adcff53cb224bb7d005344e"
+    },
+    {
+     "digest": "4a309d50b453beb9",
+     "journaled_at": "2026-10-24T18:56:46",
+     "epoch": "EPOCH-0005",
+     "row": "6adcff6f1381ef3cfc7fd352"
+    },
+    {
+     "digest": "2222222222222222",
+     "journaled_at": "2026-10-24T19:44:52",
+     "epoch": "EPOCH-0006",
+     "row": "6add0ab42b223f2b77f93acb"
+    },
+    {
+     "digest": "1111111111111111",
+     "journaled_at": "2026-10-24T19:45:24",
+     "epoch": "EPOCH-0006",
+     "row": "6add0ad55c6a2d8638e768fd"
+    },
+    {
+     "digest": "aafda876e24e8ec8",
+     "journaled_at": "2026-10-24T19:49:21",
+     "epoch": "EPOCH-0007",
+     "row": "6add0bc2c9f0fde49081c17b"
+    },
+    {
+     "digest": "fab41e51f59fa634",
+     "journaled_at": "2026-10-24T20:10:34",
+     "epoch": "EPOCH-0008",
+     "row": "6add10bbb77d9d301b22c878"
+    },
+    {
+     "digest": "18115e9f07be8a5e",
+     "journaled_at": "2026-10-24T20:10:34",
+     "epoch": "EPOCH-0008",
+     "row": "6add10bb771b1aa7fcf87e07"
+    },
+    {
+     "digest": "c441a43fb1a9a6f7",
+     "journaled_at": "2026-10-24T20:10:34",
+     "epoch": "EPOCH-0008",
+     "row": "6add10bb4886b9e3c57ab08d"
+    },
+    {
+     "digest": "1f3ca861497da1db",
+     "journaled_at": "2026-10-24T20:10:34",
+     "epoch": "EPOCH-0008",
+     "row": "6add10bb72db94f6a6987e2b"
+    },
+    {
+     "digest": "de37b41c43c116d9",
+     "journaled_at": "2026-10-24T20:10:34",
+     "epoch": "EPOCH-0008",
+     "row": "6add10bb235b64dfed082433"
+    },
+    {
+     "digest": "46578b9d6e7da839",
+     "journaled_at": "2026-10-24T20:10:34",
+     "epoch": "EPOCH-0008",
+     "row": "6add10bc0ce2683946996d89"
+    },
+    {
+     "digest": "9daf8e893f9702e8",
+     "journaled_at": "2026-10-24T20:12:22",
+     "epoch": "EPOCH-0008",
+     "row": "6add112737808851cd37af3b"
+    },
+    {
+     "digest": "f361616ad24a9394",
+     "journaled_at": "2026-10-24T20:12:22",
+     "epoch": "EPOCH-0008",
+     "row": "6add11278f6d2225dd586ecf"
+    },
+    {
+     "digest": "4915232ea07cb144",
+     "journaled_at": "2026-10-24T20:12:22",
+     "epoch": "EPOCH-0008",
+     "row": "6add1127515c0e1f3677393a"
+    },
+    {
+     "digest": "8e98912edbc6bba0",
+     "journaled_at": "2026-10-24T20:12:33",
+     "epoch": "EPOCH-0008",
+     "row": "6add11326fbeac9f50eabe4c"
+    },
+    {
+     "digest": "501f1d524de5f428",
+     "journaled_at": "2026-10-24T20:12:33",
+     "epoch": "EPOCH-0008",
+     "row": "6add1132a434f8352803cbaa"
+    },
+    {
+     "digest": "a1d9484e6bce15df",
+     "journaled_at": "2026-10-24T20:12:33",
+     "epoch": "EPOCH-0008",
+     "row": "6add1132bc8daa6f46ebd086"
+    },
+    {
+     "digest": "a2600077819533f1",
+     "journaled_at": "2026-10-24T20:14:07",
+     "epoch": "EPOCH-0009",
+     "row": "6add1190463f791224792733"
+    },
+    {
+     "digest": "b8823b38d1fbe62f",
+     "journaled_at": "2026-10-24T20:14:08",
+     "epoch": "EPOCH-0009",
+     "row": "6add11917dc41efe7fb18ee4"
+    },
+    {
+     "digest": "7d2c2aadcfb31e3f",
+     "journaled_at": "2026-10-24T20:14:14",
+     "epoch": "EPOCH-0009",
+     "row": "6add11988527aec2b19d1437"
+    },
+    {
+     "digest": "27d86d211d4c7c0f",
+     "journaled_at": "2026-10-24T20:14:29",
+     "epoch": "EPOCH-0009",
+     "row": "6add11a5ea301efc31228d33"
+    },
+    {
+     "digest": "3e538e3c3d419c3e",
+     "journaled_at": "2026-10-24T20:14:29",
+     "epoch": "EPOCH-0009",
+     "row": "6add11a52683af54dd2e44bb"
+    },
+    {
+     "digest": "5ef5afd17851bdc5",
+     "journaled_at": "2026-10-24T20:14:36",
+     "epoch": "EPOCH-0009",
+     "row": "6add11adec205d5b83638b7b"
+    },
+    {
+     "digest": "504c38704e1c8429",
+     "journaled_at": "2026-10-24T20:14:46",
+     "epoch": "EPOCH-0009",
+     "row": "6add11b729be466f601c66fa"
+    },
+    {
+     "digest": "bb7447222841f26a",
+     "journaled_at": "2026-10-24T20:15:43",
+     "epoch": "EPOCH-0009",
+     "row": "6add11f02818922c211b1aee"
+    },
+    {
+     "digest": "2f6cbe2e1c0283f6",
+     "journaled_at": "2026-10-24T20:15:56",
+     "epoch": "EPOCH-0009",
+     "row": "6add11fcad402f69c07135ab"
+    },
+    {
+     "digest": "211ac223a67e7ec6",
+     "journaled_at": "2026-10-24T20:16:04",
+     "epoch": "EPOCH-0009",
+     "row": "6add1205e61011fdc45ac849"
+    },
+    {
+     "digest": "33e239c9d8902b6f",
+     "journaled_at": "2026-10-24T20:16:13",
+     "epoch": "EPOCH-0009",
+     "row": "6add120e5aa45a1995d138a6"
+    },
+    {
+     "digest": "fcd84960e342436f",
+     "journaled_at": "2026-10-24T20:16:21",
+     "epoch": "EPOCH-0009",
+     "row": "6add1216b7b0b9fbc8175b48"
+    },
+    {
+     "digest": "d07445b161a03938",
+     "journaled_at": "2026-10-24T20:17:53",
+     "epoch": "EPOCH-0010",
+     "row": "6add12729a058e327859d600"
+    },
+    {
+     "digest": "cf624c8dede566d4",
+     "journaled_at": "2026-10-24T20:18:31",
+     "epoch": "EPOCH-0010",
+     "row": "6add129831ac5e5ffb10d47d"
+    },
+    {
+     "digest": "df29065c6df7450c",
+     "journaled_at": "2026-10-24T20:19:44",
+     "epoch": "EPOCH-0010",
+     "row": "6add12e1c0a99bf9aefa901f"
+    },
+    {
+     "digest": "5ce36582551f31a9",
+     "journaled_at": "2026-10-24T20:20:43",
+     "epoch": "EPOCH-0011",
+     "row": "6add131c8b8d92a112137920"
+    },
+    {
+     "digest": "85deaccb91e47199",
+     "journaled_at": "2026-10-24T20:23:04",
+     "epoch": "EPOCH-0013",
+     "row": "6add13a9d750c19966d9836b"
+    },
+    {
+     "digest": "6e83467ad6a08ac5",
+     "journaled_at": "2026-10-24T21:37:52",
+     "epoch": "EPOCH-0014",
+     "row": "6add2531def942d4d42b8f37"
+    },
+    {
+     "digest": "801e4f631d23a163",
+     "journaled_at": "2026-10-25T03:24:25",
+     "epoch": "EPOCH-0015",
+     "row": "6add766a6bcaa31aa8b56bbc"
+    },
+    {
+     "digest": "43456f0942b3634e",
+     "journaled_at": "2026-10-25T03:24:33",
+     "epoch": "EPOCH-0015",
+     "row": "6add7671c88305b9c8fb3303"
+    },
+    {
+     "digest": "013f7fbeebb4bb85",
+     "journaled_at": "2026-10-25T03:24:40",
+     "epoch": "EPOCH-0015",
+     "row": "6add7678663d2c904da7aea5"
+    },
+    {
+     "digest": "f9feadae7023dfde",
+     "journaled_at": "2026-10-26T14:45:49",
+     "epoch": "EPOCH-0016",
+     "row": "6adf679e64f0d335ed6121b9"
+    },
+    {
+     "digest": "7e3e8ff1d1173244",
+     "journaled_at": "2026-10-26T14:46:00",
+     "epoch": "EPOCH-0016",
+     "row": "6adf67a9f6331c97aa9888c1"
+    },
+    {
+     "digest": "bed589a82336621a",
+     "journaled_at": "2026-10-26T14:46:10",
+     "epoch": "EPOCH-0016",
+     "row": "6adf67b34b73d552be9d43a7"
+    },
+    {
+     "digest": "cf9f3d194f4007fd",
+     "journaled_at": "2026-10-27T03:32:42",
+     "epoch": "EPOCH-0017",
+     "row": "6ae01b5b7d72f081b84db896"
+    },
+    {
+     "digest": "768987ddc49edecc",
+     "journaled_at": "2026-10-27T03:32:47",
+     "epoch": "EPOCH-0017",
+     "row": "6ae01b60ee75fb7a13dba0ac"
+    },
+    {
+     "digest": "783cb61f35af5de9",
+     "journaled_at": "2026-10-27T03:32:52",
+     "epoch": "EPOCH-0017",
+     "row": "6ae01b659d69fd58700f392a"
+    },
+    {
+     "digest": "4270b78720434d77",
+     "journaled_at": "2026-11-02T04:26:52",
+     "epoch": "EPOCH-0018",
+     "row": "6ae8110c8cf20dd216c8329c"
+    },
+    {
+     "digest": "88ae8281456f7a1b",
+     "journaled_at": "2026-11-02T04:26:55",
+     "epoch": "EPOCH-0018",
+     "row": "6ae811101bbf8af565d3746a"
+    },
+    {
+     "digest": "bc4caec63f72d04d",
+     "journaled_at": "2026-11-02T04:26:56",
+     "epoch": "EPOCH-0018",
+     "row": "6ae81111f5c8cdc70c1219d3"
+    },
+    {
+     "digest": "944314ec7228b92b",
+     "journaled_at": "2026-11-03T04:19:04",
+     "epoch": "EPOCH-0019",
+     "row": "6ae960b8343fa77d5b9bf495"
+    },
+    {
+     "digest": "6f6d39c4c33b4d95",
+     "journaled_at": "2026-11-03T04:19:07",
+     "epoch": "EPOCH-0019",
+     "row": "6ae960bca53b23663f8428d2"
+    },
+    {
+     "digest": "9e6780763a7b3a0f",
+     "journaled_at": "2026-11-03T04:19:10",
+     "epoch": "EPOCH-0019",
+     "row": "6ae960be8d2656c6e25259b8"
+    },
+    {
+     "digest": "744a7eda4491c200",
+     "journaled_at": "2026-11-03T17:32:36",
+     "epoch": "EPOCH-0020",
+     "row": "6aea1ab5f12232720ec161ab"
+    },
+    {
+     "digest": "c3ce7cb0bc910d43",
+     "journaled_at": "2026-11-03T17:32:51",
+     "epoch": "EPOCH-0020",
+     "row": "6aea1ac4537a8ed567df2039"
+    },
+    {
+     "digest": "843dd98f6457bd96",
+     "journaled_at": "2026-11-03T17:33:10",
+     "epoch": "EPOCH-0020",
+     "row": "6aea1ad8292f4c7e1f62e7c1"
+    },
+    {
+     "digest": "26a96da584fd31bc",
+     "journaled_at": "2026-11-03T17:41:05",
+     "epoch": "EPOCH-0021",
+     "row": "6aea1cb29889a1b20924735d"
+    },
+    {
+     "digest": "1a352c990907d5e5",
+     "journaled_at": "2026-11-03T17:41:11",
+     "epoch": "EPOCH-0021",
+     "row": "6aea1cb884d99ea7f303c729"
+    },
+    {
+     "digest": "8c118086ff69fea8",
+     "journaled_at": "2026-11-03T17:41:17",
+     "epoch": "EPOCH-0021",
+     "row": "6aea1cc1acdd4271956c00b5"
+    },
+    {
+     "digest": "6065b0873dfaf1b0",
+     "journaled_at": "2026-11-03T17:45:46",
+     "epoch": null,
+     "row": "6aea1dcb119627dd94181932"
+    },
+    {
+     "digest": "8ac3b9dc6d746b80",
+     "journaled_at": "2026-11-03T17:45:53",
+     "epoch": null,
+     "row": "6aea1dd1e311b4a491577b36"
+    }
+   ]
+  },
+  "C2": {
+   "journal_rows": 250,
+   "distinct_digests": 249,
+   "verified": 219,
+   "pre_era_unverifiable": 29,
+   "absent_at_submission": 1,
+   "mismatch": 0,
+   "extra_refused_escrow_rows": 0,
+   "violations": 1,
+   "pre_era_rows": [
+    {
+     "digest": "67ec73925faf9b27",
+     "journaled_at": "2026-10-24T21:55:22",
+     "epoch": "EPOCH-0001",
+     "row": "6add294ac9e11e3b670e4b06"
+    },
+    {
+     "digest": "1dc4a70d34d6b187",
+     "journaled_at": "2026-10-24T21:55:48",
+     "epoch": "EPOCH-0001",
+     "row": "6add2964db534cd874c293a7"
+    },
+    {
+     "digest": "211e91971b39e25a",
+     "journaled_at": "2026-10-24T21:55:53",
+     "epoch": "EPOCH-0001",
+     "row": "6add296afe0b3c83f0f8ee73"
+    },
+    {
+     "digest": "24ee21ae022cc0e9",
+     "journaled_at": "2026-10-24T21:57:15",
+     "epoch": "EPOCH-0001",
+     "row": "6add29bbf5176f609725c955"
+    },
+    {
+     "digest": "f4634fd7d29f487e",
+     "journaled_at": "2026-10-24T21:58:26",
+     "epoch": "EPOCH-0001",
+     "row": "6add2a0235d81fa37dbf4e62"
+    },
+    {
+     "digest": "ac71ee841f3d89e7",
+     "journaled_at": "2026-10-24T21:58:50",
+     "epoch": "EPOCH-0001",
+     "row": "6add2a1aa6ce67abf1b985b2"
+    },
+    {
+     "digest": "7faef948a4734412",
+     "journaled_at": "2026-10-24T22:00:37",
+     "epoch": "EPOCH-0002",
+     "row": "6add2a85473e814c1242e160"
+    },
+    {
+     "digest": "30b0f96eaa739f62",
+     "journaled_at": "2026-10-24T22:01:00",
+     "epoch": "EPOCH-0002",
+     "row": "6add2a9c5c0f7f7d9073267e"
+    },
+    {
+     "digest": "14447b29ef072af9",
+     "journaled_at": "2026-10-24T22:01:04",
+     "epoch": "EPOCH-0002",
+     "row": "6add2aa0849b2bf1b2e74f82"
+    },
+    {
+     "digest": "ed67a992b65de28e",
+     "journaled_at": "2026-10-24T22:01:55",
+     "epoch": "EPOCH-0002",
+     "row": "6add2ad31360fc4d74b7962b"
+    },
+    {
+     "digest": "46de0f8e0c907e70",
+     "journaled_at": "2026-10-24T22:02:04",
+     "epoch": "EPOCH-0002",
+     "row": "6add2adc4b76c5054e0f360c"
+    },
+    {
+     "digest": "20176e9ba52b63a2",
+     "journaled_at": "2026-10-24T22:02:24",
+     "epoch": "EPOCH-0002",
+     "row": "6add2af0a6ce67abf1b98675"
+    },
+    {
+     "digest": "e051ffb1733b0a71",
+     "journaled_at": "2026-10-25T01:03:38",
+     "epoch": "EPOCH-0003",
+     "row": "6add556a73cab44e21eadbec"
+    },
+    {
+     "digest": "c078cc44f4cd75f4",
+     "journaled_at": "2026-10-25T03:26:04",
+     "epoch": "EPOCH-0004",
+     "row": "6add76cc3041e7bfd8817539"
+    },
+    {
+     "digest": "d89ad7055e603431",
+     "journaled_at": "2026-10-25T03:26:10",
+     "epoch": "EPOCH-0004",
+     "row": "6add76d26bcaa31aa8b56c18"
+    },
+    {
+     "digest": "783ed4b05fe28e47",
+     "journaled_at": "2026-10-26T14:47:54",
+     "epoch": "EPOCH-0005",
+     "row": "6adf681a1c42e3984f283b3f"
+    },
+    {
+     "digest": "672430d8710afb3d",
+     "journaled_at": "2026-10-26T14:48:00",
+     "epoch": "EPOCH-0005",
+     "row": "6adf6820caccb59686bd3d18"
+    },
+    {
+     "digest": "8465d2f7e398964b",
+     "journaled_at": "2026-10-26T14:48:06",
+     "epoch": "EPOCH-0005",
+     "row": "6adf682692c10a7a07f546ee"
+    },
+    {
+     "digest": "272bae3d3d073722",
+     "journaled_at": "2026-10-27T03:47:55",
+     "epoch": "EPOCH-0006",
+     "row": "6ae01eeb45ed4abbe94715e7"
+    },
+    {
+     "digest": "9b0a423bf1e37fc1",
+     "journaled_at": "2026-10-27T03:48:03",
+     "epoch": "EPOCH-0006",
+     "row": "6ae01ef4f9123fdf1242ca7e"
+    },
+    {
+     "digest": "207ccc0a253121f7",
+     "journaled_at": "2026-10-27T03:48:09",
+     "epoch": "EPOCH-0006",
+     "row": "6ae01ef9577228bedc168437"
+    },
+    {
+     "digest": "e7aa06ef8040e281",
+     "journaled_at": "2026-11-02T04:28:50",
+     "epoch": "EPOCH-0007",
+     "row": "6ae811834c8c7ca76ad8fcaa"
+    },
+    {
+     "digest": "163187448235405c",
+     "journaled_at": "2026-11-02T04:28:50",
+     "epoch": "EPOCH-0007",
+     "row": "6ae81183acea05b19641b02c"
+    },
+    {
+     "digest": "83cd48d0bef12ad3",
+     "journaled_at": "2026-11-02T04:28:51",
+     "epoch": "EPOCH-0007",
+     "row": "6ae81183f92770c1b5dbc412"
+    },
+    {
+     "digest": "d7481d1db1750d1a",
+     "journaled_at": "2026-11-03T04:21:40",
+     "epoch": "EPOCH-0008",
+     "row": "6ae961543d0ea9e07393d3c4"
+    },
+    {
+     "digest": "85359b86a102bb52",
+     "journaled_at": "2026-11-03T04:21:43",
+     "epoch": "EPOCH-0008",
+     "row": "6ae96157867594ae1a5e35b1"
+    },
+    {
+     "digest": "f20b733649c28056",
+     "journaled_at": "2026-11-03T04:21:46",
+     "epoch": "EPOCH-0008",
+     "row": "6ae9615a214c4a4ad1be7138"
+    },
+    {
+     "digest": "ecf4343401da0a85",
+     "journaled_at": "2026-11-03T17:37:32",
+     "epoch": "EPOCH-0009",
+     "row": "6aea1bdc2f719416aefe479c"
+    },
+    {
+     "digest": "26a96da584fd31bc",
+     "journaled_at": "2026-11-03T17:41:27",
+     "epoch": "EPOCH-0010",
+     "row": "6aea1cc86bc71e982dec9200"
+    }
+   ]
+  },
+  "C3": {
+   "journal_rows": 286,
+   "distinct_digests": 277,
+   "verified": 216,
+   "pre_era_unverifiable": 60,
+   "absent_at_submission": 1,
+   "mismatch": 0,
+   "extra_refused_escrow_rows": 0,
+   "violations": 1,
+   "pre_era_rows": [
+    {
+     "digest": "aa00000000000000",
+     "journaled_at": "2026-10-24T22:31:04",
+     "epoch": "EPOCH-0001",
+     "row": "J:aa0000000000:held:rogue_injection_blocked:01"
+    },
+    {
+     "digest": "aa00000000000000",
+     "journaled_at": "2026-10-24T22:31:11",
+     "epoch": "EPOCH-0001",
+     "row": "J:aa0000000000:allowed:quorum_met:01"
+    },
+    {
+     "digest": "aa00000000000000",
+     "journaled_at": "2026-10-24T22:31:16",
+     "epoch": "EPOCH-0001",
+     "row": "J:aa0000000000:held:crossing_freeze_drift_node:01"
+    },
+    {
+     "digest": "3f3c1507eb1528c5",
+     "journaled_at": "2026-10-24T22:38:52",
+     "epoch": "EPOCH-0002",
+     "row": "J:3f3c1507eb15:allowed:quorum_met:01"
+    },
+    {
+     "digest": "6cc7f451f8802aa5",
+     "journaled_at": "2026-10-24T22:39:45",
+     "epoch": "EPOCH-0002",
+     "row": "J:6cc7f451f880:allowed:quorum_met:01"
+    },
+    {
+     "digest": "5b80b4c70e684fa9",
+     "journaled_at": "2026-10-24T22:39:55",
+     "epoch": "EPOCH-0002",
+     "row": "J:5b80b4c70e68:allowed:quorum_met:01"
+    },
+    {
+     "digest": "71946bacaca72dab",
+     "journaled_at": "2026-10-24T22:40:03",
+     "epoch": "EPOCH-0002",
+     "row": "J:71946bacaca7:allowed:quorum_met:01"
+    },
+    {
+     "digest": "030af785311c7208",
+     "journaled_at": "2026-10-24T22:40:15",
+     "epoch": "EPOCH-0002",
+     "row": "J:030af785311c:allowed:quorum_met:01"
+    },
+    {
+     "digest": "0fd97832fe33660a",
+     "journaled_at": "2026-10-24T22:40:25",
+     "epoch": "EPOCH-0002",
+     "row": "J:0fd97832fe33:allowed:quorum_met:01"
+    },
+    {
+     "digest": "db89f03659c078df",
+     "journaled_at": "2026-10-24T22:41:52",
+     "epoch": "EPOCH-0002",
+     "row": "J:db89f03659c0:allowed:quorum_met:01"
+    },
+    {
+     "digest": "f976ce8c6a334ff0",
+     "journaled_at": "2026-10-24T22:42:05",
+     "epoch": "EPOCH-0002",
+     "row": "J:f976ce8c6a33:allowed:quorum_met:01"
+    },
+    {
+     "digest": "d7826d4f9c398b80",
+     "journaled_at": "2026-10-24T22:43:24",
+     "epoch": "EPOCH-0002",
+     "row": "J:d7826d4f9c39:allowed:quorum_met:01"
+    },
+    {
+     "digest": "b145f4166881f193",
+     "journaled_at": "2026-10-24T22:43:34",
+     "epoch": "EPOCH-0002",
+     "row": "J:b145f4166881:allowed:quorum_met:01"
+    },
+    {
+     "digest": "225833964e04c136",
+     "journaled_at": "2026-10-24T22:44:09",
+     "epoch": "EPOCH-0002",
+     "row": "J:225833964e04:allowed:quorum_met:01"
+    },
+    {
+     "digest": "73d48cb752835eaa",
+     "journaled_at": "2026-10-24T22:44:17",
+     "epoch": "EPOCH-0002",
+     "row": "J:73d48cb75283:allowed:quorum_met:01"
+    },
+    {
+     "digest": "9e44a897366222b0",
+     "journaled_at": "2026-10-24T22:46:40",
+     "epoch": "EPOCH-0003",
+     "row": "J:9e44a8973662:held:crossing_freeze_drift_node:01"
+    },
+    {
+     "digest": "a2d4d6fff2b6c34f",
+     "journaled_at": "2026-10-24T22:47:21",
+     "epoch": "EPOCH-0004",
+     "row": "J:a2d4d6fff2b6:allowed:quorum_met:01"
+    },
+    {
+     "digest": "cf2d74d1660eba74",
+     "journaled_at": "2026-10-24T22:48:02",
+     "epoch": "EPOCH-0005",
+     "row": "J:-:quarantined:treaty_quarantine:01"
+    },
+    {
+     "digest": "5b608b7b62eff617",
+     "journaled_at": "2026-10-24T22:48:45",
+     "epoch": "EPOCH-0005",
+     "row": "J:-:quarantined:treaty_quarantine:04"
+    },
+    {
+     "digest": "5847c72337874961",
+     "journaled_at": "2026-10-24T22:49:07",
+     "epoch": "EPOCH-0005",
+     "row": "J:5847c7233787:allowed:quorum_met:01"
+    },
+    {
+     "digest": "a5ee6e1bddef7137",
+     "journaled_at": "2026-10-24T22:50:14",
+     "epoch": "EPOCH-0005",
+     "row": "J:-:quarantined:treaty_quarantine:05"
+    },
+    {
+     "digest": "eb53a8d3bcebcb93",
+     "journaled_at": "2026-10-24T22:50:24",
+     "epoch": "EPOCH-0005",
+     "row": "J:-:quarantined:treaty_quarantine:06"
+    },
+    {
+     "digest": "071c64392e2d2695",
+     "journaled_at": "2026-10-24T22:50:31",
+     "epoch": "EPOCH-0005",
+     "row": "J:-:quarantined:treaty_quarantine:07"
+    },
+    {
+     "digest": "21adabf39f7c7d00",
+     "journaled_at": "2026-10-24T22:50:38",
+     "epoch": "EPOCH-0005",
+     "row": "J:-:quarantined:treaty_quarantine:08"
+    },
+    {
+     "digest": "5606b7d45b89a5e2",
+     "journaled_at": "2026-10-24T22:53:44",
+     "epoch": "EPOCH-0007",
+     "row": "J:5606b7d45b89:held:budget_hold:01"
+    },
+    {
+     "digest": "d7909ac21ffc8b23",
+     "journaled_at": "2026-10-24T22:54:03",
+     "epoch": "EPOCH-0007",
+     "row": "J:d7909ac21ffc:held:budget_hold:01"
+    },
+    {
+     "digest": "4ebe96f33d266515",
+     "journaled_at": "2026-10-24T22:56:00",
+     "epoch": "EPOCH-0008",
+     "row": "J:4ebe96f33d26:held:crossing_freeze_drift_node:01"
+    },
+    {
+     "digest": "19aca18de5ba8f59",
+     "journaled_at": "2026-10-24T22:57:27",
+     "epoch": "EPOCH-0009",
+     "row": "J:-:quarantined:treaty_quarantine:09"
+    },
+    {
+     "digest": "9456eb15008ec0b1",
+     "journaled_at": "2026-10-24T22:57:40",
+     "epoch": "EPOCH-0009",
+     "row": "J:9456eb15008e:held:budget_hold:01"
+    },
+    {
+     "digest": "72e9035eea5f0e33",
+     "journaled_at": "2026-10-24T22:58:54",
+     "epoch": "EPOCH-0010",
+     "row": "J:72e9035eea5f:allowed:quorum_met:01"
+    },
+    {
+     "digest": "02d79abcc8060478",
+     "journaled_at": "2026-10-24T22:58:58",
+     "epoch": "EPOCH-0010",
+     "row": "J:02d79abcc806:allowed:quorum_met:01"
+    },
+    {
+     "digest": "7cb77d3f21a46981",
+     "journaled_at": "2026-10-24T22:59:15",
+     "epoch": "EPOCH-0010",
+     "row": "J:7cb77d3f21a4:allowed:quorum_met:01"
+    },
+    {
+     "digest": "8225e7a2e62664ab",
+     "journaled_at": "2026-10-24T22:59:20",
+     "epoch": "EPOCH-0010",
+     "row": "J:8225e7a2e626:allowed:quorum_met:01"
+    },
+    {
+     "digest": "578b9c45495ad186",
+     "journaled_at": "2026-10-24T22:59:25",
+     "epoch": "EPOCH-0010",
+     "row": "J:578b9c45495a:allowed:quorum_met:01"
+    },
+    {
+     "digest": "ef265bdcb218ec20",
+     "journaled_at": "2026-10-24T23:00:44",
+     "epoch": "EPOCH-0010",
+     "row": "J:ef265bdcb218:allowed:quorum_met:01"
+    },
+    {
+     "digest": "bc2aac057879eaa6",
+     "journaled_at": "2026-10-24T23:00:51",
+     "epoch": "EPOCH-0010",
+     "row": "J:bc2aac057879:allowed:quorum_met:01"
+    },
+    {
+     "digest": "ec0b360a730ffd5c",
+     "journaled_at": "2026-10-24T23:01:30",
+     "epoch": "EPOCH-0010",
+     "row": "J:ec0b360a730f:allowed:quorum_met:01"
+    },
+    {
+     "digest": "9fa6f48b42d20088",
+     "journaled_at": "2026-10-24T23:01:35",
+     "epoch": "EPOCH-0010",
+     "row": "J:9fa6f48b42d2:allowed:quorum_met:01"
+    },
+    {
+     "digest": "f6eda5f087ed2684",
+     "journaled_at": "2026-10-24T23:01:41",
+     "epoch": "EPOCH-0010",
+     "row": "J:f6eda5f087ed:allowed:quorum_met:01"
+    },
+    {
+     "digest": "1feffb4df0b63ddb",
+     "journaled_at": "2026-10-24T23:01:48",
+     "epoch": "EPOCH-0010",
+     "row": "J:1feffb4df0b6:allowed:quorum_met:01"
+    },
+    {
+     "digest": "e333b68bc7966bb1",
+     "journaled_at": "2026-10-24T23:01:54",
+     "epoch": "EPOCH-0010",
+     "row": "J:e333b68bc796:allowed:quorum_met:01"
+    },
+    {
+     "digest": "8e28505c1ce43102",
+     "journaled_at": "2026-10-24T23:09:33",
+     "epoch": "EPOCH-0011",
+     "row": "J:-:quarantined:source_status_quarantine:10"
+    },
+    {
+     "digest": "0fc04bdb7971d668",
+     "journaled_at": "2026-10-25T01:03:51",
+     "epoch": "EPOCH-0013",
+     "row": "J:0fc04bdb7971:allowed:quorum_met:01"
+    },
+    {
+     "digest": "88c6481fccb63bd7",
+     "journaled_at": "2026-10-25T03:26:51",
+     "epoch": "EPOCH-0014",
+     "row": "J:88c6481fccb6:allowed:quorum_met:01"
+    },
+    {
+     "digest": "086f2b43c639a030",
+     "journaled_at": "2026-10-25T03:27:01",
+     "epoch": "EPOCH-0014",
+     "row": "J:086f2b43c639:allowed:quorum_met:01"
+    },
+    {
+     "digest": "6205663aec336dd5",
+     "journaled_at": "2026-10-26T14:49:09",
+     "epoch": "EPOCH-0015",
+     "row": "J:6205663aec33:allowed:quorum_met:01"
+    },
+    {
+     "digest": "88781a367d678b6c",
+     "journaled_at": "2026-10-26T14:49:20",
+     "epoch": "EPOCH-0015",
+     "row": "J:88781a367d67:allowed:quorum_met:01"
+    },
+    {
+     "digest": "0f95f6acee63fdce",
+     "journaled_at": "2026-10-26T14:49:42",
+     "epoch": "EPOCH-0015",
+     "row": "J:0f95f6acee63:allowed:quorum_met:01"
+    },
+    {
+     "digest": "f654697a77e4e3c9",
+     "journaled_at": "2026-10-27T03:48:51",
+     "epoch": "EPOCH-0016",
+     "row": "J:f654697a77e4:allowed:quorum_met:01"
+    },
+    {
+     "digest": "bc0fb06cc2092780",
+     "journaled_at": "2026-10-27T03:48:58",
+     "epoch": "EPOCH-0016",
+     "row": "J:bc0fb06cc209:allowed:quorum_met:01"
+    },
+    {
+     "digest": "4e3b2fa0735e06b1",
+     "journaled_at": "2026-10-27T03:49:05",
+     "epoch": "EPOCH-0016",
+     "row": "J:4e3b2fa0735e:allowed:quorum_met:01"
+    },
+    {
+     "digest": "1f0c649acbc18e64",
+     "journaled_at": "2026-11-02T16:51:24",
+     "epoch": "EPOCH-0017",
+     "row": "J:1f0c649acbc1:allowed:quorum_met:01"
+    },
+    {
+     "digest": "d8c4ffbe0446a81e",
+     "journaled_at": "2026-11-02T16:51:24",
+     "epoch": "EPOCH-0017",
+     "row": "J:d8c4ffbe0446:allowed:quorum_met:01"
+    },
+    {
+     "digest": "796073b2800dc97d",
+     "journaled_at": "2026-11-02T16:51:25",
+     "epoch": "EPOCH-0017",
+     "row": "J:796073b2800d:allowed:quorum_met:01"
+    },
+    {
+     "digest": "7fb4e36f97a6a4a7",
+     "journaled_at": "2026-11-03T04:28:44",
+     "epoch": "EPOCH-0018",
+     "row": "J:7fb4e36f97a6:allowed:quorum_met:01"
+    },
+    {
+     "digest": "5864d9d390e38afa",
+     "journaled_at": "2026-11-03T04:28:45",
+     "epoch": "EPOCH-0018",
+     "row": "J:5864d9d390e3:allowed:quorum_met:01"
+    },
+    {
+     "digest": "09d06fd8a8eca1d9",
+     "journaled_at": "2026-11-03T04:28:46",
+     "epoch": "EPOCH-0018",
+     "row": "J:09d06fd8a8ec:allowed:quorum_met:01"
+    },
+    {
+     "digest": "e4c2f5a8cf1c38bd",
+     "journaled_at": "2026-11-03T17:38:08",
+     "epoch": "EPOCH-0019",
+     "row": "J:e4c2f5a8cf1c:allowed:quorum_met:01"
+    },
+    {
+     "digest": "25bf6c859365676e",
+     "journaled_at": "2026-11-03T17:38:19",
+     "epoch": "EPOCH-0019",
+     "row": "J:25bf6c859365:allowed:quorum_met:01"
+    },
+    {
+     "digest": "f451ef3efdbb672c",
+     "journaled_at": "2026-11-03T17:39:07",
+     "epoch": "EPOCH-0019",
+     "row": "J:f451ef3efdbb:allowed:quorum_met:01"
+    }
+   ]
+  }
+ },
+ "pre_era_total": 169,
+ "note": "Rows journaled before 2026-11-03T17:47:00Z cannot be verified: no bytes were escrowed in that era and none can be reconstructed without inventing them. Each row is listed so the unverifiable corpus is a bounded register rather than an unquantified caveat. The earlier figure of 78 was measured on 2026-11-03 against a smaller ledger and counted journal rows, not distinct digests."
+}

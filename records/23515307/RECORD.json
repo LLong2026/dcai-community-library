@@ -1,0 +1,45 @@
+{
+  "record_id": "23515307",
+  "doi": "10.5281/zenodo.23515307",
+  "concept_doi": "10.5281/zenodo.23515306",
+  "title": "Fractal Lease FL-1: A Consensus-Enforced Timelock Lease on a Bitcoin Fraction, with Owner Recovery via the First Taproot Script-Path Spend in the SQUIRL OS Program",
+  "description": "<p><b>Fractal Lease FL-1:</b> a complete lease-and-recovery cycle on a single fractal-tokenized Bitcoin fraction — authority leased to a fresh key under consensus-enforced timelock (taproot script tree), recovered by the owner via the program's first taproot script-path (tapscript) spend, confirmed in blocks 972370/972382. Dual-layer enforcement: BTC script tree as vault, XRP escrow as courtroom; sub-cent carrier attestation on XRP and Stellar. Full honest defect trail disclosed, including a BIP342 draft-vs-final SigMsg library defect found by node rejection. Version 1.0, 2026-10-20, authored by Leon Calvin Long II (ORCID 0009-0002-1140-9568).</p><p>Related: FT-1 Fractal Tokenization (doi:10.5281/zenodo.23510677); IP-013 constant-footprint corpus commitment (doi:10.5281/zenodo.23491295); program benchmark (doi:10.5281/zenodo.23321637).</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.</em></p>",
+  "publication_date": "2026-10-20",
+  "resource_type": "publication",
+  "resource_type_title": "Journal article",
+  "version": "1.0",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II",
+    "SquirlOS Technologies LLC"
+  ],
+  "keywords": [
+    "Fractal Tokenization",
+    "Taproot",
+    "Bitcoin Covenants",
+    "BIP342",
+    "Timelock Lease",
+    "OP_CHECKSEQUENCEVERIFY",
+    "XRPL Escrow",
+    "Stellar",
+    "SQUIRL OS"
+  ],
+  "related_identifiers": [],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23515307",
+  "zenodo_modified": "2026-10-20T22:01:55.148545+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "FL1_BREAKTHROUGH_NOTE.md",
+      "filename": "FL1_BREAKTHROUGH_NOTE.md",
+      "size": 7523,
+      "zenodo_checksum": "md5:d5c677e0de57d2bd4050257af0f55cb6",
+      "sha256": "61de4811d3712b02147ec2dd45e663dd3f5dabe863484b3602ce0a702d35b733"
+    }
+  ]
+}

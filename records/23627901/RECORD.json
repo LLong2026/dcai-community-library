@@ -1,0 +1,50 @@
+{
+  "record_id": "23627901",
+  "doi": "10.5281/zenodo.23627901",
+  "concept_doi": "10.5281/zenodo.23627900",
+  "title": "HG-CERT-1: Certification of a Per-Crossing Governance-Drift Hold Gate on a Fresh Zero-Lineage LLM Consensus Cluster (3-Run Deterministic Certification, C1-C5 All Green)",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST:</strong> AI-assisted, receipt-first research program (open-book doctrine: audit-and-correction, versioned amendments, append-only public ledger). Errors are disclosed, not erased. <em>This software is a prototype and is provided for educational and research purposes only. Not intended for production use, commercial deployment, or safety-critical environments. All payloads synthetic.</em></p><p><strong>HG-CERT-1 — Certification of the Per-Crossing Governance-Drift Hold Gate on a fresh zero-lineage cluster.</strong> SQUIRL OS governs LLM-proposed changes with deterministic consensus; when a governance node drifts from the canonical configuration, the hold gate freezes exactly the crossings that touch drifted state while unaffected crossings keep quorum liveness (policy <code>crossing_scoped</code>, versus legacy <code>strict</code> which freezes all crossings). This record certifies that gate on CONCLAVE-2, a byte-exact rebuild of the CONCLAVE-1 cluster with no prior lineage, under a locked preregistration (committed ahead of execution): three identical runs (CERT-R1/R2/R3), each executing strict regression, scoped precision, rogue containment, and ECON collapse drills plus a full-history integrity audit.</p><p><strong>Results (receipted):</strong> C1-C5 all green on all three runs. Freeze recall 100% and hold precision 100% (9/9 affected crossings held, 9/9 unaffected allowed); zero unflagged drift-window journal rows; zero rogue-carrying agreements (armed votes hijacked to an out-of-band hash, flagged in-row, never able to complete quorum); 100% of held crossings released only on operator restore plus a clean integrity check, with zero self-repair at any point; integrity audits 0 violations (R1 7/7, R2 6/6, R3 6/6 journal rows); and full determinism — same seeds produced identical verdicts, hold reasons, journal shapes, and the same injected rogue hash byte-for-byte in R2 and R3.</p><p><strong>Honest deviations (journaled, not patched):</strong> (1) A commissioning bug where <code>armRogueNode</code> flagged two nodes instead of one — fixed before the R1 audit, post-fix receipts verified single-node in all three runs. (2) R1's on-box evidence was wiped by an asynchronous platform builder redeploy between runs — proven environmental (R3 verified the epoch ledger is durable, the counter monotonic, and epoch-open non-destructive); R1 evidence survives byte-exact in the operator transcript and is journaled in the report.</p><p><strong>Provenance:</strong> evidence bundle sha256 0a073f640053a2cf565363823aac2c3f545c6fd7619ee593d1a1be389dcb296f (certification report + locked prereg + machine-checkable run receipts). Companion benchmark: HG-B1 (CONCLAVE-1, 6 arms, 8 metrics, all PASS, private vault head d51aa9f). Companion series: DOORS (action gates, DOIs 10.5281/zenodo.23607572 + 10.5281/zenodo.23608157), SBR (bounded-learning mesh, DOI 10.5281/zenodo.23331224), DMB frontier evidence (DOI 10.5281/zenodo.23609232), PQC-E0 (DOI 10.5281/zenodo.23609818). DCAI community: zenodo.org/communities/dcai. Two-key curation: drafted and vetted by the system (Gabriel), published on the owner's explicit GO (chat authorization, 2026-10-24 17:04 CT). Tri-chain anchor (XLM/XRP/BTC) receipted in the append-only ledger on completion.</p>",
+  "publication_date": "2026-10-24",
+  "resource_type": "publication",
+  "resource_type_title": "Report",
+  "version": "1.0",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II",
+    "SquirlOS Technologies LLC"
+  ],
+  "keywords": [
+    "SQUIRL OS",
+    "LLM governance",
+    "consensus",
+    "governance drift",
+    "hold gate",
+    "deterministic certification",
+    "zero-lineage",
+    "rogue node containment",
+    "BFT",
+    "quorum",
+    "adversarial testing",
+    "falsifiability",
+    "self-healing AI",
+    "AI safety"
+  ],
+  "related_identifiers": [],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23627901",
+  "zenodo_modified": "2026-10-24T22:06:09.235403+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "HG_CERT-1_EVIDENCE_BUNDLE.zip",
+      "filename": "HG_CERT-1_EVIDENCE_BUNDLE.zip",
+      "size": 8824,
+      "zenodo_checksum": "md5:38f801a77e06912a6073c40f58239477",
+      "sha256": "0a073f640053a2cf565363823aac2c3f545c6fd7619ee593d1a1be389dcb296f"
+    }
+  ]
+}

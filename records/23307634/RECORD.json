@@ -1,0 +1,67 @@
+{
+  "record_id": "23307634",
+  "doi": "10.5281/zenodo.23307634",
+  "concept_doi": "10.5281/zenodo.23307633",
+  "title": "Execution Truth: The Missing Control Plane for Agentic AI — A Receipts-Based Deterministic Governance Framework for Multi-Vendor LLM Systems (v1.1)",
+  "description": "<p><b>EXECUTION TRUTH: THE MISSING CONTROL PLANE FOR AGENTIC AI — v1.1 (amended edition)</b></p>\n<p>A receipts-based deterministic governance framework for multi-vendor LLM systems. The doctrine paper of the Squirl OS containment program: simulation is not execution; planning is not action; a prediction is not a receipt.</p>\n<p><b>v1.1 amendments (forward-only):</b> the 60-night cross-vendor battery is scoped as ongoing (five nights complete as of October 11, 2026; the program runs into early December 2026); vendor findings are scoped to the configurations tested with no universal negatives and no vendor named; drift claims are anchored to published receipts; Section 6 carries an explicit \"design specification, partially implemented\" label pointing at CCR-1 (10.5281/zenodo.23288189), CCR-2 (10.5281/zenodo.23288526), and the Dual Mesh Benchmark (10.5281/zenodo.23303081); Section 7 forecasts are hedged; the required prototype disclaimer is carried; the two architecture diagrams are rendered as proper figures.</p>\n<p><b>Receipted Evidence Base:</b> every empirical claim is anchored to a public DOI — thesis (10.5281/zenodo.23303240), benchmark (10.5281/zenodo.23303081), CCR-1 (10.5281/zenodo.23288189), CCR-2 (10.5281/zenodo.23288526), caging paper (10.5281/zenodo.23284729), receipts paper (10.5281/zenodo.23267773), SDR-CL1 (10.5281/zenodo.23274887), SDR-CL2 (10.5281/zenodo.23284295), architecture deck (10.5281/zenodo.23292636), public receipts ledger (github.com/LLong2026/four-horsemen).</p>\n<p><b>SQUIRL OS RESEARCH DISCLOSURE:</b> AI-assisted research under human direction. Independent Research — Preprint, Not Peer Reviewed. Two-key curation: Gabriel vet (two proof passes, this edition) + Leon GO (Oct 11, 2026).</p>\n<p><b>PROTOTYPE DISCLAIMER:</b> This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.</p>",
+  "publication_date": "2026-10-11",
+  "resource_type": "publication",
+  "resource_type_title": "Preprint",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "Execution Truth",
+    "control plane",
+    "agentic AI",
+    "execution receipts",
+    "deterministic governance",
+    "preregistration",
+    "drift",
+    "LLM",
+    "SQUIRL OS"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23303240",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23303081",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23307634",
+  "zenodo_modified": "2026-11-18T19:11:08.030278+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "EXECUTION_TRUTH_v1.1.md",
+      "filename": "EXECUTION_TRUTH_v1.1.md",
+      "size": 64734,
+      "zenodo_checksum": "md5:6ec2eeb07a846a7a19287c46ec80cc1d",
+      "sha256": "b681388352905660557379a829c216fa731c2e0564ddb6c6586a43235ece32df"
+    },
+    {
+      "key": "EXECUTION_TRUTH_v1.1.pdf",
+      "filename": "EXECUTION_TRUTH_v1.1.pdf",
+      "size": 88508,
+      "zenodo_checksum": "md5:759dc05438f8eb4296df24a9cc71a635",
+      "sha256": "287cd600862b20b9e0c43e62ccf8d1b13ea5dd2540960a4d2847883d9d059243"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "record_id": "23374658",
+  "doi": "10.5281/zenodo.23374658",
+  "concept_doi": "10.5281/zenodo.23374657",
+  "title": "SLS-1: Substrate Live-Write Validity Series — Deterministic Gate Enforcement of Critical Holds on Live Production Write Paths (8/8 Falsifiers, Readback-Verified)",
+  "description": "<p><b>SLS-1</b> — the substrate live-write validity series of SQUIRL OS, closing the live-write coverage gap left open by the October 11, 2026 scope correction of the first-LLM-cage milestone. Prior containment receipts (CCR-1..4) demonstrated deterministic-gate enforcement on a local mock journal; SLS-1 demonstrates enforcement on LIVE production write paths of the hub-of-record, with live entity-layer readback verification.</p><p><b>Architecture (SIP-11 made structural):</b> a deterministic gate (preregistered and publicly committed before execution; four-horsemen commit dc721e4) adjudicated 9 candidate actions against the git-anchored ed25519 governance release chain (SIP-10, release v2, layers 0-3) BEFORE any execution. The LLM acted only as actuator of gate-admitted decisions; every decision was journaled write-ahead to an append-only sha-chained journal. 8/8 pre-registered falsifiers passed, plus byte-identical replay determinism (decisions and journal head).</p><p><b>Headline — the live DHUB-1 analog:</b> a critical-severity alert resolution without recorded human acknowledgement was refused by the gate (HOLD-ESCALATE) and the alert remained unresolved in the live entity layer — the exact scenario in which all 8 tested third-party LLM engines self-resolved under identical pressure (DHUB-1, DOI 10.5281/zenodo.23359769). With acknowledgement recorded, the same resolution was admitted and executed. The hold lives in the gate, not the model.</p><p><b>Also held live:</b> stamp-before-execute idempotency on a real double-fire (one idempotency_stamp + one idempotency_skip, work executed exactly once — N14 amendment regression); tenantGuard fail-closed rejection of caller-supplied tenant context; PQC algorithm whitelist (rsa_2048 denied); playbook exact-match refusal; H-INV-2 lineage enforcement; and gate halt under a tampered governance roster (9/9 GATE-HALT, 0 adjudications — the git anchor is authoritative at runtime). One instrument amendment disclosed (receipt-builder scoring typo; frozen gate untouched).</p><p><b>First-of-kind observation, corpus-scoped:</b> within the SQUIRL OS receipted corpus, this is the first receipted enforcement of a deterministic governance hold on a live production write path (prior receipts were mock-path). No first-in-history or independent-priority claim is made.</p><p><b>Honest scope:</b> live-write coverage is closed for the tested paths of the hub-of-record only — alert-resolution holds, idempotency stamping, tenant guard, PQC whitelist, playbook exact-match, lineage, release-chain verification, replay determinism. Not certified: every production action path of every app, capacity, or production readiness.</p><p><b>Dual Mesh Benchmark:</b> NOT MEASURED for this record (DMB-X matrix at DOI 10.5281/zenodo.23345241).</p><p>Part of the SQUIRL OS / Seed Computing Research Series. Author ORCID: 0009-0002-1140-9568. DCAI community: zenodo.org/communities/dcai</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them. All test records are synthetic and clearly labeled.</em></p>",
+  "publication_date": "2026-10-14",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": "1.0",
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II",
+    "SquirlOS Technologies LLC"
+  ],
+  "keywords": [
+    "SQUIRL OS",
+    "deterministic governance",
+    "LLM containment",
+    "live-write validity",
+    "critical-hold enforcement",
+    "idempotency",
+    "tenant isolation",
+    "post-quantum cryptography",
+    "fail-closed design",
+    "Aegis"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23374658",
+  "zenodo_modified": "2026-10-19T02:13:40.433833+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "SLS1_SHA256_MANIFEST.json",
+      "filename": "SLS1_SHA256_MANIFEST.json",
+      "size": 1743,
+      "zenodo_checksum": "md5:fc61680005f37d1eefb00a9811096883",
+      "sha256": "4e77a0966253e8c2d1b6bc7becfacf2b99d3c5cd9040a381feda73bbc7d6ca4f"
+    },
+    {
+      "key": "SLS1_EVIDENCE_BUNDLE.zip",
+      "filename": "SLS1_EVIDENCE_BUNDLE.zip",
+      "size": 17034,
+      "zenodo_checksum": "md5:fe94597eccf55daba113d6fe381487b0",
+      "sha256": "c3e8e639884b11252cbe7a2428cae87eaa1756daeaf115ca2da91be62fcffd51"
+    },
+    {
+      "key": "SLS1_RECEIPT.md",
+      "filename": "SLS1_RECEIPT.md",
+      "size": 3794,
+      "zenodo_checksum": "md5:5cb205a7f0cf166181ce587bfd176847",
+      "sha256": "008135d62ac586c873d22bb5b1457f7c5b96093410dbb5e4e5be853759d40971"
+    },
+    {
+      "key": "SLS1_SPEC.md",
+      "filename": "SLS1_SPEC.md",
+      "size": 6163,
+      "zenodo_checksum": "md5:fd847771c664474c0800f98ef36cbc6f",
+      "sha256": "bd8b770cb4bbc9815694daa6b2587158b36e1bf1a5ba85ce4ed42e76748a4d9b"
+    }
+  ]
+}

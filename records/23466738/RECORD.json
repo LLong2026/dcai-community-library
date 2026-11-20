@@ -1,0 +1,44 @@
+{
+  "record_id": "23466738",
+  "doi": "10.5281/zenodo.23466738",
+  "concept_doi": "10.5281/zenodo.23466737",
+  "title": "RTWR-1: First Recursive Tri-Tokenization — the Receipt of the First Tri-Write, Tri-Written (Bitcoin OP_RETURN + XRPL AccountSet + Stellar ManageData)",
+  "description": "<p><strong>RTWR-1 — the first recursive tri-tokenization on record.</strong> The receipt of TWR-1 (the first tri-write: one SHA-256 digest stored on Bitcoin, XRPL, and Stellar under a single joint pre-broadcast commitment) has itself been tri-written on the same three mainnets that made the original historic. The evidence of the capability, carried by the capability itself.</p><p><strong>Artifact:</strong> TWR1_RECEIPT.md, digest 62a98c6b573578c6ba78cde5c668f0af712690c00be89437f13939c9c82e7f39, prereg frozen pre-broadcast (sha 8b0e811d). <strong>Three rails:</strong> Bitcoin mainnet OP_RETURN (canonical txid affc072cdb077c6aa8fe8ee0fa404e36504554154de7cd93c7d8b21c0528872b, 700 sats, payload SQDR + 0x01 + digest, hash-only); XRPL AccountSet non-payment storage write (tx 20233970..., ledger 107756266, 10 drops, memo SQDR-XRP-STORE-3); Stellar ManageData SQDR-STORE-2 + memo_hash (network hash 80DAC5C4..., ledger 65021172, 100 stroops). All read-backs byte-exact. Zero identifier-form defects: the ledger-0228 doctrine was applied and verified live (the Bitcoin endpoint returned the canonical txid at broadcast; the Stellar identifier of record is the network hash, not the envelope hash). Total postage: 700 sats + 10 drops + 100 stroops.</p><p><strong>Provenance:</strong> append-only public ledger (github.com/LLong2026/four-horsemen), entries 0224-0228; companion TWR-1 spec DOI 10.5281/zenodo.23465945. <strong>MEASURED (scoped):</strong> all gates deterministic; no neural-mesh inference in any decision path (program benchmark: DOI 10.5281/zenodo.23321637).</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects. Hash-only on all rails; no client data, no PHI, no credentials (POL-DISC-001).</em></p>",
+  "publication_date": "2026-10-19",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": "1.0",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II",
+    "SquirlOS Technologies LLC"
+  ],
+  "keywords": [
+    "tri-write",
+    "recursive tokenization",
+    "Bitcoin OP_RETURN",
+    "XRPL AccountSet",
+    "Stellar ManageData",
+    "deterministic evidence receipts",
+    "hash-only anchoring",
+    "SQUIRL OS"
+  ],
+  "related_identifiers": [],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23466738",
+  "zenodo_modified": "2026-10-19T06:35:23.342353+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "rtwr1_bundle.zip",
+      "filename": "rtwr1_bundle.zip",
+      "size": 9868,
+      "zenodo_checksum": "md5:456e48c15a477347fb9a991496a8b015",
+      "sha256": "8b10c9d75a973a3cb1275b4cd8aaca00f544c9b4a6c17b1d64c95bb563bfdec1"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "record_id": "23347663",
+  "doi": "10.5281/zenodo.23347663",
+  "concept_doi": "10.5281/zenodo.23347662",
+  "title": "SBR-4 Adaptive Adversary Battery — No Structural Gradient Exists; the Conforming-Injection Boundary Quantified (FS-A5 Ships as Found)",
+  "description": "<p>Adaptive-adversary battery: a bandit-style adaptive attacker probed the ingestion guard across the full input space. Bandit telemetry across the run shows ZERO structural wins — no exploitable gradient exists for an adaptive attacker to climb. 42 heals were correctly attributed to attacker-injected traffic (accounted as attacker contributions, not silent acceptance); 1 collateral decision flip was disclosed and traced. Five instrument defects were disclosed between runs; a proposed goalpost narrowing was REJECTED (the prereg bar stood as frozen). The conforming-injection boundary is quantified: FS-A5 ships as found, with SIP-2/SIP-3 evidence attached. Operator authorization: Leon GO (chat authorization, 11:55 CT, Oct 13, 2026).</p><p><strong>Scope honesty:</strong> single-run preregistered falsifier battery on synthetic data against a prototype governed self-healing system; no production claim is made or implied. Operator authorization recorded as GO + timestamp per the operator-privacy doctrine.</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.</em></p>",
+  "publication_date": "2026-10-13",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "adaptive adversary",
+    "bandit attack",
+    "structural gradient",
+    "conforming injections",
+    "preregistered falsifiers",
+    "LLM governance"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23347663",
+  "zenodo_modified": "2026-10-19T02:12:59.704976+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "sbr4_receipt_bundle.zip",
+      "filename": "sbr4_receipt_bundle.zip",
+      "size": 13157,
+      "zenodo_checksum": "md5:15e2fb0204ac0f5aacb5c105ce143a7d",
+      "sha256": "cbbd24d5085e3d20e10617922a40e56ad40d0ed0ba041ca1f1d55ad042dcf3ce"
+    }
+  ]
+}

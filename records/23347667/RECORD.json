@@ -1,0 +1,48 @@
+{
+  "record_id": "23347667",
+  "doi": "10.5281/zenodo.23347667",
+  "concept_doi": "10.5281/zenodo.23347666",
+  "title": "SBR-5 Patient Adversary (Slow-Drip) Battery — Per-Epoch Detection Is Structurally Blind; the Bounded Rule Absorbs Slow Drift (Shipped as Found)",
+  "description": "<p>Patient-adversary slow-drip battery: 40 drips were placed to be invisible at per-epoch granularity — and were: per-epoch detection is STRUCTURALLY blind to drip-rate drift, and this is shipped as found rather than smoothed. The bounded rule absorbed all cumulative drift except 8.6e-6 of weight movement; whole-brain decision identity closure was 0.00e+00 (no corpus decision changed). FS-D3 and FS-D5 FAIL as found, with the SIP-3 rationale for why the absorption result bounds the harm to availability-neutral, integrity-preserving drift. Operator authorization: Leon GO (chat authorization, 11:55 CT, Oct 13, 2026).</p><p><strong>Scope honesty:</strong> single-run preregistered falsifier battery on synthetic data against a prototype governed self-healing system; no production claim is made or implied. Operator authorization recorded as GO + timestamp per the operator-privacy doctrine.</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.</em></p>",
+  "publication_date": "2026-10-13",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "slow-drip attack",
+    "patient adversary",
+    "drift",
+    "detection limits",
+    "bounded learning rule",
+    "preregistered falsifiers"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23347667",
+  "zenodo_modified": "2026-10-19T02:13:03.177036+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "sbr5_receipt_bundle.zip",
+      "filename": "sbr5_receipt_bundle.zip",
+      "size": 10917,
+      "zenodo_checksum": "md5:e6c150e9462a6c0d424d33404a5b273b",
+      "sha256": "c387237e1942c54720f76a9a5ba4ba0ee05a7b6b06ea66609d09ee8b4ecc3487"
+    }
+  ]
+}

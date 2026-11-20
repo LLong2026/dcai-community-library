@@ -1,0 +1,90 @@
+{
+  "record_id": "21436933",
+  "doi": "10.5281/zenodo.21436933",
+  "concept_doi": "10.5281/zenodo.21436932",
+  "title": "JASPER: A METHOD, SYSTEM, AND APPARATUS FOR UNIVERSAL ADAPTIVE INTELLIGENCE ORCHESTRATION",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST</strong>: This record is part of an open-book, AI-assisted research program published under an audit-and-correction doctrine. Every record is audited; errors are corrected only through disclosed, versioned amendments (original versions preserved in the version history). Audit ledger and correction receipts: <a href=\"https://github.com/LLong2026/squirrel-os-lindy-test\">github.com/LLong2026/squirrel-os-lindy-test</a>. This material is a prototype, provided for educational and research purposes only; it is not intended for production use, commercial deployment, or safety-critical environments.</p><p><span class=\"font-ligatures-none whitespace-pre-wrap\"><strong>JASPER &mdash; Joint Adaptive Semantic Processing and Execution Runtime</strong></span></p>\n<p><span class=\"font-ligatures-none whitespace-pre-wrap\">JASPER is a patented-pending universal intelligence orchestration system designed to unify, route, and synthesize outputs from multiple AI inference engines into a single, coherent, and deterministic result &mdash; in real time.</span></p>\n<p><span class=\"font-ligatures-none whitespace-pre-wrap\">Unlike conventional AI tools that rely on a single model or pipeline, JASPER operates as a full-stack orchestration apparatus: it connects to any combination of AI subsystems, data sources, APIs, and sensor inputs through its proprietary <strong>Universal Bridge</strong>, then processes all inputs through the <strong>URIB pipeline</strong> &mdash; a six-stage architecture that normalizes, seeds, routes, infers, synthesizes, and audits every output.</span></p>\n<p><span class=\"font-ligatures-none whitespace-pre-wrap\"><strong>What makes JASPER different:</strong></span></p>\n<ul class=\"relative list-outside marker:text-foreground-750 dark:marker:text-foreground-600 flex flex-col ms-4 px-1\">\n<li class=\"ps-2\">\n<p><span class=\"font-ligatures-none whitespace-pre-wrap\">🔗 <strong>Universal Bridge</strong> &mdash; plug-and-play connectivity to any AI model, database, API, or data stream without re-engineering the core system</span></p>\n</li>\n<li class=\"ps-2\">\n<p><span class=\"font-ligatures-none whitespace-pre-wrap\">🌱 <strong>Seed Computing</strong> &mdash; every session is initialized with a deterministic seed vector, making outputs reproducible, traceable, and forensically auditable</span></p>\n</li>\n<li class=\"ps-2\">\n<p><span class=\"font-ligatures-none whitespace-pre-wrap\">🤖 <strong>Multi-Model Orchestration</strong> &mdash; JASPER dispatches tasks across multiple AI inference nodes simultaneously and returns a single weighted consensus answer</span></p>\n</li>\n<li class=\"ps-2\">\n<p><span class=\"font-ligatures-none whitespace-pre-wrap\">⚡ <strong>AETHER X-3</strong> &mdash; a high-performance, mission-critical deployment embodiment built for real-time situational awareness, multi-domain data fusion, and tamper-evident operations</span></p>\n</li>\n</ul>\n<p><span class=\"font-ligatures-none whitespace-pre-wrap\">JASPER is not an AI &mdash; it is the infrastructure that makes AI work together.</span></p>\n<p><span class=\"font-ligatures-none whitespace-pre-wrap\"><strong>Status:</strong> Provisional Patent Filed &middot; Application No. 64/114,746 &middot; July 18, 2026</span></p>\n<p><b>Patent portfolio (September 2026):</b> 8 patents pending + 5 SBIR tracks — 64/081,490; 64/081,911; 64/082,606; 64/094,360; 64/114,746; 64/119,191; 64/145,825; 64/157,915.</p><p>This work relates to U.S. Provisional Patent Application No. 64/114,746 — Universal Adaptive Intelligence Orchestration (filed July 18, 2026).</p><p>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.</p>\n<p><strong>Public receipts:</strong> append-only work ledger and determinism-test preregistrations — Lindy test receipts: <a href=\"https://github.com/LLong2026/squirrel-os-lindy-test\">github.com/LLong2026/squirrel-os-lindy-test</a> | Horsemen benchmark preregistrations: <a href=\"https://github.com/LLong2026/four-horsemen\">github.com/LLong2026/four-horsemen</a></p>",
+  "publication_date": "2026-07-19",
+  "resource_type": "publication",
+  "resource_type_title": "Patent",
+  "version": "v1.0",
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "long, Leon Calvin II"
+  ],
+  "keywords": [],
+  "related_identifiers": [
+    {
+      "identifier": "U.S. Patent Application No. 19/693,343",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-patent",
+      "scheme": "handle"
+    },
+    {
+      "identifier": "U.S. Patent Application No. 64/081,911",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-patent",
+      "scheme": "handle"
+    },
+    {
+      "identifier": "U.S. Patent Application No. 64/082,606",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-patent",
+      "scheme": "handle"
+    },
+    {
+      "identifier": "U.S. Patent Application No. 64/081,490",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-patent",
+      "scheme": "handle"
+    },
+    {
+      "identifier": "U.S. Patent Application No. 64/094,360",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-patent",
+      "scheme": "handle"
+    },
+    {
+      "identifier": "https://github.com/LLong2026/squirrel-os-lindy-test",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/LLong2026/four-horsemen",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/21436933",
+  "zenodo_modified": "2026-10-19T02:06:58.572245+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "Jasper Provisional Patent Application.pdf",
+      "filename": "Jasper Provisional Patent Application.pdf",
+      "size": 153605,
+      "zenodo_checksum": "md5:52fe609007d8d205d92dc19d504ef3bc",
+      "sha256": "8609c4dfcafd0a66cd281827c244aba4d17d459430f20aa294df39d3a04fe3e0"
+    },
+    {
+      "key": "COMMERCIAL_USE_NOTICE.txt.pdf",
+      "filename": "COMMERCIAL_USE_NOTICE.txt.pdf",
+      "size": 44491,
+      "zenodo_checksum": "md5:d3e08955a9684ac333c1f36d0878d215",
+      "sha256": "52f27d251dc0d003f248412e367fb4fbc9c6b6739341d7e053899be0b6e4e196"
+    }
+  ]
+}

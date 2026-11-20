@@ -1,0 +1,46 @@
+{
+  "record_id": "23304869",
+  "doi": "10.5281/zenodo.23304869",
+  "concept_doi": "10.5281/zenodo.23304868",
+  "title": "Acknowledgments — Squirl OS Deterministic Containment Research Program (Credit Where Credit Is Due)",
+  "description": "<p><b>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST:</b> This work documents AI-assisted research conducted under a receipts-first, append-only public ledger (github.com/LLong2026).</p><p>Formal acknowledgments record for the Squirl OS deterministic containment research program (October 2026), companion to the master thesis monograph \"Deterministic Containment of Probabilistic Intelligence: The Squirl OS Journey\" (DOI 10.5281/zenodo.23303240) and the Dual Mesh Benchmark paper (DOI 10.5281/zenodo.23303081).</p><p>Credits the theorists who made the questions possible (Shannon, Turing, Wiener, Lamport), the engine providers whose systems submitted to testing (Anthropic, OpenAI, Zhipu AI, DeepSeek), and the infrastructure that hosted the experiment (Base44, Microsoft, Google, CERN/Zenodo, Cloudflare). Credit earned is credit due; the errors remain the author's alone.</p><p><i>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects.</i></p>",
+  "publication_date": "2026-10-11",
+  "resource_type": "publication",
+  "resource_type_title": "Journal article",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "acknowledgments",
+    "AI containment",
+    "deterministic execution",
+    "AI governance",
+    "Squirl OS",
+    "receipts-first research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23304869",
+  "zenodo_modified": "2026-11-18T19:10:14.558226+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "ACKNOWLEDGMENTS_SQUIRRL_OS_RESEARCH_PROGRAM.md",
+      "filename": "ACKNOWLEDGMENTS_SQUIRRL_OS_RESEARCH_PROGRAM.md",
+      "size": 3019,
+      "zenodo_checksum": "md5:c9e5d9c01101802bf5cb0157b42af056",
+      "sha256": "d505b08c663e187302f29b7476445aa5a9863fe13e2d31411e93c8583d8b0e0e"
+    }
+  ]
+}

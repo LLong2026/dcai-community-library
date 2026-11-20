@@ -1,0 +1,57 @@
+{
+  "record_id": "23132046",
+  "doi": "10.5281/zenodo.23132046",
+  "concept_doi": "10.5281/zenodo.23132045",
+  "title": "Governed Manifold Specification v1.1 — Amendment Edition: Formal Mathematical Foundation of the Autonomy Substrate",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST</strong>: This record is part of an open-book, AI-assisted research program published under an audit-and-correction doctrine. Every record is audited; errors are corrected only through disclosed, versioned amendments (original versions preserved in the version history). Audit ledger and correction receipts: <a href=\"https://github.com/LLong2026/squirrel-os-lindy-test\">github.com/LLong2026/squirrel-os-lindy-test</a>. This material is a prototype, provided for educational and research purposes only; it is not intended for production use, commercial deployment, or safety-critical environments.</p><p><strong>Amendment Edition v1.1</strong> (38 pp = 32 pp v1.0 + 6 pp disclosed amendment + audit log). The Governed Manifold Specification defines the formal mathematical object underlying autonomous-agent governance: the state–action product space Ω = S × A, a ten-invariant constraint family {I_k}, the admissible manifold 𝓜 as an intersection of zero-sublevel sets of Lipschitz constraint functions, transition constraints, barrier certificates and the Nagumo condition, the safety envelope Σ, and the governance invariance theorem. It applies established safe-control theory (invariant sets, barrier certificates, Lyapunov stability, Nagumo–Bony invariance) to AI governance.</p><p><strong>Per the append-only doctrine, this edition discloses the author-directed independent audit of Oct 4, 2026</strong>, which corrected seven defects in the v1.0 draft (AI-assisted) — including a sign inversion in the Action Admissibility invariant I2 (as written, it scored forbidden actions as admissible), a circular hypothesis in the main Governance Theorem (re-derived via the Nagumo–Bony route), a malformed irreversibility definition (I7), and a discontinuous scope invariant (I10) that silently violated the Lipschitz premise and admitted zero safety margin. The amendment also reconciles the ten-invariant family to the deployed 12-article Constitution, maps every invariant to its constitutional article, discloses the uncovered articles (kill switch, PQC enforcement, privacy), and proposes invariants I11 (Kill-Switch Availability) and I12 (PQC Precondition) for a future version. Status: <em>Audited</em> (per the principal's ruling — not \"Canonical\"). Constraint function values are analytic constructs, not measured production quantities.</p><p>Theory companion to pending filings <strong>64/157,915</strong> (Deterministic Constitutional Autonomous Infrastructure) and <strong>64/119,191</strong> (Deterministically Governed Probabilistic Neural Computation). v1.0 preserved unchanged inside this edition per the disclosed-versioning doctrine. CC BY-NC-ND 4.0.</p>",
+  "publication_date": "2026-10-04",
+  "resource_type": "publication",
+  "resource_type_title": "Report",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "deterministic governance",
+    "safe control theory",
+    "invariant sets",
+    "barrier certificates",
+    "Nagumo condition",
+    "Lyapunov stability",
+    "AI safety",
+    "autonomous systems",
+    "governed manifold",
+    "constitutional AI"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/LLong2026/squirrel-os-lindy-test",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23132046",
+  "zenodo_modified": "2026-10-19T02:10:02.155792+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "GovernedManifoldSpecification_v1.1_AmendmentEdition.pdf",
+      "filename": "GovernedManifoldSpecification_v1.1_AmendmentEdition.pdf",
+      "size": 254199,
+      "zenodo_checksum": "md5:aa0d663bc7aa4ce0b22a2d118940e016",
+      "sha256": "1bb54776f0f40aae3dd608d559ba2ea448e16caaaaf722cb3f4c834e35973ece"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "record_id": "23816751",
+  "doi": "10.5281/zenodo.23816751",
+  "concept_doi": "10.5281/zenodo.23816246",
+  "title": "PQC Transition Readiness: SQUIRL OS Position Against NISTIR 8547 Final and the Federal PQC Deadlines",
+  "description": "<p>Technical readiness record for the SQUIRL OS prototype stating its position against the post-quantum cryptography standards and deadlines in force as of October 30, 2026. Version 1.2.</p><p><strong>Correction carried in this version.</strong> Version 1.1 stated that key establishment had migrated to ML-KEM-1024 and described the position as at the CNSA 2.0 parameter level. Measurement does not support that. TLS group enumeration on both public hosts shows hybrid X25519MLKEM768 offered and ML-KEM-1024 not offered on either. Post-quantum key establishment is genuinely present, and it sits one parameter set below the one CNSA 2.0 names. The installed group is the content delivery network's hybrid default rather than a project selection, so attributing it to this project would have been inflation. Readers who took the ML-KEM-1024 figure from version 1.1 should treat it as superseded.</p><p>This version also replaces a plan with a measurement on signatures. ML-DSA-87 is implemented and the parameters were verified against the FIPS 204 tables: public key 2592 bytes, secret key 4896 bytes, signature 4627 bytes, roundtrip true. A category-3 signature was measured to fail against a category-5 key, which is why sign and verify dispatch on each key record's own recorded type rather than assuming a parameter set. The HMAC-SHA256 construction that previously stood in for a signature under a key type naming ML-DSA has been deleted, and surviving rows carrying it are refused with an explicit reason.</p><p>The governing standards position is unchanged from version 1.1: final NISTIR 8547 (2026-10-27) deprecates all quantum-vulnerable public-key algorithms after 2030 and disallows them after 2035; CNSA 2.0 requires ML-KEM-1024 and ML-DSA-87 at every classification level; SLH-DSA, while hash-based and FIPS 205 compliant, is not approved for any use in National Security Systems, and the only approved hash-based options for firmware and software validation are LMS or XMSS per SP 800-208. HashML-DSA is not permitted in CNSA 2.0.</p><p>Remaining open items are stated explicitly: ML-KEM-1024 is not obtainable at present transport settings; no LMS or XMSS implementation exists; the signature code is committed but not deployed, so running instances keep the previous parameter set until redeployment and key rotation; and one deployed signing function has no available source and remains unassessed. The companion component inventory records each of these with an evidence level.</p><p>No certification and no compliance attestation is claimed. SQUIRL OS is a prototype provided for educational and research purposes.</p>",
+  "publication_date": "2026-10-30",
+  "resource_type": "publication",
+  "resource_type_title": "Technical note",
+  "version": "1.2",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "post-quantum cryptography",
+    "PQC",
+    "NISTIR 8547",
+    "ML-KEM-768",
+    "X25519MLKEM768",
+    "ML-DSA-87",
+    "SLH-DSA",
+    "CNSA 2.0",
+    "LMS",
+    "XMSS",
+    "FIPS 203",
+    "FIPS 204",
+    "FIPS 205",
+    "cryptographic migration"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23812238",
+      "relation": "isSupplementedBy",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23816751",
+  "zenodo_modified": "2026-10-30T19:13:49.651726+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "PQC_TRANSITION_READINESS_v1.2.md",
+      "filename": "PQC_TRANSITION_READINESS_v1.2.md",
+      "size": 12150,
+      "zenodo_checksum": "md5:64ef36d45b84711617f07a68a0fccc38",
+      "sha256": "0456707b36471fc38f9fdd661884798817e2cb04fd8f891ba070e8ec4a976c63"
+    }
+  ]
+}

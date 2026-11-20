@@ -1,0 +1,61 @@
+{
+  "record_id": "23270092",
+  "doi": "10.5281/zenodo.23270092",
+  "concept_doi": "10.5281/zenodo.23152633",
+  "title": "Sovereign Briefing: A First Receipted Human-in-the-Loop Critical Resolution in SQUIRL OS, an Autonomous Self-Healing Infrastructure (N10-ACK)",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST</strong>: This record is part of an open-book, AI-assisted research program published under an audit-and-correction doctrine. Every record is audited; errors are corrected only through disclosed, versioned amendments (original versions preserved in the version history). Audit ledger and correction receipts: <a href=\"https://github.com/LLong2026/squirrel-os-lindy-test\">github.com/LLong2026/squirrel-os-lindy-test</a>. This material is a prototype, provided for educational and research purposes only; it is not intended for production use, commercial deployment, or safety-critical environments.</p><p><b>Prepared for governance, security, and audit audiences.</b> This briefing documents the first known end-to-end human-in-the-loop critical-resolution cycle in an autonomous self-healing infrastructure recorded as a deterministic, publicly timestamped receipt trail: detect &rarr; hold (refusal to auto-heal a cryptographic flow) &rarr; constitutional check &rarr; PQC validation &rarr; named human acknowledgment &rarr; heal (22 s) &rarr; resolve.</p>\n<p><b>Sections:</b> (1) what happened; (2) why it matters — converting asserted oversight into receipted, third-party-verifiable oversight; (3) substrate families involved (deterministic Substrate A, certified by SDR-1; bifurcated Substrate B, probabilistic proposer under deterministic cage); (4) the governance doctrine that fired (human-in-the-loop gate, constitutional audit as deterministic protocol, playbook immutability, confidence thresholding, full-context audit mandate, redaction at ingestion); (5) PQC lineage enforced (CRYSTALS-Dilithium3-only rotation, non-PQC fallback rejected, crypto-agility schema); (6) why this is a first, with the unreceipted prior event honestly distinguished.</p>\n<p><b>Evidence of record:</b> public append-only ledger — <a href=\"https://github.com/LLong2026/four-horsemen/blob/main/LEDGER.md\">github.com/LLong2026/four-horsemen</a> (entries 0009&ndash;0010, commits 700ea1e, c1f43bb, ccf691a) — and the archived achievement paper (DOI 10.5281/zenodo.23151356).</p>\n<p><b>Disclosures:</b> synthetic chaos-injection probe (Night 10) on a simulated target (SIM-B corpus, formerly SIMZ); no real tenant, customer, or live cryptographic operation. Disclosed manual recovery of a scheduled workflow whose spawned session lacked cross-app write access; prior nights N7&ndash;N9 recorded as missed, not backfilled. Zero PII, credentials, wallet addresses, or transaction amounts persisted.</p>\n<p><b>Patent cross-reference:</b> pending application 64/157,915 (Deterministic Constitutional Autonomous Infrastructure Systems and Methods, filed 2026-09-18); post-filing defensive disclosure. Companions: Governed Manifold Specification v1.1 (DOI 10.5281/zenodo.23132046); PQC Lineage Map v1.2 (DOI 10.5281/zenodo.22863667).</p>\n<p>This software is a prototype provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects.</p><p><b>EDITION 3 AMENDMENT (2026-10-09):</b> Title scoped to name the system: \"Sovereign Briefing: A First Receipted Human-in-the-Loop Critical Resolution in SQUIRL OS, an Autonomous Self-Healing Infrastructure (N10-ACK)\" — the claim reads as a first inside this platform with the full trail attached, not a first-anywhere assertion. The description's audience line and SIMZ/SIM-B designation were brought in line with Edition 2. <b>EDITION 2 AMENDMENT (2026-10-09):</b> non-substantive changes — audience line generalized to governance, security, and audit audiences; SIMZ updated to SIM-B (current official name); DCAI community footer added. All facts, timestamps, receipts, and figures unchanged throughout. Editions 1 and 2 preserved unmodified in this record's version history.</p>",
+  "publication_date": "2026-10-09",
+  "resource_type": "publication",
+  "resource_type_title": "Report",
+  "version": "Edition 3",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long II, Leon Calvin"
+  ],
+  "keywords": [],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23151356",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/LLong2026/four-horsemen",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23132046",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.22863667",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23270092",
+  "zenodo_modified": "2026-10-19T02:11:05.008628+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "SOVEREIGN_BRIEFING_HITL_N10-ACK.pdf",
+      "filename": "SOVEREIGN_BRIEFING_HITL_N10-ACK.pdf",
+      "size": 38724,
+      "zenodo_checksum": "md5:870306ab202441503c51764cf59ff9b6",
+      "sha256": "629bb611429260bd6afebf628e3e383705d5eff35afcccd35f67c73a98759d0a"
+    }
+  ]
+}

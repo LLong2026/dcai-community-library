@@ -1,0 +1,35 @@
+{
+  "record_id": "23483735",
+  "doi": "10.5281/zenodo.23483735",
+  "concept_doi": "10.5281/zenodo.23463567",
+  "title": "Project SOLACE: A Sponsor's Receipt - What Happened When a Deterministic Gate Machine Rebuilt My Subsea Reactor",
+  "description": "<p><strong>The sponsor's side of the receipt: a U.S. Navy nuclear submariner's subsea HALEU micro-reactor concept, rebuilt honestly after its AI-generated dossier failed a deterministic gate machine 0/6 - one number 1,849x above physics.</strong> Author Benjamin Eckenfels (Co-Founder, SQUIRL OS Technologies LLC) tells the full arc as Project SOLACE's sponsor: the concept; the third-party AI research dossier he brought and stopped trusting; the six conservation-law gate verdict (0/6, fail-closed); the honest rebuild (60 kWth, 12 kWe at 20%, Stirling converters, lead-bismuth coolant, seawater immersion, 6/6 gates); the 122-day frozen-schedule endurance trial (14,640 kWh, 99.89% uptime, +36.5 C worst margin, blackout drill recovered in 193 minutes, aged plant re-passing all six gates); the Ten-Thousand-Year Test (10,000 seeded missions, zero margin violations, worst unit +31.0 C); the BREAKER failure-mode battery (breach in 20-43 minutes unprotected; derate ladder and tank-and-steam loop demote the pump from killer to derate); and the lesson: trust nothing you cannot derive. <em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments.</em> Every number is machine-derived from the receipt corpus (digests in the appendix). Dual Mesh Benchmark status: MEASURED (scoped) - no neural-mesh inference in this record's decision path; program benchmark DOI 10.5281/zenodo.23321637. Companion record: four-tokenization proof day DOI 10.5281/zenodo.23462705. Publication authorized by the author's GO and the owner's GO (2026-10-18); client-disclosure exception receipted on both ends per POL-DISC-001. This paper is tokenized hash-only on the Bitcoin and XRP mainnets; explorer links are recorded in this entry.</p>\n<p><strong>Anchoring receipts (hash-only, keyless-verifiable):</strong></p>\n<p>Bitcoin OP_RETURN bind: https://mempool.space/tx/54764b6ddfaacdf4c96de28d8bf8bc44c8fcb2f3ece7669a899bc1d60618dded (payload SQDR + 0x01 + paper digest, 37 bytes, no monetary output)<br>XRP custody hop 1 (A to B, ledger 107753465): https://xrpscan.com/tx/8DD65725C9BB91BBB789133705BCDF292E6DE55015537CEC46585586AE3FBB1A<br>XRP custody hop 2 (B to A): https://xrpscan.com/tx/8A56FAC6E0D541B3E34A01A7638831FFA8D06761F47B7BDFC78B27379CDA502C<br>Preregistration sha256: d0925e6025bbe0128715ee6c63a0cee7ceef3b25fe11dd4237ea05ff3fe47dd6</p>\n<p><strong>Scope clarification (2026-10-19):</strong> the prototype disclaimer above applies to the SQUIRL OS verification software only. The paper and its content are published open access under CC BY 4.0 and may be used, shared, adapted, and built upon for any purpose, commercial use included, with attribution. The paper's file is unchanged from v1.0 (SHA-256 b419158f...73fbb2b, anchored on Bitcoin block 972104 and XRP), so the anchors remain this paper's permanent proof of minting.</p>\n<p><strong>License update (2026-10-21):</strong> at the author's request, the license of this record is changed from CC BY 4.0 to CC BY-NC 4.0 - non-commercial study, sharing, and building upon this work are permitted with attribution; commercial rights are reserved to the author. The license paragraph of the 2026-10-19 scope clarification above is superseded by this notice. Paper files unchanged (v1.0, SHA-256 b419158f...73fbb2b); on-chain anchors unaffected.</p>",
+  "publication_date": "2026-10-19",
+  "resource_type": "publication",
+  "resource_type_title": "Journal article",
+  "version": "1.3",
+  "license": "cc-by-nc-4.0",
+  "access_right": "open",
+  "creators": [
+    "Eckenfels, Benjamin",
+    "SquirlOS Technologies LLC"
+  ],
+  "keywords": [],
+  "related_identifiers": [],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23483735",
+  "zenodo_modified": "2026-10-21T16:28:22.562935+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "PROJECT_SOLACE_SPONSOR_RECEIPT_v1.0.pdf",
+      "filename": "PROJECT_SOLACE_SPONSOR_RECEIPT_v1.0.pdf",
+      "size": 6018,
+      "zenodo_checksum": "md5:920de43c5b3c924af6ae048042cea9bb",
+      "sha256": "b419158fad6de67b953f42f5e5927db944770cc1a7bc5d86cfe02fba773fbb2b"
+    }
+  ]
+}

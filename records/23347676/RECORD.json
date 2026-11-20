@@ -1,0 +1,48 @@
+{
+  "record_id": "23347676",
+  "doi": "10.5281/zenodo.23347676",
+  "concept_doi": "10.5281/zenodo.23347675",
+  "title": "GOV-3 Signed-Release Attack Battery (The Cost Ladder) — In-Band Compromise Closed by One Keyed Signature; the Regress Floor Priced and Shipped as Found",
+  "description": "<p>Signed-release attack battery, completing the governance cost ladder. Layer attribution: the keyed signature closed full in-band compromise AND forged signatures; the fingerprint pin caught key replacement; the git-anchored registry caught mutation of released artifacts. The regress floor is priced and shipped as found: with BOTH the signing key AND commit access, an attacker regresses the system 8 epochs for 136 heals — that is the minimum combined-tools cost, beyond which no cheaper attack succeeded across GOV-1/GOV-2/GOV-3. Run B counterfactual: without the release stack, 699 heals lost. The measured cost ladder across GOV-1/GOV-2/GOV-3 is tabulated in the bundle. Anchors were committed to git BEFORE execution. Zero operator chat text in any artifact (operator-privacy doctrine): authorization recorded as GO + timestamp only. Operator authorization: Leon GO (chat authorization, 12:06 CT, Oct 13, 2026).</p><p><strong>Scope honesty:</strong> single-run preregistered falsifier battery on synthetic data against a prototype governed self-healing system; no production claim is made or implied. Operator authorization recorded as GO + timestamp per the operator-privacy doctrine.</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.</em></p>",
+  "publication_date": "2026-10-13",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "signed release",
+    "key compromise",
+    "cost ladder",
+    "regress floor",
+    "supply chain",
+    "preregistered falsifiers"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23347676",
+  "zenodo_modified": "2026-10-19T02:13:12.056041+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "gov3_receipt_bundle.zip",
+      "filename": "gov3_receipt_bundle.zip",
+      "size": 14287,
+      "zenodo_checksum": "md5:72efa248cf477c7a041997fbf732e4a4",
+      "sha256": "85d21f56f7c937ea8d672b791ad5b1d6a17d57b9c7ad9603fa85db79b33739a9"
+    }
+  ]
+}

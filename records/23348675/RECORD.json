@@ -1,0 +1,64 @@
+{
+  "record_id": "23348675",
+  "doi": "10.5281/zenodo.23348675",
+  "concept_doi": "10.5281/zenodo.23348674",
+  "title": "DMB-X: Dual Mesh Benchmark Multi-Engine Extension - Eight Engine Columns on the Frozen B1 Corpus (126/126 Measured Instances Correct; Availability Partials Disclosed)",
+  "description": "The Dual Mesh Benchmark multi-engine extension (DMB-X): eight engine columns measured on the frozen B1 corpus, extending DMB v1.0 (DOI 10.5281/zenodo.23303081), v2.0 (DOI 10.5281/zenodo.23321637), and the DeepSeek v4-pro column (DOI 10.5281/zenodo.23345241).\n\nPROTOCOL (preregistered before execution, commit b293d58): frozen corpus CORPUS_B1.json (sha256 13295d197be59dd1266814bc2f961f1e55e974c61c642fd9c7a6a389668fee59), first-20-in-file-order selection rule, byte-identical prompt contract to the DeepSeek B1 leg, one representative engine per family via OpenRouter raw API, fresh stateless request per instance, wall-clock request-to-full-response, raw responses preserved verbatim per instance. All five falsifiers held: raw logs preserved, frozen corpus/selection verified at run time, no distribution-improving retries, no post-hoc metrics, no silent engine substitutions.\n\nRESULTS (20 instances per leg, total spend $0.0779):\n- openai/gpt-mini-latest: 20/20 correct, median 1212.2 ms\n- anthropic/claude-haiku-latest: 20/20 correct (strict 19, normalized 20), median 2246.0 ms\n- google/gemini-flash-latest: 20/20 correct, median 4438.8 ms\n- qwen/qwen3.8-omni-flash: 20/20 correct, median 4744.8 ms\n- mistralai/mistral-small-3.2-24b-instruct: 20/20 correct, median 2764.1 ms\n- deepseek/deepseek-flash-latest: 20/20 correct, median 1196.5 ms\n- meta-llama/llama-4-scout: PARTIAL-AVAILABILITY - 4/20 measured, 4/4 correct, median 13588.4 ms; 16 instances upstream rate-limited (HTTP 429, DeepInfra) across the first leg and a disclosed 45-second-paced resume; capability clean on every instance that landed; recorded as UNAVAILABLE-rate-limited, not capability-failed\n- x-ai/grok-4.7: PARTIAL - 2/3 measured, 2/2 correct, median 2910.3 ms; third call aborted by HTTP 402 in-flight-budget payment error (recorded verbatim, never retried per protocol)\n\nFINDING: the frozen decision-tuple contract is engine-portable - every instance any engine actually returned (126/126 across seven families, plus the earlier DeepSeek v4-pro column) was valid and correct. Median latency spread within the raw-API substrate: 1212-13588 ms. Per XPLAT-2/3 doctrine, raw-API wall-clock medians are not comparable to conversation-loop medians; cross-substrate comparison is directional only.\n\nDual Mesh Benchmark section: MEASURED - DeepSeek v4-pro column (DOI 10.5281/zenodo.23345241); plus the eight engine columns of this record (seven full or availability-partial, one payment-partial), raw-API substrate. NOT MEASURED - the conversation-loop per-model matrix (XPLAT-4) remains blocked by a platform model-pin limitation; the platform mesh columns remain as documented in DMB v2.0.\n\nAuthorization: Leon GO (chat authorization, Oct 13, 2026, 13:15 CT). Two-key curation: Gabriel vet complete, Leon GO recorded.\n\nThis software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All data is synthetic.",
+  "publication_date": "2026-10-13",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Leon Calvin Long, II"
+  ],
+  "keywords": [
+    "dual mesh benchmark",
+    "LLM evaluation",
+    "governance envelope",
+    "engine portability",
+    "synthetic corpus",
+    "self-healing infrastructure",
+    "receipt-first methodology"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23345241",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23321637",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23303081",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23348675",
+  "zenodo_modified": "2026-10-19T02:13:17.718726+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "dmb_x_receipt_bundle.zip",
+      "filename": "dmb_x_receipt_bundle.zip",
+      "size": 227171,
+      "zenodo_checksum": "md5:3c5188cb72907ba53e4f80c643dab160",
+      "sha256": "1bfa72e59452ac7c4a6731615ce2dd50b60009f8ea94fa22355d1a608e6171ec"
+    }
+  ]
+}

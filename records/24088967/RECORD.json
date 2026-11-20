@@ -1,0 +1,78 @@
+{
+  "record_id": "24088967",
+  "doi": "10.5281/zenodo.24088967",
+  "concept_doi": "10.5281/zenodo.24088966",
+  "title": "SQUIRL OS: Containment Report 01. Containment of Invalid Machine Actions, Tested in the Open",
+  "description": "<p><strong>Containment Report 01</strong> states what a deterministic validation gate stopped, on which routes, under which validator hash, and what it does not establish.</p>\n<p>A frozen validator sits between a language model and any side effect. Every proposal is checked against a roster and a schema before anything is written; a rejection produces no action, no mutation and no journal entry. In the tested integration an invalid proposal from a live model was rejected before execution with zero simulated side effects and an unchanged journal hash. That is the whole claim, and it is scoped to named routes under a fixed validator hash.</p>\n<p>The report covers five containment legs, with harness-generated adversarial candidates kept separate from live-model captures, and the three-box audit record with two audit types reported separately: referential (does every proposal have its journal rows) and content (do bytes exist that hash to the journaled digest). Counts as generated 2026-11-06T17:40Z: C1 225 of 305 distinct digests verified with 80 predating escrow and zero content violations; C2 219 of 249 with 29 predating escrow and one post-era absence; C3 216 of 277 with 60 predating escrow and one post-era absence. Governance parity: all three boxes compute canonical hash ad8d8b3d, drift false.</p>\n<p>The unverifiable pre-escrow corpus is <strong>169 crossings</strong> (C1 80, C2 29, C3 60), listed row by row by digest, timestamp, epoch and row id in the accompanying register. This supersedes an earlier figure of 78, measured on a smaller ledger and counting journal rows rather than distinct digests, and an interim figure of 99 from a windowed in-box scan.</p>\n<p>Open items stated in the artifact: no fault-injection proof yet, so the programme is described as under test rather than contained; single-operator custody, so a 2-of-3 post-quantum quorum demonstrates three seats rather than three people; the live drift leg paused since 2026-11-03; and eight scheduled runs recorded as missed rather than backfilled.</p>\n<p><strong>Dual Mesh Benchmark:</strong> MEASURED (scoped). DOI 10.5281/zenodo.23303081, reissued with errata as 10.5281/zenodo.23986345.</p>\n<p>All targets are synthetic. No customer, personal, health or financial data appears in any figure. This is a prototype research programme, not a production security guarantee; no warranty is offered or implied. Where a number is measured it says so, where it is simulated it says so, and where it is unknown it says so instead.</p>",
+  "publication_date": "2026-11-09",
+  "resource_type": "publication",
+  "resource_type_title": "Technical note",
+  "version": "1.0",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "deterministic containment",
+    "LLM validation gate",
+    "post-quantum signatures",
+    "ML-DSA-87",
+    "audit trail",
+    "unverifiable corpus",
+    "AI safety",
+    "prototype"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23288189",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23288526",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23303081",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/LLong2026/four-horsemen",
+      "relation": "references",
+      "scheme": "url"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/24088967",
+  "zenodo_modified": "2026-11-09T16:37:08.032443+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "CONTAINMENT_REPORT_01_2026-11-09.md",
+      "filename": "CONTAINMENT_REPORT_01_2026-11-09.md",
+      "size": 10421,
+      "zenodo_checksum": "md5:c2f842bb701166fef69d44fbc70ccc24",
+      "sha256": "0cc7f2be3ecefd072e6e5ebfafd09a0060db8b17beb6f9c840dac5595e5397e0"
+    },
+    {
+      "key": "CONTAINMENT_REPORT_01_2026-11-09.pdf",
+      "filename": "CONTAINMENT_REPORT_01_2026-11-09.pdf",
+      "size": 95475,
+      "zenodo_checksum": "md5:f16fabb3e5ac9550b14419105675c14d",
+      "sha256": "0736a175c55d5359444749265932d05a4f21cde5feb0cec7820475f7e60ab96a"
+    },
+    {
+      "key": "CONTAINMENT_REPORT_01_PRE_ESCROW_REGISTER_2026-11-06.json",
+      "filename": "CONTAINMENT_REPORT_01_PRE_ESCROW_REGISTER_2026-11-06.json",
+      "size": 28952,
+      "zenodo_checksum": "md5:87adcb251fee349553400a8d99411dda",
+      "sha256": "50e1b97975bbc9b6e1100e2fa5a671c1087aa85a396a8a9d6993cebbfb2031af"
+    }
+  ]
+}

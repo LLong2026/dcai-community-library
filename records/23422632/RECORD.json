@@ -1,0 +1,82 @@
+{
+  "record_id": "23422632",
+  "doi": "10.5281/zenodo.23422632",
+  "concept_doi": "10.5281/zenodo.23422631",
+  "title": "Preregistered Adversarial Batteries: A Falsifiable Protocol for Security-Testing Autonomous AI Systems",
+  "description": "<p>Security testing of autonomous AI systems suffers from a credibility gap: penetration-test reports are private, vendor claims are selectively disclosed, and red-team outcomes are published only when favorable. This preprint introduces Preregistered Adversarial Batteries (PAB), a protocol importing preregistration from clinical-trial science into security operations: every falsifier (a specific attack with a predicted verdict) is specified and publicly committed before execution; adjudication is deterministic with no language model in the decision path; results are written to an append-only public ledger and DOI-stamped. Critical events are scored as hold-by-design verdicts: the predicted outcome is that the system fails closed and waits for a human decision, so a refusal counts as a pass.</p><p>Application to a self-healing AI infrastructure platform across six batteries reconstructing the declassified NSA BULLRUN-era tradecraft (operational faults, upstream context poisoning, cryptographic subversion, supply-chain interception, monitoring integrity, lawful compulsion): 30 falsifiers, 30 predicted verdicts, zero unexpected outcomes, six holds-by-design each adjudicated by the human operator through a verified channel. Three protocol imperfections (a missed execution window, a preregistration self-detection, a scoring amendment) are disclosed as misses in the public record, demonstrating the miss-disclosure mechanism functions. Limitations are stated plainly: self-adjudication, synthetic injections against a prototype system, and single-operator governance; the replication kit is released to answer them.</p><p>The contribution is not the pass rate — it is the format: a security test whose conclusions were committed before its data existed.</p><p>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects.</p>",
+  "publication_date": "2026-10-16",
+  "resource_type": "publication",
+  "resource_type_title": "Preprint",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "preregistration",
+    "adversarial testing",
+    "falsifiability",
+    "security testing",
+    "AI governance",
+    "BULLRUN",
+    "red team",
+    "reproducibility",
+    "deterministic systems",
+    "human-in-the-loop"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23422495",
+      "relation": "isReferencedBy",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23422141",
+      "relation": "isReferencedBy",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23410960",
+      "relation": "isReferencedBy",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23374658",
+      "relation": "isReferencedBy",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23303081",
+      "relation": "isReferencedBy",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/LLong2026/four-horsemen",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23422632",
+  "zenodo_modified": "2026-10-19T02:13:52.656014+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "pab_methodology_preprint_v1.md",
+      "filename": "pab_methodology_preprint_v1.md",
+      "size": 14895,
+      "zenodo_checksum": "md5:e2091d047a25ce5bb77e7f93c36e28b6",
+      "sha256": "64daa2410e411c824e9b22075467099e0cc9c139cc7b5f969714a5b1a995bcb8"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "record_id": "23734656",
+  "doi": "10.5281/zenodo.23734656",
+  "concept_doi": "10.5281/zenodo.23734655",
+  "title": "SCALE-1: The Volume Question — Can a Register Hold Trillions?",
+  "description": "Institutional tokenization projects quote notional value: trillions in assets represented. None of them quote volume: how many transactions per second the operator's own hardware must process, hold and keep consistent. This note asks the second question and compares two architectures on it.\n\nTHE COMPARISON: in the register model every ownership transfer is a stateful write on infrastructure the operator must size, staff, secure and reconcile, so per-transaction cost rises with volume. In the witness model a 32-byte digest of each ownership event is committed to public chains that act as permissionless replicated witnesses, so per-event cost is independent of notional value and falls with batch amortisation as volume rises. The load-bearing claim is narrow: what is anchored is a fingerprint, not the asset, so the trillions never enter the system and there is nothing for the operator to hold at scale.\n\nMEASURED RECEIPTS (all re-derived 2026-10-28): the FRACTAL-2 three-way 30/30/40 fractional ownership transfer across Bitcoin, Stellar and XRP costing $0.2509 total (DOI 10.5281/zenodo.23655614); 383 append-only ledger entries and 207 published Zenodo records produced by the same anchoring pipeline; and a containment record of 7,083 anomalies detected and 6,789 resolved across 60 recorded watch cycles with zero containment breaches (DOI 10.5281/zenodo.23703012).\n\nSTATED LIMITS: the per-transaction cost arithmetic in section 2 is analytical reasoning about where state is written, not a hardware benchmark; no throughput benchmark of a competing register implementation was run. Chain-capacity statements rely on the public operational history of the anchor rails, not on independent testing by the author.\n\nTwo-key curation: drafted and vetted by the operator's agent system (Gabriel); owner authorization Leon GO (chat authorization, 2026-10-28 09:54 CT) for documentation surfaces (Zenodo and GitHub). No social-media posting accompanies this record.\n\nPrototype disclaimer: this software and its measurements are prototypes provided for educational and research purposes only. They are not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects.",
+  "publication_date": "2026-10-28",
+  "resource_type": "publication",
+  "resource_type_title": "Technical note",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin II"
+  ],
+  "keywords": [
+    "tokenization",
+    "real-world assets",
+    "anchoring",
+    "witness model",
+    "Merkle proofs",
+    "throughput",
+    "infrastructure economics"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23655614",
+      "relation": "cites",
+      "resource_type": "publication",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23703012",
+      "relation": "cites",
+      "resource_type": "publication",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23734656",
+  "zenodo_modified": "2026-10-28T14:58:02.186158+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "SCALE-1_v1.1.md",
+      "filename": "SCALE-1_v1.1.md",
+      "size": 8299,
+      "zenodo_checksum": "md5:0fb27f35e911556b826e52eca127611a",
+      "sha256": "55c670a67b95e73181a3834b56cd67019fd2b25ddc14e026e3f6ccacd49b635f"
+    }
+  ]
+}

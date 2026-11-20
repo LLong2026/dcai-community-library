@@ -1,0 +1,47 @@
+{
+  "record_id": "23485222",
+  "doi": "10.5281/zenodo.23485222",
+  "concept_doi": "10.5281/zenodo.23485221",
+  "title": "The Routing Chapter Closed: A Preregistered 10-Rail Intelligent-Routing Crossfire (IR-2) — Predicted vs Observed Finality Across Bitcoin, XRP, Stellar, Cardano, Ethereum, Algorand, Avalanche, Solana, Dogecoin, and Polkadot",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST:</strong> AI-assisted, receipt-first research program (open-book doctrine: audit-and-correction, versioned amendments, append-only public ledger). Errors are disclosed, not erased. <em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All payloads synthetic or owner-authored; no customer-identifiable data appears in this record (POL-DISC-001).</em></p><p><strong>The routing chapter of the multi-rail evidence anchoring program, closed at its target altitude.</strong> One 32-byte SHA-256 digest (SQUIRL-IP-011, \"Caging the Large Language Model\" — the provisional patent draft describing the deterministic cage) was inscribed across <strong>all ten certified mainnet rails in a single preregistered crossfire</strong>: Bitcoin, XRP Ledger, Stellar, Cardano, Ethereum, Algorand, Avalanche, Solana, Dogecoin, and Polkadot — each leg fired latency-ranked by the IR-1 deterministic routing engine, each carrying the 37-byte envelope SQDR+0x04+digest, each verified byte-exact by keyless public readers.</p><p><strong>The prediction receipt:</strong> six of ten rails landed within 1.3 seconds of the preregistered prediction (Solana, Algorand, Polkadot dead-on; Stellar +0.1s; Avalanche +1.1s; XRP +1.3s); the only &gt;3s deviations belong to the two mempool-priced rails (Ethereum, Bitcoin) — exactly the variance class the router's cost model assigns to market-priced rails. The prediction was not only accurate, its error structure was predicted. Fees for the entire ten-mainnet crossfire, failed attempts included: under $1.</p><p><strong>Honesty spine, disclosed in full:</strong> preregistration frozen pre-broadcast (sha 171f0c57); scope stamp before first fire; all failed attempts disclosed forward-only (two Solana memo rejections, four XRPL library-shape failures, three Cardano pre-acceptance rejections, one Dogecoin query error — none hiding state changes); prereg basis was nine rails, the same-day Polkadot and Dogecoin certifications raised the fire to ten legs, disclosed as beneficial variance. Five deterministic gates PASS, no LLM in any decision path. Bundle: final report, prereg, runlog, machine-readable receipts. Program ledger (append-only) at github.com/LLong2026/four-horsemen. <strong>Dual Mesh Benchmark: MEASURED (scoped)</strong> — DeepSeek column DOI 10.5281/zenodo.23345241; program benchmark DOI 10.5281/zenodo.23321637; no neural-mesh inference in any ceremony decision path. <strong>Scope caveats (load-bearing):</strong> anchoring proves existence, not authority; PQC authority split retained; reference-chain signatures are not post-quantum. Two-key curation: drafted and vetted by the system (Gabriel), published on the owner's explicit GO (chat authorization, 2026-10-19 ~17:15 CT).</p>",
+  "publication_date": "2026-10-19",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": "1.0",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II",
+    "SquirlOS Technologies LLC"
+  ],
+  "keywords": [
+    "SQUIRL OS",
+    "multi-rail evidence anchoring",
+    "intelligent routing",
+    "crossfire",
+    "preregistered predictions",
+    "broadcast-to-finality",
+    "blockchain anchoring",
+    "SHA-256 digest",
+    "deterministic gates",
+    "keyless verification",
+    "IR-2"
+  ],
+  "related_identifiers": [],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23485222",
+  "zenodo_modified": "2026-10-24T15:25:18.919049+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "IR2_FINAL_ROUTING_BUNDLE.zip",
+      "filename": "IR2_FINAL_ROUTING_BUNDLE.zip",
+      "size": 9805,
+      "zenodo_checksum": "md5:bf97055b802846bd76a048f7a774f7e9",
+      "sha256": "cacc6acff05d94bb0a639911d2960da4a071bd1615e18c670055d2053d0833e5"
+    }
+  ]
+}

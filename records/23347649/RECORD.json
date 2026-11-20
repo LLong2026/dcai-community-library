@@ -1,0 +1,48 @@
+{
+  "record_id": "23347649",
+  "doi": "10.5281/zenodo.23347649",
+  "concept_doi": "10.5281/zenodo.23347647",
+  "title": "DPP-3: Normalization and Bidi Forgery Battery — Byte-Exact Match Path with a Frozen Regression Tripwire (All 6 Falsifiers Pass)",
+  "description": "<p>Normalization and bidi-forgery battery against the guarded ingestion path. All 50/50 visual-twin records (NFKC-normalized and bidi-reordered lookalikes) were rejected by the byte-exact match path; a no-normalization probe confirmed the gate does not depend on normalization being applied; a unicode-nullity control run confirmed unicode content contributes nothing to any verdict. Caveat disclosed: human-eye indistinguishability is not a claim — the battery gates on bytes, not on visual appearance. A frozen regression tripwire preserves the result for nightly re-runs. Operator authorization: Leon GO (chat authorization, 11:22 CT, Oct 13, 2026).</p><p><strong>Scope honesty:</strong> single-run preregistered falsifier battery on synthetic data against a prototype governed self-healing system; no production claim is made or implied. Operator authorization recorded as GO + timestamp per the operator-privacy doctrine.</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.</em></p>",
+  "publication_date": "2026-10-13",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "bidi forgery",
+    "unicode normalization",
+    "visual twins",
+    "preregistered falsifiers",
+    "data-plane poisoning",
+    "LLM governance"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23347649",
+  "zenodo_modified": "2026-10-19T02:12:50.435816+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "dpp3_receipt_bundle.zip",
+      "filename": "dpp3_receipt_bundle.zip",
+      "size": 8201,
+      "zenodo_checksum": "md5:412dee45069982c7025cbef775b51340",
+      "sha256": "bc736ba28613b804b2a7a0d1e6acbe36230609065a3612ea85ed6bbef75b3135"
+    }
+  ]
+}

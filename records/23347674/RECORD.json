@@ -1,0 +1,48 @@
+{
+  "record_id": "23347674",
+  "doi": "10.5281/zenodo.23347674",
+  "concept_doi": "10.5281/zenodo.23347673",
+  "title": "GOV-2 Defense-Stack Attack Battery (Who Watches the Watchmen) — Each Layer Caught Its Aimed Attack; the Intent-Validation Boundary Shipped as Found",
+  "description": "<p>Defense-stack attack battery (who watches the watchmen): each defense layer was attacked with the exploit class it exists to stop. Every layer caught its aimed attack, with full layer attribution receipted. The intent-validation boundary shipped as found: 8 epochs of legitimate governance traffic were suppressed by an over-strict check (fail-safe direction), and the run-end audit restored them — availability cost, not integrity cost. The DoS leg confirmed fail-safe degradation (suppress, never fabricate). Run B without the stack crashed fail-closed. Stage-2 SIP-4 evidence (signed two-key release) is attached. Operator authorization: Leon GO (chat authorization, 12:01 CT, Oct 13, 2026).</p><p><strong>Scope honesty:</strong> single-run preregistered falsifier battery on synthetic data against a prototype governed self-healing system; no production claim is made or implied. Operator authorization recorded as GO + timestamp per the operator-privacy doctrine.</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.</em></p>",
+  "publication_date": "2026-10-13",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "defense stack",
+    "watchmen",
+    "layer attribution",
+    "intent validation",
+    "fail-safe",
+    "preregistered falsifiers"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23347674",
+  "zenodo_modified": "2026-10-19T02:13:09.153309+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "gov2_receipt_bundle.zip",
+      "filename": "gov2_receipt_bundle.zip",
+      "size": 12025,
+      "zenodo_checksum": "md5:64d8b9379cd270c6e441a71be8e51e17",
+      "sha256": "43d7b3ef08d176ecc10520f3c572ed6284a0c214f6b5e668bf1c182bb41049b9"
+    }
+  ]
+}

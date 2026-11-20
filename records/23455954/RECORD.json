@@ -1,0 +1,55 @@
+{
+  "record_id": "23455954",
+  "doi": "10.5281/zenodo.23455954",
+  "concept_doi": "10.5281/zenodo.23455937",
+  "title": "DCAI / SQUIRL OS — Complete Public Receipts Corpus, As of 2026-10-18: 194 Ledger Entries, 93 DOI Records, Bitcoin-Anchored (Preregistrations, Runlogs, Receipts, Specs, Anchor Registry)",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST:</strong> This work was produced inside an AI-assisted, receipt-first research program (open-book doctrine: audit-and-correction, versioned amendments, append-only public ledger). Every claim is backed by a timestamped, publicly committed receipt trail. Errors are disclosed, not erased. Limitations are load-bearing.</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects. All battery payloads are synthetic.</em></p><p><strong>THE COMPLETE PUBLIC RECEIPTS CORPUS of the DCAI / SQUIRL OS program, as of Oct 18 2026</strong> — every preregistration, runlog, receipt, spec, and index from ledger entries 0001 through 0194 (ledger included verbatim, append-only from Sept 7 2026), plus the complete Bitcoin anchor registry (SIP-034 through SIP-041 chain-of-custody stack: OTS stamps, manifests, reconciliation and examiner evidence), plus the DROPBOX seed/digest drop tooling with its two permanent mainnet anchors from the same day: the patent genesis seed in block 972023 and the IP ledger digest in block 972026. A master index of all 93 Zenodo DOI records cited in the ledger is included.</p><p><strong>Anyone can verify, three ways:</strong> (1) every DOI in the index resolves to a public Zenodo record; (2) corpus states are anchored in the Bitcoin blockchain — re-hash any anchored artifact and check the OTS stamp or OP_RETURN anchor (blocks include 971956, 971961, 972023, 972026); (3) the full commit history is public at <a href=\"https://github.com/LLong2026/four-horsemen\">github.com/LLong2026/four-horsemen</a>. Together with the seed-mode patent genesis (keyless in-browser reconstruction at deterministic-code-dsos.base44.app/genesis-viewer) and the mainnet IP ledger anchor, this completes a three-example public verification suite: an artifact reconstructible from 32 bytes, a portfolio anchored by digest, and a full receipts corpus anchored on-chain.</p><p><strong>Dual Mesh Benchmark status: MEASURED (scoped)</strong> — DOI 10.5281/zenodo.23345241 (DeepSeek column); cross-engine expansion DOI 10.5281/zenodo.23348675.</p><p>Bundle SHA-256: bb0e1ca8cae3c937417942aca1fc832c130e6d662288f19883ff16c393042cd8 (138 files). Authoring correction, disclosed: the bundle was rebuilt once pre-publish to remove duplicate zip entries; the published file is the clean rebuild (bb0e1ca8...); v1's description cited the pre-rebuild sha and file count. File contents unchanged from v1.. DCAI community: <a href=\"https://zenodo.org/communities/dcai\">zenodo.org/communities/dcai</a>. Two-key curation: drafted and vetted by the system (Gabriel), published on the owner's explicit GO (chat authorization, 2026-10-18 ~11:51 CT).</p>",
+  "publication_date": "2026-10-18",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": "1.1",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II",
+    "SquirlOS Technologies LLC"
+  ],
+  "keywords": [
+    "SQUIRL OS",
+    "DCAI",
+    "receipts",
+    "transparency ledger",
+    "append-only",
+    "preregistration",
+    "falsifiability",
+    "OpenTimestamps",
+    "Bitcoin anchoring",
+    "chain of custody",
+    "AI governance",
+    "open science"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23455954",
+  "zenodo_modified": "2026-10-24T15:25:11.903057+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "DCAI_RECEIPTS_CORPUS_2026-10-18.zip",
+      "filename": "DCAI_RECEIPTS_CORPUS_2026-10-18.zip",
+      "size": 2107842,
+      "zenodo_checksum": "md5:1cfc2e037ee2eff83f44f6d54a7c2ec4",
+      "sha256": "bb0e1ca8cae3c937417942aca1fc832c130e6d662288f19883ff16c393042cd8"
+    }
+  ]
+}

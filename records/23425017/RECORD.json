@@ -1,0 +1,53 @@
+{
+  "record_id": "23425017",
+  "doi": "10.5281/zenodo.23425017",
+  "concept_doi": "10.5281/zenodo.23425016",
+  "title": "HACK-7 PORTCULLIS: The PQC Firewall — a Deterministic Crypto Gate Attacked by Its Own Preregistered Battery (8/8 PASS; PQC Adversarial Series #7)",
+  "description": "<p><b>HACK-7 PORTCULLIS — the PQC Firewall, falsified before sale.</b> After the 30/30 declassified-playbook sweep (HACK-1..6), this battery is the first in the series that attacks a DEFENSIVE PRODUCT rather than the operating perimeter: a standing, fleet-wide post-quantum firewall implemented as a deterministic crypto gate.</p><p><b>Enforcement contract (frozen before the run):</b> single crossing (all crypto-touching operations route through one gate); frozen exact-match allowlist containing ONLY CRYSTALS-Dilithium3, kyber_1024, SPHINCS+-256f (runtime mutation refused); fail-closed on gate silence; recompute-never-trust key validation against registered known-answer vectors; journaled crossings with nonce and freshness binding (replayed authorizations refused); zero LLM in the decision path.</p><p><b>Result: 8/8 preregistered verdicts, 8/8 falsifier checks.</b> Classical downgrade REJECTED; hybrid downgrade (classical-only effective key) REJECTED; weaker PQC variant (Dilithium2) REJECTED by exact-match allowlist; key substitution DETECTED by recomputation; retired-keyset resurrection FAILED CLOSED for a human (resolved under owner ACK through the frozen gate path, single-trust confirmed); positive control ADMITTED (the gate proves it does not false-block legitimate crypto); replayed authorization REFUSED; in-band allowlist tamper REFUSED with the allowlist hash unchanged; gate silence produced NO execution (fail-closed). Two consecutive runs byte-identical (determinism). Zero governance touch (H-INV-1).</p><p><b>Honesty receipt:</b> three harness/fixture authoring defects were caught before any claim — the gate itself refused a mis-keyed fixture — and all are disclosed in the runlog; the passing battery is attempt 4. Preregistration (manifest sha256 49218b4b...45f23a98a) was committed before execution and never edited after freeze.</p><p><b>Dual Mesh Benchmark:</b> MEASURED (scoped) — DOI 10.5281/zenodo.23303081 (cross-engine: 10.5281/zenodo.23348675); not re-measured in this battery.</p><p>Part of the SQUIRL OS / Seed Computing Research Series (HACK series #7). Author ORCID: 0009-0002-1140-9568. DCAI community: zenodo.org/communities/dcai. Operator authorizations: Leon GO (chat authorization, 2026-10-16 ~14:46 CT) preregistration; GO (chat, ~14:48 CT) commit + execute; ACK + GO (chat, ~14:53 CT) hold resolution and publication.</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them. All data is synthetic.</em></p>",
+  "publication_date": "2026-10-16",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": "1.0",
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II",
+    "SquirlOS Technologies LLC"
+  ],
+  "keywords": [
+    "SQUIRL OS",
+    "Post-Quantum Cryptography",
+    "PQC Firewall",
+    "CRYSTALS-Dilithium3",
+    "Falsifiable Security",
+    "Preregistered Adversarial Battery",
+    "Deterministic Gate",
+    "Fail-Closed",
+    "LLM Governance",
+    "Cybersecurity"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23425017",
+  "zenodo_modified": "2026-10-19T02:14:02.435630+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "HACK7_PORTCULLIS_EVIDENCE_BUNDLE.zip",
+      "filename": "HACK7_PORTCULLIS_EVIDENCE_BUNDLE.zip",
+      "size": 23257,
+      "zenodo_checksum": "md5:8bb509f3cd28c69a93259385e642d6b5",
+      "sha256": "a0f7d92592b6cf2d0fd0eaf66cf3a237eeea4e2728dd5569ca8bbfed4d841fc4"
+    }
+  ]
+}

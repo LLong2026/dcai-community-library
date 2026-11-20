@@ -1,0 +1,62 @@
+{
+  "record_id": "23304892",
+  "doi": "10.5281/zenodo.23304892",
+  "concept_doi": "10.5281/zenodo.23304891",
+  "title": "Acknowledgments v2 — Squirl OS Deterministic Containment Research Program (Kolmogorov, Hartley, Preskill added; amends 10.5281/zenodo.23304869)",
+  "description": "<p><b>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST:</b> This work documents AI-assisted research conducted under a receipts-first, append-only public ledger (github.com/LLong2026).</p><p>Formal acknowledgments record (v2) for the Squirl OS deterministic containment research program (October 2026). This v2 record is a forward-only amendment of v1 (DOI 10.5281/zenodo.23304869), which is preserved unmodified per the append-only doctrine. v2 adds credits for Andrey Kolmogorov (probability axioms and algorithmic complexity), Ralph Hartley (the 1928 information measure Shannon generalized), and John Preskill (NISQ-era framing underlying the post-quantum-cryptography track).</p><p>Credits the theorists (Shannon, Turing, Wiener, Lamport, Kolmogorov, Hartley, Preskill), the engine providers whose systems submitted to testing (Anthropic, OpenAI, Zhipu AI, DeepSeek), and the host infrastructure (Base44, Microsoft, Google, CERN/Zenodo, Cloudflare). Credit earned is credit due; the errors remain the author's alone.</p><p>Companion to the master thesis monograph (DOI 10.5281/zenodo.23303240) and the Dual Mesh Benchmark paper (DOI 10.5281/zenodo.23303081).</p><p><i>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects.</i></p>",
+  "publication_date": "2026-10-11",
+  "resource_type": "publication",
+  "resource_type_title": "Journal article",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "acknowledgments",
+    "AI containment",
+    "deterministic execution",
+    "AI governance",
+    "Squirl OS",
+    "receipts-first research",
+    "information theory"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23304869",
+      "relation": "isNewVersionOf",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23303240",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23303081",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23304892",
+  "zenodo_modified": "2026-11-18T19:10:22.899347+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "ACKNOWLEDGMENTS_V2_SQUIRRL_OS_RESEARCH_PROGRAM.md",
+      "filename": "ACKNOWLEDGMENTS_V2_SQUIRRL_OS_RESEARCH_PROGRAM.md",
+      "size": 3528,
+      "zenodo_checksum": "md5:680b8eb571cdc8142bf2e03450907494",
+      "sha256": "63ab2ac44977da396e440837d796f87bfa2c1552ad75601c3db6344126cd17ba"
+    }
+  ]
+}

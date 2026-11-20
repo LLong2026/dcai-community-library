@@ -1,0 +1,47 @@
+{
+  "record_id": "23491295",
+  "doi": "10.5281/zenodo.23491295",
+  "concept_doi": "10.5281/zenodo.23491294",
+  "title": "Constant-Footprint Corpus Commitment via Merkle Mountain Range Covenants and Append-Only Mountain Updates Across Heterogeneous Distributed Ledgers (SQUIRL-OS-IP-013, Provisional Draft)",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST:</strong> AI-assisted, receipt-first research program (open-book doctrine: audit-and-correction, versioned amendments, append-only public ledger). Errors are disclosed, not erased. <em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All payloads synthetic; no customer-identifiable data appears in this record (POL-DISC-001).</em></p><p><strong>Provisional patent draft SQUIRL-OS-IP-013: \"Constant-Footprint Corpus Commitment via Merkle Mountain Range Covenants and Append-Only Mountain Updates Across Heterogeneous Distributed Ledgers.\"</strong> A whole-corpus cryptographic commitment system: the complete tracked state of an evidence repository is folded into a Merkle Mountain Range (fully specified, domain-separated construction: leaf SHA-256(0x00||SHA-256(file)); node SHA-256(0x01||left||right); bagged peaks right-to-left; root SHA-256(0x03||bag||leaf_count_u64_LE)) whose single 32-byte root is the corpus's entire on-chain representation, anchored in a fixed 37-byte protocol envelope across ten heterogeneous mainnet rails. The on-chain footprint is constant regardless of corpus size; corpus growth is discharged as append-only mountain updates while every prior root remains sealed on-chain; any single artifact stays verifiable from the public corpus, one anchored root, and a logarithmic inclusion path.</p><p><strong>Reduction to practice:</strong> MCR-1 (2026-10-19) folded the 1,891-file four-horsemen evidence corpus at commit 7c492528 into root 2d1a32145cf89a6b7909d3059abe560e6f3d908e7d510525f4457e096f2cc23a anchored across all ten certified rails (BTC, XRP, ETH, SOL, ADA, ALGO, AVAX, DOT, DOGE, XLM), byte-exact keyless read-back on each (public ledger entry 0260). The MMR construction was re-validated byte-exact against the frozen root immediately before this publication. The MCR-2 mountain-update ceremony (this record's companion) grows the corpus to include this patent record and re-anchors the new root across the same ten rails, binding this DOI into the corpus commitment. Companion filings: SQUIRL-IP-011 (Caging the Large Language Model) and SQUIRL-OS-IP-012 (Multi-Rail Non-Custodial Evidence Anchoring); payload doctrine in thesis v2.1 (DOI 10.5281/zenodo.23482978, Section 2.5) and routing chapter (DOI 10.5281/zenodo.23485222).</p><p><strong>Scope and honesty:</strong> the chain stores the constant-size integrity commitment, not the corpus; the corpus itself lives off-chain and may be arbitrarily large — the commitment (\"the entire internet fits in one root\") is a statement about the 32-byte fingerprint, not on-chain storage. Patent-then-publish doctrine: this is a provisional draft for filing, published to establish a public, dated record; it is not legal advice. Dual Mesh Benchmark: NOT MEASURED (out of scope). Provenance: append-only ledger, github.com/LLong2026/four-horsemen. Two-key curation: drafted and vetted by the system (Gabriel), published on the owner's explicit GO (chat authorization, 2026-10-20 ~00:50 CT).</p>",
+  "publication_date": "2026-10-20",
+  "resource_type": "publication",
+  "resource_type_title": "Patent",
+  "version": "1.0",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II",
+    "SquirlOS Technologies LLC"
+  ],
+  "keywords": [
+    "SQUIRL OS",
+    "Merkle Mountain Range",
+    "MMR",
+    "constant footprint",
+    "corpus commitment",
+    "multi-rail anchoring",
+    "evidence anchoring",
+    "append-only",
+    "inclusion proof",
+    "provisional patent",
+    "storage covenant"
+  ],
+  "related_identifiers": [],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23491295",
+  "zenodo_modified": "2026-10-20T05:53:48.966303+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "SQUIRL-OS-IP-013_MMR_STORAGE_COVENANT_SPEC.pdf",
+      "filename": "SQUIRL-OS-IP-013_MMR_STORAGE_COVENANT_SPEC.pdf",
+      "size": 18292,
+      "zenodo_checksum": "md5:8c371761d59738f4360767a60913fad3",
+      "sha256": "22441aa77f0501c3a855b6f3124cf48935549db70e8e4a100ae04ef890a1be3c"
+    }
+  ]
+}

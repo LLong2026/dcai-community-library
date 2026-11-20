@@ -1,0 +1,49 @@
+{
+  "record_id": "23345859",
+  "doi": "10.5281/zenodo.23345859",
+  "concept_doi": "10.5281/zenodo.23345858",
+  "title": "H-INV-2: Lineage Forgery Battery — The Crossing Ledger Rejects Every Fabricated History (106/106 Controls Valid, 48/48 Forgeries Rejected)",
+  "description": "<p><strong>H-INV-2 — Lineage Forgery Battery:</strong> a direct attack on the journaled-crossing invariant. Where the companion SBR-2 exam (DOI 10.5281/zenodo.23345734) asked whether an adversary can perturb the mesh mid-learning (answer: no), this battery asks whether an adversary can fabricate history the ledger will believe (answer: no).</p><p>A 40-epoch bounded training run produced the true crossing journal (2,646 accepted crossings). A preregistered, non-adaptive 6-class forgery battery (8 instances each: orphan weight updates, forged event ids, temporal forgeries, duplicate crossings, orphan healing events, mismatched pattern lineage) fired against the live journal, with 106 legitimate controls audited for lineage completeness.</p><p><strong>All 5 falsifiers PASS:</strong> 106/106 controls valid with chain intact and bounded-rule recomputation exact; 48/48 forgeries rejected and journaled with zero silent drops; mesh state and journal byte-identical before and after; determinism and append-only held; hygiene clean.</p><p><strong>Instrument defects disclosed:</strong> two validator defects were caught by the battery's own controls before publication and repaired with the audit/gate validation-mode split; no probe class, falsifier, or acceptance bar changed across repairs; all 48 forgeries were rejected in every version.</p><p><strong>Scope honesty:</strong> proves THIS registered instrument under THIS frozen battery — not a universal claim about every journal implementation or untested forgery classes. Operator authorization recorded as GO + timestamp per the operator-privacy doctrine.</p><p><strong>Dual Mesh Benchmark:</strong> MEASURED for the DeepSeek column (DOI 10.5281/zenodo.23345241); all other figures NOT MEASURED.</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects.</em></p>",
+  "publication_date": "2026-10-13",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "journaled learning",
+    "audit trail integrity",
+    "lineage forgery",
+    "AI governance",
+    "bounded learning",
+    "neural mesh",
+    "self-healing infrastructure"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23345859",
+  "zenodo_modified": "2026-10-19T02:12:35.686208+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "hinv2_receipt_bundle.zip",
+      "filename": "hinv2_receipt_bundle.zip",
+      "size": 11011,
+      "zenodo_checksum": "md5:175788daccbda74a7b95b53980ff2d17",
+      "sha256": "2637aae84ce7339791af81ef97cf54ff5f22d88cc70cd8a1c095ad740dc14f42"
+    }
+  ]
+}

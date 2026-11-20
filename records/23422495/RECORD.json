@@ -1,0 +1,98 @@
+{
+  "record_id": "23422495",
+  "doi": "10.5281/zenodo.23422495",
+  "concept_doi": "10.5281/zenodo.23422494",
+  "title": "HACK-4/5/6: Closing the BULLRUN Playbook — Supply-Chain Interception, Lying Sensors, and Lawful Compulsion vs. a Deterministic Gate (18/18 PASS)",
+  "description": "<p>Terminal batteries of the HACK adversarial series, completing the declassified NSA playbook coverage begun in HACK-3 BULLRUN (DOI 10.5281/zenodo.23422141).</p><p><b>HACK-4 COTTONMOUTH</b> (supply-chain interception, SolarWinds/xz-utils class): poisoned dependency caught by pinned checksum; hijacked upgrade refused without an approved deployment job; tampered template delivery rejected against the frozen manifest; substituted deployment image held fail-closed for human ACK; forged release signature rejected by recomputation; registry typosquat refused by exact-match allowlist. 6/6.</p><p><b>HACK-5 ANT BEACON</b> (implants that lie to their own monitoring): false-healthy heartbeat caught by parity recomputation; re-stamped heartbeat replay rejected by identity binding; a lying aggregator quarantined by cross-source parity with the manifest-of-record; selective suppression caught by the report-count guard; inflated health score caught by recomputation; split-brain sensor caught by cross-watcher state-hash consistency. 6/6.</p><p><b>HACK-6 GAG ORDER</b> (lawful compulsion under legal cover): gag-ordered key handover failed closed with a journaled canary receipt and no keys moved; compelled silent backdoor refused (human-amendable-only trust path); compelled false attestation refused (compliance is recomputed, never signed by fiat); subpoena for cross-tenant data refused (tenant guard is absolute and documents are untrusted data); coerced blanket approval refused (authorization must be action-bound); emergency-powers governance suspension refused (no runtime suspension path). 6/6. All legal paperwork is synthetic harness data.</p><p>Eighteen falsifiers preregistered and committed (commit 38244eb) BEFORE any run; frozen manifests in the bundle; deterministic adjudication with no LLM in the decision path; all injections synthetic and hub-local. Series total: 30/30 predicted verdicts across HACK-1 through HACK-6, zero violations, holds only where holds were the predicted verdict.</p><p>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects.</p>",
+  "publication_date": "2026-10-16",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "adversarial testing",
+    "supply chain security",
+    "BULLRUN",
+    "COTTONMOUTH",
+    "ANT catalog",
+    "false-green monitoring",
+    "lawful compulsion",
+    "gag order",
+    "warrant canary",
+    "deterministic systems",
+    "AI governance",
+    "preregistration",
+    "falsifiability"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23422141",
+      "relation": "isPartOf",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23410960",
+      "relation": "isPartOf",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/LLong2026/four-horsemen",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23422495",
+  "zenodo_modified": "2026-10-19T02:13:49.629558+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "hack5_ant_beacon_prereg.md",
+      "filename": "hack5_ant_beacon_prereg.md",
+      "size": 2520,
+      "zenodo_checksum": "md5:888f5403cb2845d316282553275e906a",
+      "sha256": "d3df2e1f1238a0f4e446ee98bf1ecff1658178b4a4677d2fe220bdbc63bb7ad8"
+    },
+    {
+      "key": "HACK456_RUNLOG.md",
+      "filename": "HACK456_RUNLOG.md",
+      "size": 4658,
+      "zenodo_checksum": "md5:1a7fd29af6965484f57566289f4526ea",
+      "sha256": "433c21f439ecf805946295ed6d858caffc7f1fe528b8349d9e687f1f91676107"
+    },
+    {
+      "key": "hack6_gag_order_prereg.md",
+      "filename": "hack6_gag_order_prereg.md",
+      "size": 3058,
+      "zenodo_checksum": "md5:284e882a571bcd0fe1d51d9a81f66426",
+      "sha256": "fcc22e5f2adf864d327229aacae84c5bb652424d2baef7b346027af2d196455a"
+    },
+    {
+      "key": "hack456_evidence_bundle.zip",
+      "filename": "hack456_evidence_bundle.zip",
+      "size": 16194,
+      "zenodo_checksum": "md5:7eb4d05a2f766ad9be0fba7a848611d5",
+      "sha256": "634b4bae84dc486dc2a1b661fdc69869144d693732739a4a0953378edfa7eee0"
+    },
+    {
+      "key": "hack4_cottonmouth_prereg.md",
+      "filename": "hack4_cottonmouth_prereg.md",
+      "size": 2572,
+      "zenodo_checksum": "md5:f7745d7650f75886b8a447f012ffef22",
+      "sha256": "15c4c7790ab56abb8278ddc4a52a567588c0995c5489cab373248eda3abf9304"
+    }
+  ]
+}

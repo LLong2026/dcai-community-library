@@ -1,0 +1,47 @@
+{
+  "record_id": "23510677",
+  "doi": "10.5281/zenodo.23510677",
+  "concept_doi": "10.5281/zenodo.23510676",
+  "title": "Fractal Tokenization: Atomic Satoshi Ownership and Covenant-Bound Decentralized Identifiers (SQUIRL OS FT-1)",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST:</strong> AI-assisted, receipt-first research program (open-book doctrine: audit-and-correction, versioned amendments, append-only public ledger). Errors are disclosed, not erased. <em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All payloads synthetic or owner-generated; no customer-identifiable data appears in this record (POL-DISC-001).</em></p><p><strong>\"Fractal Tokenization: Atomic Satoshi Ownership and Covenant-Bound Decentralized Identifiers.\"</strong> We define fractal tokenization: the property by which a satoshi — the smallest indivisible unit of the Bitcoin supply — functions as an atomic fraction whose security, scarcity, and keyless provenance are structurally identical to the whole coin. Reduction to practice (FT-1, 2026-10-20): a decentralized identifier whose subject is one specific satoshi. Three fresh wallets (Bitcoin P2TR, XRP, Stellar) act as DID verification methods; a deterministic DID core document is hashed (SHA-256) and committed into the taproot output key (BIP-340/341 taptweak) of a 330-sat output whose ordinal position-0 sat is the claimed fraction; the binding is attested cross-rail on XRP (validated ledger 107789535) and Stellar (ledger 65047374) via a 37-byte protocol envelope with new version byte 0x0A (DID carrier), byte-exact, 6.1 seconds, ~$0.00003. Covenant transaction dd51a79794dbb7a8914911401caee9b30e472017727b788c770a577188513b02 confirmed in Bitcoin block 972367; DID identifier did:sqdr:ea942df94668c93955fb8792c029a4aa82f6d179 (keyless: SHA256(outpoint||P_c)[:40]). Whole ceremony cost: 1,000 sats + 100 stroops + 10 drops, under $0.84. The epoch corpus covenant sat (root 267f13b0..., ledger 0267) was untouched.</p><p><strong>Scope and honesty:</strong> prior art disclosed — did:btcr and other Bitcoin-anchored DID methods (2019+) and Ordinals position theory exist. NOT claimed: first DID on Bitcoin, first DID method, first taproot DID. Claimed (scoped): the fractal atomic-ownership doctrine, the covenant-tweaked DID core, and dual-rail carrier attestation as a single deterministic, receipts-first ceremony. One build defect (sighash nVersion parameter) was rejected by the mempool, fixed, and disclosed pre-confirmation. Dual Mesh Benchmark: MEASURED (scoped) — determinism receipts per doi:10.5281/zenodo.23321637; no LLM in any decision path. Doctrine foundations: SQUIRL-IP-013 (doi:10.5281/zenodo.23491295); thesis v2.1 (doi:10.5281/zenodo.23482978); routing chapter (doi:10.5281/zenodo.23485222). Provenance: append-only ledger, github.com/LLong2026/four-horsemen (ledger 0279 route recipe, 0280 publication seal). Two-key curation: drafted and vetted by the system (Gabriel), published on the owner's explicit GO (Leon, chat authorization, 2026-10-20 ~14:29 CT).</p>",
+  "publication_date": "2026-10-20",
+  "resource_type": "publication",
+  "resource_type_title": "Journal article",
+  "version": "1.0",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II",
+    "SquirlOS Technologies LLC"
+  ],
+  "keywords": [
+    "fractal tokenization",
+    "satoshi",
+    "ordinals",
+    "taproot",
+    "BIP-341",
+    "DID",
+    "decentralized identity",
+    "covenant",
+    "atomic ownership",
+    "SQUIRL OS",
+    "evidence anchoring"
+  ],
+  "related_identifiers": [],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23510677",
+  "zenodo_modified": "2026-10-20T19:30:20.808850+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "FRACTAL_TOKENIZATION_PAPER_v1.0.pdf",
+      "filename": "FRACTAL_TOKENIZATION_PAPER_v1.0.pdf",
+      "size": 48621,
+      "zenodo_checksum": "md5:c4cee63c435421315a61355432c96073",
+      "sha256": "aef3048357de265ab6fde43f8d59dc0f9686f934b84f8848fc19da4d55389e9f"
+    }
+  ]
+}

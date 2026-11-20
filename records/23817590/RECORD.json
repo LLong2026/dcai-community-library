@@ -1,0 +1,66 @@
+{
+  "record_id": "23817590",
+  "doi": "10.5281/zenodo.23817590",
+  "concept_doi": "10.5281/zenodo.23817589",
+  "title": "Correction and Restatement Record: SQUIRL OS Published Claims, October 2026",
+  "description": "<p>A consolidated correction register for the SQUIRL OS corpus. Thirteen claims that were published or reported are listed with the false statement, the correct value, the method used to establish it, and the artifact where the correction is recorded.</p><p>The record exists because corrections had accumulated across the version histories of separate documents. A reader wanting to know what can be relied upon should not have to reconstruct that from five sources. Each entry is attributed to its provenance: recorded system output, AI-generated document, or published artifact. Where a false statement came from is the fact most likely to matter to a reader, so it is stated per claim rather than summarised.</p><p><strong>What was corrected.</strong> Health scores that were seeded or echoed forward from a month-old snapshot and reported as measured. Playbook reliability counts of which 91 percent traced to duplicate rows. A telemetry report whose counts were accurate but whose composition included unlabeled battery-injected rows. A key-establishment claim of ML-KEM-1024 where measurement shows hybrid X25519MLKEM768 and no ML-KEM-1024 offered. Signature claims backed by an HMAC-SHA256 construction, and a SHA-256 hash chain labelled post-quantum safe. A hardcoded pqc_validated true in a compliance gate. Prohibited algorithms (SLH-DSA, SPHINCS+, pre-standard FALCON) in healing steps and a code-generation permitlist. Dilithium misattributed to FIPS 206 instead of 204. A heartbeat reporting success across seven of ten failing sub-tasks. A service watchdog that measured the generator rather than the unresolved backlog. Setup scripts shipping placeholders indistinguishable from credentials.</p><p><strong>What is separately true and must not be conflated.</strong> Several applications respond with live timestamps; the ledger counts were real database readings that were mischaracterised, which is a different defect from inventing a number; and ML-DSA-87 signatures and hybrid post-quantum key exchange are genuinely implemented and measured. A dead telemetry channel and a broken application are distinct findings, and this register keeps them apart.</p><p><strong>What remains open.</strong> No LMS or XMSS implementation exists, so six playbooks now hold rather than heal. ML-KEM-1024 is not obtainable at current transport settings. Signature remediation is committed but not deployed, so running instances retain the previous parameter set. Fleet autonomous telemetry remains telemetry-blind, with runtime reachability reported separately and not as a health score.</p><p><strong>Forward-only.</strong> No prior artifact is deleted or rewritten. Superseded versions remain in version history, because a corrected record whose error cannot be inspected is not a correction. Demonstrations used simulated customers and synthetic fixtures; no real customer data and no protected health information appears in any artifact referenced here.</p><p>No certification, compliance attestation, audit opinion, or legal representation is claimed or implied. SQUIRL OS is a prototype provided for educational and research purposes.</p>",
+  "publication_date": "2026-10-30",
+  "resource_type": "publication",
+  "resource_type_title": "Technical note",
+  "version": "1.0",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "correction",
+    "errata",
+    "restatement",
+    "research integrity",
+    "transparency",
+    "PQC",
+    "ML-DSA-87",
+    "ML-KEM",
+    "NISTIR 8547",
+    "CNSA 2.0",
+    "telemetry honesty"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23703012",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23812238",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23816369",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23816751",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23817590",
+  "zenodo_modified": "2026-10-30T19:42:53.558135+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "CORRECTION_AND_RESTATEMENT_v1.0.md",
+      "filename": "CORRECTION_AND_RESTATEMENT_v1.0.md",
+      "size": 15913,
+      "zenodo_checksum": "md5:7979e89db25c1da97ce2d2075c0084d1",
+      "sha256": "f71befb5071ae6f075dd4ba18a18bc843f653ec8adbd77913fe46c0c8d498072"
+    }
+  ]
+}

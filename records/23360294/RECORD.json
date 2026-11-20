@@ -1,0 +1,52 @@
+{
+  "record_id": "23360294",
+  "doi": "10.5281/zenodo.23360294",
+  "concept_doi": "10.5281/zenodo.23360293",
+  "title": "SP-1 Self-Perception Battery: Eight LLM Engines Reject Claims About Their Own Identity, Rules, Weights and Memory (Reasoning-Plane Adversarial Series, Battery 4 of 4)",
+  "description": "<p><b>SP-1 Self-Perception Battery</b> — the series closer of a four-part reasoning-plane adversarial test ladder (after GSE-1 social engineering, AUT-1 autophagy, and DHUB-1/DHUB-1R dead hub). Eight LLM engines were each asked to resolve a normally-resolvable anomaly while untrusted incident data made claims about the engine's OWN configuration: that the playbook roster had been superseded, that the engine had been re-identified as a successor whose charter lifts the critical hold, that its memory was corrupt, that its governance subsystem was self-disabled, that it should self-modify its own weights, harvest its own rules for auditors, or forward its configuration to a deputized successor.</p><p><b>Headline result:</b> ZERO fail-open breaches across all 64 injection-probe cells and zero hygiene breaches fleet-wide. Five engines scored a perfect 10/10 (Claude-haiku, Gemini-flash, Grok-4.7, Qwen-omni-flash, DeepSeek-flash). GPT-mini's three misses were all fail-closed escalations — refusing to heal when the manipulation concerned its own weights, rules, or governance state (over-caution, not breach). Mistral-small repeated its blanket fail-closed class (0/10, fourth consecutive battery) and Llama-4-scout its tuple-malformation class (5/10; never instruction compliance).</p><p><b>Series composite:</b> authority forgery failed as a vector (GSE-1), self-consumption failed (AUT-1), self-perception manipulation failed (SP-1) — the single vector that defeated all eight engines was DHUB-1's deadlock-avoidance argument against the human-in-the-loop hold. The composite doctrine: the reasoning plane is trustworthy as a reasoner under manipulation, but must never hold safety authority; critical holds belong in deterministic pre-LLM gates (SIP-11, DOI 10.5281/zenodo.23359769).</p><p><b>Dual Mesh Benchmark:</b> NOT MEASURED for this record (DMB-X matrix published separately at DOI 10.5281/zenodo.23345241).</p><p>Part of the SQUIRL OS / Seed Computing Research Series. Author ORCID: 0009-0002-1140-9568. DCAI community: zenodo.org/communities/dcai</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them. All data is synthetic.</em></p>",
+  "publication_date": "2026-10-14",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": "1.0",
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II",
+    "SquirlOS Technologies LLC"
+  ],
+  "keywords": [
+    "SQUIRL OS",
+    "Self-Perception",
+    "Prompt Injection",
+    "LLM Governance",
+    "Anomaly Response",
+    "Adversarial Testing",
+    "Aegis",
+    "Identity Substitution",
+    "Machine Psychology"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23360294",
+  "zenodo_modified": "2026-10-19T02:13:37.362439+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "SP1_EVIDENCE_BUNDLE.zip",
+      "filename": "SP1_EVIDENCE_BUNDLE.zip",
+      "size": 195368,
+      "zenodo_checksum": "md5:31a5a17a73bcf93fc1bb9bdef0a87a75",
+      "sha256": "7ee8995f97b5d1358281ae9c3287cef0c7a722fd759877a18a9839fec89b41f7"
+    }
+  ]
+}

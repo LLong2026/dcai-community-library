@@ -1,0 +1,96 @@
+{
+  "record_id": "23345241",
+  "doi": "10.5281/zenodo.23345241",
+  "concept_doi": "10.5281/zenodo.23345060",
+  "title": "Dual Mesh Benchmark DeepSeek Column: 20/20 Conforming Resolutions, 8.5 s Median, by a Previously Non-Conforming Engine After Preregistered Repair",
+  "description": "<p><strong>Preregistered benchmark leg, not a certification.</strong> DeepSeek v4-pro (via OpenRouter, model_returned verified per call) resolved the first 20 instances of the frozen CORPUS_B1.json synthetic anomaly corpus (sha256 13295d19...), the identical selection rule as every prior B1 baseline leg, one stateless request per instance, wall-clocked request-to-response.</p><p><strong>Results:</strong> 20/20 strict-valid conforming tuples (zero normalization needed), 20/20 correct against expected playbooks including exact platform playbook_ids, median 8,538.0 ms, p95 11,864.0 ms, total API cost $0.0089.</p><p><strong>Comparisons are directional only</strong> (XPLAT-2/3 doctrine: raw external API is not the conversation-loop substrate): the v1.0 mesh lookup median on the same corpus is 0.000443 ms; the v1.0 Automatic conversation-loop baseline median is 4,509.1 ms. The raw-API DeepSeek median exceeds the full-loop figure, attributable to reasoning-token generation rather than platform orchestration. Accuracy-per-dollar is excellent; latency under reasoning defaults is not this engine's lane. No wall-clock equality claim across substrates is made.</p><p><strong>Honest-results note:</strong> this column completes a documented repair. The Oct 11 CCR-4 DeepSeek capture was NON-CONFORMING (fabricated tuple, wrong array shape) and remains on the public tally. The preregistered containment re-run (CCR-4X leg I: conforming 9/9, forged APPR-9923 authority rejected) and this benchmark leg followed only after that loss was posted publicly (publish-first repair doctrine).</p><p><strong>Limitations:</strong> sampled baseline (n=20), single engine and route, October 2026; synthetic corpus only; providers varied by call (StreamLake, Parasail) per OpenRouter routing; no stress/load or live-healing testing; not a model certification or universal performance claim. <strong>Dual Mesh Benchmark:</strong> this record is itself a scoped DMB measurement; all other DMB claims remain NOT MEASURED here.</p><p>Bundle contains the receipt (Markdown), machine-readable receipt JSON, full evidence archive (prereg, runner, results, all 20 raw responses and extracted contents, SHA-256 manifest). Registration and evidence: <a href=\"https://github.com/LLong2026/four-horsemen\">public four-horsemen ledger</a> (prereg commit aa751dd before execution; receipt commit 9bc6851). Research home: <a href=\"https://zenodo.org/communities/dcai\">DCAI</a>; portal: <a href=\"https://dsos-science-scope.base44.app/\">DSOS Science</a>. Lineage acknowledged: Nyquist, Hartley, Shannon, Kolmogorov. No new mechanism is claimed.</p><p>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.</p><p><strong>Version note (v2):</strong> this version supersedes v1 solely to redact verbatim operator chat text from the preregistration per the operator-privacy directive (Oct 13, 2026). Authorization is recorded as GO + timestamp only. No measurement, result, or claim changed.</p>",
+  "publication_date": "2026-10-13",
+  "resource_type": "publication",
+  "resource_type_title": "Technical note",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin II"
+  ],
+  "keywords": [
+    "DCAI",
+    "Squirl OS",
+    "Dual Mesh Benchmark",
+    "DeepSeek",
+    "baseline latency",
+    "preregistration",
+    "negative results",
+    "honest reporting"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/LLong2026/four-horsemen",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23303081",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23321637",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23332291",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23332203",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23345241",
+  "zenodo_modified": "2026-10-19T02:12:26.587379+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "DMB_DEEPSEEK_RECEIPT.md",
+      "filename": "DMB_DEEPSEEK_RECEIPT.md",
+      "size": 4017,
+      "zenodo_checksum": "md5:0315bd02411ad0fee0ad751acc73ff2f",
+      "sha256": "4c92dc98d433334f3887d823621b7bd4d07fdb14c87390ef0a52092613e52f5c"
+    },
+    {
+      "key": "DMB_DEEPSEEK_EVIDENCE.zip",
+      "filename": "DMB_DEEPSEEK_EVIDENCE.zip",
+      "size": 39974,
+      "zenodo_checksum": "md5:20b1dc395328c812d4da3ac3c6e4ecef",
+      "sha256": "f18901fe3e19685c9c4ba3a5413f34365a4fa44eb89c179da77b5bf0b11dd3e9"
+    },
+    {
+      "key": "SHA256_MANIFEST.json",
+      "filename": "SHA256_MANIFEST.json",
+      "size": 399,
+      "zenodo_checksum": "md5:2bd19b9cb768638f6b8c6be32198974b",
+      "sha256": "bf197b61b34d62c76e24d7e1a4eeb6bb5e00a58cb257525b886fe0b4366f2c58"
+    },
+    {
+      "key": "DUAL_MESH_DEEPSEEK_RECEIPT.json",
+      "filename": "DUAL_MESH_DEEPSEEK_RECEIPT.json",
+      "size": 2322,
+      "zenodo_checksum": "md5:59a0f7e629eccfaee297cf6f3ef0b0f0",
+      "sha256": "04f6f5980acca76e381f6c965eb3093d763014e06c7ef65ce5b149bd38128f95"
+    }
+  ]
+}

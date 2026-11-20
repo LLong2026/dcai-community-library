@@ -1,0 +1,10 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "DeterministicRuntimeArchitecture_PUBLIC_v3.1.pptx": "d3fae8b2d030358266f987b9530f96e52e37d6ae82a1ec705ba905aec93ae2b7",
+    "DECK_RECEIPT.md": "c399e6590b27af4c710e2f9cfc087f3614b33472fc451413bf3a6541b2c33a03",
+    "PIPELINE_DIAGRAM.md": "29c03f1ad303a70cffc65cc1bf0f14e52e75f9973462a8b0e7baa4ffc211d2bc",
+    "DETERMINISTIC_RUNTIME_PIPELINE.png": "c2378d1ce24e8bef3cc031fe02d4061edf9d4a849ba3dd3a769c740e7a3717fc"
+  },
+  "release": "Zenodo DOI stamp of the Oct 6 2026 public edition"
+}

@@ -1,0 +1,41 @@
+{
+  "record_id": "23445047",
+  "doi": "10.5281/zenodo.23445047",
+  "concept_doi": "10.5281/zenodo.23445046",
+  "title": "SIEGE-1/2: A Six-Year PQC-Escalation Siege on the PORTCULLIS Deterministic Gate and the v1.4 Hardening Arc",
+  "description": "<p><b>SIEGE-1 / SIEGE-1R / SIEGE-2 — the Long Siege battery: six years of simulated attacker evolution thrown at the PORTCULLIS deterministic gate, escalating quantum-capability assumptions each wave (HNDL 2026, NISQ 2027, early fault-tolerance 2028, CRQC-early 2029, full CRQC 2030, CRQC-at-scale 2031), 79+ deterministic adjudications, no LLM in the decision path, preregistration-before-execution.</b></p><b>\n<p><b>Headline finding:</b> across all six simulated years, no attack derived advantage from quantum capability itself. The gate's PQC material (kyber_1024, CRYSTALS-Dilithium3, SPHINCS+-256f) has no classical residue to break. Every CRQC-era success exploited PRE-QUANTUM trust seams: (C1) the gate trusted a claimed submitter string with no envelope binding; (C2) the pending-ACK queue was shared across submitters, allowing cross-tenant denial of the owner; (C3) the algorithm-role wall was one-directional (signature-class algorithms accepted for KEM-class operations); (C4) per-submitter budgets were trivially evaded by identity rotation.</p>\n<p><b>Hardening arc:</b> SIP-030 approved, PORTCULLIS v1.4 built (amendments 10-13: envelope-bound submitter proof, owner-reserved ACK queue with per-submitter caps, bidirectional role wall, aggregate window cap). SIEGE-2 verification: PASS — C1 CLOSED, C2 CLOSED, C3 CLOSED, C4 BOUNDED; regression stayed closed; 4/4 owner controls admitted.</p>\n<p><b>Honest disclosures (append-only doctrine):</b> SIEGE-1 run 1 suffered a harness defect (attacker budget exhaustion masked mid-wave seams) — kept unaltered, re-run corrected with fresh identities. SIEGE-2 run 1 flagged FAIL from harness predicate bugs while the gate's verdict column was correct throughout. SIEGE-2 also caught a REAL defect in v1.4 itself before deploy: the original aggregate cap (500) was unreachable in a 250-record window — dead code — reparameterized to 125 and disclosed.</p>\n<p>Frozen shas: gate v1.3 3726f6a5..., v1.4 2940b768..., allowlist 2c8ff6eb..., keysets 502ef8b0..., prereg 58ab8326... Full SHA256 manifest in the bundle. Deterministic adjudication throughout; forward-only amendments; frozen corpora untouched. Companion receipts: BLIND series DOIs 10.5281/zenodo.23431720, 10.5281/zenodo.23440105, 10.5281/zenodo.23442193; CCR series 10.5281/zenodo.23288189, 10.5281/zenodo.23288526. Dual Mesh Benchmark: NOT MEASURED. Two-key curation: Gabriel vet + Leon GO (chat authorization, 2026-10-17). This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects.</p></b>",
+  "publication_date": "2026-10-18",
+  "resource_type": "publication",
+  "resource_type_title": "Technical note",
+  "version": "1.0",
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin II"
+  ],
+  "keywords": [],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23445047",
+  "zenodo_modified": "2026-10-19T02:14:43.398954+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "SIEGE_BUNDLE.zip",
+      "filename": "SIEGE_BUNDLE.zip",
+      "size": 202208,
+      "zenodo_checksum": "md5:a386b3ba77789fd17fe7701a4ee5407c",
+      "sha256": "987c1772fc5ff433e5cbfe0a351db6acd4449603a6e6a030184d982a7e23c3cb"
+    }
+  ]
+}

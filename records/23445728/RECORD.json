@@ -1,0 +1,57 @@
+{
+  "record_id": "23445728",
+  "doi": "10.5281/zenodo.23445728",
+  "concept_doi": "10.5281/zenodo.23445727",
+  "title": "A Deterministic Chain-of-Custody Graph for an AI Governance Corpus: Bitcoin Hash-Anchoring, Self-Healing Re-Anchoring, and Fail-Closed Reconciliation — With Two Live Drift Catches and a Disclosed Self-Correction (SIP-034..037)",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST:</strong> AI-assisted, receipt-first research program (open-book doctrine: audit-and-correction, versioned amendments, append-only public ledger). Errors are disclosed, not erased. <em>This software is a prototype and is provided for educational and research purposes only. Not intended for production use, commercial deployment, or safety-critical environments. All payloads synthetic. No customer-identifiable data appears in this record (POL-DISC-001).</em></p><p><strong>A deterministic chain-of-custody graph binding an AI governance corpus to the Bitcoin blockchain — with self-healing re-anchoring and fail-closed reconciliation.</strong> While the 'everything on chain' wave puts data and logic on-chain, this record documents the opposite design: an append-only AI governance corpus (ledger, monitoring feed, preregistrations, receipts) whose integrity is anchored by Bitcoin proof-of-work via OpenTimestamps — <strong>only 32-byte SHA-256 digests cross the boundary; no tokens, wallets, or non-digest data touch any chain</strong>, and cryptographic authority remains in a separate post-quantum layer (CRYSTALS-Dilithium3, kyber_1024, SPHINCS+-256f; the existence/authority split is disclosed by design).</p><p><strong>The novel contribution is the closed loop.</strong> Three deterministic services (no LLM in any decision path): STAMP (hash-only anchoring, dual-calendar redundancy), RECOVER (drift detection with automatic re-anchoring that retires superseded stamps to history as retained proof — never deleted), and RECONCILE (a fail-closed gate classifying every receipt as LIVE MATCH / CERTIFIED STATE / ORPHAN). Benchmarking the gate against its own live ledger caught <strong>two genuine drift events on its first two runs</strong>, the second revealing a structural property we formalize as the <strong>tip-lag corollary</strong> (INV-1-C): an append-only log's tip is always ahead of its most recent stamp — mirroring Bitcoin checkpoint semantics — solved with certified state snapshots so every receipt reconciles deterministically.</p><p><strong>Disclosed self-correction (audit-and-correction doctrine):</strong> a benchmark-PASS claim was sealed in ledger entry 0165 <em>before</em> the gate returned; the gate returned FAIL. Entry 0166 corrects the record — premature claim disclosed, root cause structural, fix disclosed, nothing scrubbed — and the correction is itself an entry in the anchored ledger. Final verdict: PASS — 3/3 live and certified receipts matched, 1 historical retained, 0 orphans.</p><p><strong>Scoped novelty claim:</strong> hash-anchoring itself is established prior art (OpenTimestamps, RFC 3161, Chainpoint, Proof of Existence — cited, not claimed). To our knowledge, this is the first reported end-to-end automated chain-of-custody system for an AI governance corpus integrating hash-only PoW anchoring, deterministic drift re-anchoring with historical retention, fail-closed reconciliation gating, and a disclosed self-correction of its own benchmark record. Independent verification trusts no party: <code>pip install opentimestamps-client; ots upgrade; ots verify</code>.</p><p><strong>Scope caveat (load-bearing):</strong> anchoring proves existence, not authority; Bitcoin's signatures are not post-quantum (hence INV-4). Prototype software; all payloads synthetic. <strong>Dual Mesh Benchmark status: NOT MEASURED in this record</strong> (no neural-mesh inference involved); program benchmark DOI 10.5281/zenodo.23321637 (DeepSeek column 10.5281/zenodo.23345241). Provenance: append-only public ledger entries 0162-0166, github.com/LLong2026/four-horsemen. DCAI community: zenodo.org/communities/dcai. Two-key curation: drafted and vetted by the system (Gabriel), published on the owner's explicit GO (chat authorization, 2026-10-17, 22:23-22:50 CT).</p>",
+  "publication_date": "2026-10-18",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": "1.0",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II",
+    "SquirlOS Technologies LLC"
+  ],
+  "keywords": [
+    "SQUIRL OS",
+    "chain of custody",
+    "blockchain anchoring",
+    "OpenTimestamps",
+    "Bitcoin",
+    "hash anchoring",
+    "AI governance",
+    "deterministic gates",
+    "self-healing systems",
+    "append-only ledger",
+    "fail-closed reconciliation",
+    "post-quantum cryptography",
+    "transparency",
+    "preregistration"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23445728",
+  "zenodo_modified": "2026-10-24T15:25:29.529297+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "chain_of_custody_bundle.zip",
+      "filename": "chain_of_custody_bundle.zip",
+      "size": 135611,
+      "zenodo_checksum": "md5:b84f6ad2fedafa17b7b3118f67107266",
+      "sha256": "8b6855b59879eb158089a0b710cd90788b96bc4267cb96b39f61c6c13a327a21"
+    }
+  ]
+}

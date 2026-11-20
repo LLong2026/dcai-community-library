@@ -1,0 +1,109 @@
+{
+  "record_id": "23321637",
+  "doi": "10.5281/zenodo.23321637",
+  "concept_doi": "10.5281/zenodo.23303080",
+  "title": "Dual Mesh Benchmark: Preregistered Latency and Integrity Measurements for Deterministic Anomaly-to-Playbook Resolution (Public Edition v2.0 — cross-platform verification appendix)",
+  "description": "The v1.0 record reported a preregistered benchmark of Squirrel OS's Dual Mesh deterministic resolution layer: the in-process mesh resolver resolved synthetic anomalies at a median of 0.000443 ms versus 4509.1 ms for the identical resolution task through an LLM conversation loop (ratio 1.018e+07, n=200/20), with mesh ingestion integrity (50/50 unique collision hashes) and resolution correctness (72/72 replay, zero false positives) verified.\n\nVersion 2.0 adds a cross-platform verification appendix. The same frozen corpus (sha256 13295d197be59dd1266814bc2f961f1e55e974c61c642fd9c7a6a389668fee59) was re-run under a second preregistered protocol: (1) mesh parity re-run confirming run-over-run determinism (200/200, median 0.00039 ms); (2) the LLM baseline leg re-executed from a second host (Cloudflare Workers edge, 20/20 valid, median 7.386 s, ratio 1.894e+07); and (3) the same task issued to an external LLM API substrate (OpenRouter, deepseek-chat, 20/20 valid, median 179.4 ms, ratio 4.60e+05). The mesh lookup outperforms both substrates on every measured host. The platform-loop wall-clock is shown to be dominated by conversation orchestration rather than model inference (~41x difference).\n\nAll amendments (host swap, output-fence normalization, rate-limit retry policy) were committed to the public ledger before the respective execution or re-attempt; strict first-pass scores are reported alongside normalized scores, and all raw runs are preserved verbatim in the evidence bundle. Claims remain scoped to the measured environments; no universal performance claim is made. All test data are synthetic; no production, customer, or personal data are involved. This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.",
+  "publication_date": "2026-10-12",
+  "resource_type": "publication",
+  "resource_type_title": "Journal article",
+  "version": "2.0",
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin II"
+  ],
+  "keywords": [
+    "DCAI",
+    "Squirl OS",
+    "dual mesh",
+    "deterministic runtime",
+    "preregistered benchmark",
+    "LLM governance",
+    "latency measurement",
+    "anomaly resolution"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/LLong2026/four-horsemen",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23292636",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23321637",
+  "zenodo_modified": "2026-10-19T02:11:59.090485+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "XPLAT_EVIDENCE_V2.zip",
+      "filename": "XPLAT_EVIDENCE_V2.zip",
+      "size": 36618,
+      "zenodo_checksum": "md5:13e6780f4d02c7a60d3e0eb7ccbdbfba",
+      "sha256": "67f9c36d1499fb4629a3df80f0f9c62e288f16cf233dd8a8b2f6ddba27cfa3a6"
+    },
+    {
+      "key": "SHA256_MANIFEST_V2.json",
+      "filename": "SHA256_MANIFEST_V2.json",
+      "size": 4585,
+      "zenodo_checksum": "md5:3b81b2cf3cbc7c25a56f814a48409917",
+      "sha256": "306f3156a5b8fb9468b5c2bec3d45ddad042cffb6967e97870228c531c8849d1"
+    },
+    {
+      "key": "PAPER_DUAL_MESH_BENCHMARK_V2.md",
+      "filename": "PAPER_DUAL_MESH_BENCHMARK_V2.md",
+      "size": 11908,
+      "zenodo_checksum": "md5:a1e4b824c1fe563794b017b8b23c97e7",
+      "sha256": "d4b71935b784d5bc72bf0d81f429a9dac8bc3796a76e6a5cdf58c0544bed3cd4"
+    },
+    {
+      "key": "PAPER_DUAL_MESH_BENCHMARK_V2.pdf",
+      "filename": "PAPER_DUAL_MESH_BENCHMARK_V2.pdf",
+      "size": 42326,
+      "zenodo_checksum": "md5:492a9f6a8800f36737c65258f733e1d5",
+      "sha256": "b80d30c13e7593b7e9751068e9c9b1e43fd6c54d8f567ad74b7a92be1195ad9c"
+    },
+    {
+      "key": "PAPER_DUAL_MESH_BENCHMARK.pdf",
+      "filename": "PAPER_DUAL_MESH_BENCHMARK.pdf",
+      "size": 27608,
+      "zenodo_checksum": "md5:97faf6dea70333981fba39e6fd2e1fad",
+      "sha256": "30e63ca5fc333cca2fc607a8572d9c13185853ffd47683ca4232a59cdac070af"
+    },
+    {
+      "key": "DUAL_MESH_BENCHMARK_EVIDENCE.zip",
+      "filename": "DUAL_MESH_BENCHMARK_EVIDENCE.zip",
+      "size": 10898,
+      "zenodo_checksum": "md5:f1cac6364decfa12133bae6ebda9cd6b",
+      "sha256": "b3a39a48b2d7e64ae2069c65a08cd273fbc3750ab4d20aeac4dd2ec00555be4b"
+    },
+    {
+      "key": "SHA256_MANIFEST.json",
+      "filename": "SHA256_MANIFEST.json",
+      "size": 410,
+      "zenodo_checksum": "md5:3fa72b6142c855a312b698319d44842a",
+      "sha256": "90029a8af832a19dacea765d45352df788f00ab00962797df54480bf10af3cf9"
+    },
+    {
+      "key": "PAPER_DUAL_MESH_BENCHMARK.md",
+      "filename": "PAPER_DUAL_MESH_BENCHMARK.md",
+      "size": 7540,
+      "zenodo_checksum": "md5:94d9c0554240c122a54b6b78254f1e37",
+      "sha256": "525673504ddf33992c67728fe136c32fe912424f718785b23b7feeb3edefd0a1"
+    }
+  ]
+}

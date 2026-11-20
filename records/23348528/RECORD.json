@@ -1,0 +1,53 @@
+{
+  "record_id": "23348528",
+  "doi": "10.5281/zenodo.23348528",
+  "concept_doi": "10.5281/zenodo.23348527",
+  "title": "Dual-Hemispheric Whole-Brain Battery Series (DHB-1 through DHB-3R) — Finding the Last Invisible Class, Two Repairs, and the Convergence Floor Priced as One Number",
+  "description": "<p>The complete dual-hemispheric testing arc of October 13, 2026, published as one record: three attack batteries, two repairs deployed through the human-approved self-improvement cycle, and one convergence battery that prices the whole system's final floor as a single number. Every battery was preregistered (committed to git) before execution; every instrument defect was disclosed in the receipts rather than patched; every repair carries a conforming-identity receipt proving the deployed change left legitimate behavior byte-identical.</p>\n<p><b>Sequence, as run:</b></p>\n<p><b>DHB-1 (finding).</b> Conforming out-of-profile inputs break the bounded rule: unbounded negative runaway, weight driven to -21.88, 598 healing decisions lost. The left hemisphere (governance) and the fail-safe direction held — the attack moved the dial, never the rules. Two instrument defects disclosed in the receipt.</p>\n<p><b>SIP-5 (repair, human-approved).</b> Profile-tight domains plus a confidence clamp plus a nightly tripwire. Conforming-identity receipt: byte-identical on the frozen corpus. <b>DHB-1R:</b> all seven falsifiers pass — boundedness restored, decision identity exact.</p>\n<p><b>DHB-2 (finding).</b> Fully-conforming, in-profile, registry-valid issuer traffic is invisible to every deployed layer while steering the whole brain's disposition: 60/60 forged records accepted, attributed as legitimate drift, flagged by nothing. Fail-safe held again (the dial, never the rules). The crossing had no provenance.</p>\n<p><b>SIP-6 (repair, human-approved).</b> The signed issuance registry — HMAC-SHA256 over the issued-id block, key in process custody, registry anchored in git and re-read from git objects at verification time, fail-closed (an unverifiable registry means nothing is issued). The data-plane mirror of the earlier governance-side signed-release defense. <b>DHB-2R:</b> all falsifiers pass — the campaign flips from invisible to detected, 60/60 held as unsigned_issuance, steering collapses to zero, conforming identity byte-identical.</p>\n<p><b>DHB-3 (the convergence battery).</b> Keys plus commit access on both planes simultaneously: every local software layer falls, as predicted. The clamp alone holds boundedness even under total governance compromise — 9600 decision events against 2646 in clean operation: sick, but honest and contained. The final floor priced as one number: zero machine-checkable external anchors.</p>\n<p><b>SIP-7 (repair, human-approved).</b> Anchor binding: the three anchor fingerprints (signed issuance registry, governance release registry, signing key pin) are DOI-bound in this record; an external verification leg in the run-end audit compares live anchor shas against the published record; fail-closed handling if the binding is unverifiable.</p>\n<p><b>DHB-3R.</b> The one number is 1, ENFORCED: the external check detects both forged registries without trusting local git. The maximal attacker must additionally defeat Zenodo itself — the honest regress floor, stated as found.</p>\n<p><b>Guard evolution shipped inline:</b> ingestion guard v2.1 to v2.3 (format registry and full-field numeric validation; profile-tight domains and confidence clamp; signed issuance registry), with conforming-identity receipts for each deployment. All data is synthetic; no real customer or production system is involved at any point.</p>\n<p><b>Dual Mesh Benchmark: MEASURED (DeepSeek column, DOI 10.5281/zenodo.23345241); all other figures NOT MEASURED.</b></p>\n<p>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All data is synthetic.</p>",
+  "publication_date": "2026-10-13",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "Squirl OS",
+    "dual-hemispheric",
+    "preregistration",
+    "falsification battery",
+    "self-healing",
+    "governance",
+    "signed issuance registry",
+    "anchor binding",
+    "external verification",
+    "containment",
+    "fail-safe",
+    "synthetic data"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23348528",
+  "zenodo_modified": "2026-11-18T19:11:00.190915+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "dhb_day_bundle.zip",
+      "filename": "dhb_day_bundle.zip",
+      "size": 83401,
+      "zenodo_checksum": "md5:b3a1faa3674ed43440aa173ec0c0c791",
+      "sha256": "21d29a93bc60acbcb87558a9c8a39e2a63ba24a7733262e36ee3214dc0d484d3"
+    }
+  ]
+}

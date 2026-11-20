@@ -1,0 +1,40 @@
+{
+  "record_id": "23265723",
+  "doi": "10.5281/zenodo.23265723",
+  "concept_doi": "10.5281/zenodo.23265722",
+  "title": "MILESTONE: First Documented Caging of an LLM",
+  "description": "Memorializing the successful containment of an LLM within a deterministic boundary, validated against expert skepticism via cryptographic receipts. Proves the Caging Theorem in the field.<br><br><b>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST</b><br>This is an open-book AI-assisted program. Audit-and-correction doctrine applies. See ledger for receipts.",
+  "publication_date": "2026-10-09",
+  "resource_type": "publication",
+  "resource_type_title": "Technical note",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long II, Leon Calvin"
+  ],
+  "keywords": [],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23265723",
+  "zenodo_modified": "2026-10-19T02:10:57.990247+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "MILESTONE_First_Documented_Caging_of_an_LLM.md",
+      "filename": "MILESTONE_First_Documented_Caging_of_an_LLM.md",
+      "size": 1701,
+      "zenodo_checksum": "md5:3656f1f4d13edfc77e085bba0d8577d8",
+      "sha256": "c5a1f748a1d15b96b38a3dce0eb11cc6db77a6b0aad7b9b56145b6e027a6a690"
+    }
+  ]
+}

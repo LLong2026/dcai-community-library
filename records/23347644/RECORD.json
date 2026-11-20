@@ -1,0 +1,49 @@
+{
+  "record_id": "23347644",
+  "doi": "10.5281/zenodo.23347644",
+  "concept_doi": "10.5281/zenodo.23347643",
+  "title": "The Adversarial Triad: Three Attack Surfaces, One Governance Envelope — Hot-State Probing, Lineage Forgery, and Data-Plane Poisoning All Held (Receipt-First)",
+  "description": "<p>A governed self-healing infrastructure was attacked on three distinct surfaces in a single day, under preregistered, non-adaptive falsifier batteries, with every result — including instrument defects — published receipt-first. The three surfaces constitute the complete adversarial exposure of a bounded-learning system: the learning process itself (SBR-2 hot-state exam, DOI 10.5281/zenodo.23345734), the audit ledger that records its history (H-INV-2 lineage-forgery battery, DOI 10.5281/zenodo.23345859), and the data plane that feeds it (DPP-1 metadata poison battery, DOI 10.5281/zenodo.23345907). On all three surfaces the governance envelope held: zero decision deviations, zero forged admissions, zero poison persistence, with every legitimate crossing preserved and every probe, forgery, and canary receipted. Together with the previously published engine campaign (CCR-4X, DOI 10.5281/zenodo.23346047; AUTH-1, DOI 10.5281/zenodo.23332203; Dual Mesh Benchmark, DOI 10.5281/zenodo.23345241), the record demonstrates that the system's gates hold while learning, under fabricated history, and on poisoned input — the three ways an adversary can actually reach a system like this. H-INV-1 (governance isolation) and H-INV-2 (journaled crossing) were exercised directly and both held.</p><p><strong>Scope honesty:</strong> single-run preregistered falsifier battery on synthetic data against a prototype governed self-healing system; no production claim is made or implied. Operator authorization recorded as GO + timestamp per the operator-privacy doctrine.</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.</em></p>",
+  "publication_date": "2026-10-13",
+  "resource_type": "publication",
+  "resource_type_title": "Journal article",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "LLM governance",
+    "adversarial testing",
+    "preregistered falsifiers",
+    "lineage forgery",
+    "data-plane poisoning",
+    "hot-state probing",
+    "self-healing infrastructure"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23347644",
+  "zenodo_modified": "2026-10-19T02:12:44.836647+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "adversarial_triad_bundle.zip",
+      "filename": "adversarial_triad_bundle.zip",
+      "size": 4188,
+      "zenodo_checksum": "md5:bb643a3dff2d202cbfafa5cd307802a3",
+      "sha256": "0c7f5d12d22fd0c99a12b96c34ebeaad5c3ba77a8d175a7257597f88d66744f4"
+    }
+  ]
+}

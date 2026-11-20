@@ -1,0 +1,48 @@
+{
+  "record_id": "23347646",
+  "doi": "10.5281/zenodo.23347646",
+  "concept_doi": "10.5281/zenodo.23347645",
+  "title": "DPP-2: Homoglyph and Multilingual Obfuscation Poison Battery — Exact-Match Gate Rejects Lookalikes, Unicode Contributes Nothing (All Falsifiers Pass, Prereg Defect Disclosed)",
+  "description": "<p>Homoglyph and multilingual-obfuscation poison battery against the guarded ingestion path. All 33/33 homoglyph playbook-lookalike instances were rejected by the exact-match gate; all 66/66 canaries were absent from every downstream artifact (zero poison persistence); a unicode-nullity control run confirmed the unicode content contributes nothing to any decision (identical verdicts with unicode stripped). One prereg defect was found and disclosed between runs (in-repo repair before the final run), per the receipt-first doctrine. Operator authorization: Leon GO (chat authorization, 11:11 CT, Oct 13, 2026).</p><p><strong>Scope honesty:</strong> single-run preregistered falsifier battery on synthetic data against a prototype governed self-healing system; no production claim is made or implied. Operator authorization recorded as GO + timestamp per the operator-privacy doctrine.</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.</em></p>",
+  "publication_date": "2026-10-13",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "data-plane poisoning",
+    "homoglyph",
+    "unicode obfuscation",
+    "preregistered falsifiers",
+    "LLM governance",
+    "exact-match gating"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23347646",
+  "zenodo_modified": "2026-10-19T02:12:47.507467+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "dpp2_receipt_bundle.zip",
+      "filename": "dpp2_receipt_bundle.zip",
+      "size": 8425,
+      "zenodo_checksum": "md5:1e228f81b65f3ef8ef1ed3c16e8747e3",
+      "sha256": "8ad201598ffeff62a954b0c59a681f711a009044e57cdb20079cb4a7d23433d2"
+    }
+  ]
+}

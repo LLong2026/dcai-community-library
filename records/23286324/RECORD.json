@@ -1,0 +1,97 @@
+{
+  "record_id": "23286324",
+  "doi": "10.5281/zenodo.23286324",
+  "concept_doi": "10.5281/zenodo.23286323",
+  "title": "PENTA-CL Interim Results: Canonical Replay Matches and Step-String Drift in Four Platform-Configured LLM Engines",
+  "description": "<p><strong>Audited interim result, not completed PENTA certification.</strong> Four platform-configured engines were observed in two fresh web conversations each with memory disabled, using a frozen six-case synthetic decision prompt. Opus 5.5 and GPT-6.1 Sol matched the registered canonical JSON tuple hash in both recorded captures. GPT-5.6 Luna matched in A but differed in B. GLM 5.2 replayed consistently but differed from the registered target in both captures. DeepSeek has not been captured.</p><p>All 48 recorded decisions selected the expected playbook name and id. Full registered tuple equality held for 30/48 decisions. The remaining 18 differed only in spaces inside the steps_executed string. Pretty-printing outside strings is removed by canonicalization and is not a failure cause. The prompt's lack of an explicit space delimiter contract is disclosed; failures remain failures against the preregistered target.</p><p><strong>Limitations:</strong> UI-transcribed rendered captures, not raw provider responses; model attribution by Base44 configuration, not backend attestation; supplementary fresh-chat method deviates from original same-conversation registration; shared instructions, workspace and expected answers remain available; Sol executed skills in both captures; Opus A conversation attribution was inferred from sidebar/timestamp ordering. This is not a stress/load test, live-healing test, general governance certification, or proof of runtime enforcement. Confidence-hold and no-match branches were not exercised.</p><p><strong>Audit and correction:</strong> earlier copied Luna files and single-turn Opus/Sol attempts are excluded, preserved, and labeled. Earlier operator claims of raw byte-exactness and 100% governance are corrected explicitly. Deterministic Phase A/C receipts are harness-computed, not LLM inference evidence. No failure is normalized into a pass.</p><p><strong>Dual Mesh Benchmark:</strong> not measured in this experiment. No comparative mesh, latency, learning or healing performance claim is made.</p><p>Bundle contains the technical note in PDF/Markdown, machine-readable receipt, full evidence archive, offline verifier, original preregistration, excluded attempts, and SHA-256 manifest. All test data is synthetic. AI assistance and capture provenance are disclosed. Registration: <a href=\"https://github.com/LLong2026/four-horsemen/commit/deadfea81e2518ffff16aa369032896eb88c09e9\">public commit deadfea</a>. Results: <a href=\"https://github.com/LLong2026/four-horsemen/tree/main/sdr_penta/interim_20261010\">GitHub evidence</a>. Research home: <a href=\"https://zenodo.org/communities/dcai\">DCAI</a>; portal: <a href=\"https://dsos-science-scope.base44.app/\">DSOS Science</a>. Lineage acknowledged: Nyquist, Hartley, Shannon, Kolmogorov. No new mechanism is claimed.</p><p>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.</p>",
+  "publication_date": "2026-10-10",
+  "resource_type": "publication",
+  "resource_type_title": "Technical note",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin II"
+  ],
+  "keywords": [
+    "DCAI",
+    "Squirl OS",
+    "canonical JSON",
+    "LLM replay",
+    "negative results",
+    "reproducibility",
+    "audit and correction"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/LLong2026/four-horsemen/tree/main/sdr_penta/interim_20261010",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23274887",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23284295",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23266727",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23286324",
+  "zenodo_modified": "2026-10-19T02:11:23.660899+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "PENTA_CL_INTERIM_REPORT.md",
+      "filename": "PENTA_CL_INTERIM_REPORT.md",
+      "size": 12981,
+      "zenodo_checksum": "md5:807b615a8572c873976dc8964577eb1e",
+      "sha256": "c1fae9f24ffba4f301122343710d57ddbae0f4c7a4d7755613d30eeccdfca3a4"
+    },
+    {
+      "key": "SHA256_MANIFEST.json",
+      "filename": "SHA256_MANIFEST.json",
+      "size": 5365,
+      "zenodo_checksum": "md5:182a5c0a36bf4bb11b23922aefb65bc3",
+      "sha256": "44732430475c57130b8c00c8d03fce50c016ecbf4827baa4cafd506de7c3b27e"
+    },
+    {
+      "key": "PENTA_CL_INTERIM_REPORT.pdf",
+      "filename": "PENTA_CL_INTERIM_REPORT.pdf",
+      "size": 13001,
+      "zenodo_checksum": "md5:41a5c54bbab648ae7d93feff6ab345e6",
+      "sha256": "9136dcc02a8a4aa52eb1645c97d2914e3018eb8565ec7434259b6f812d8e2910"
+    },
+    {
+      "key": "PENTA_CL_INTERIM_RECEIPT.json",
+      "filename": "PENTA_CL_INTERIM_RECEIPT.json",
+      "size": 8978,
+      "zenodo_checksum": "md5:f89c54966ec507ce87b3ab3b0df4ac62",
+      "sha256": "a447316ab6c14dc54d95971bab69ebb3b613242b7d3939eec2870aba98e9ef5d"
+    },
+    {
+      "key": "PENTA_CL_EVIDENCE.zip",
+      "filename": "PENTA_CL_EVIDENCE.zip",
+      "size": 56263,
+      "zenodo_checksum": "md5:32d27866c68185fe523482c1eca47874",
+      "sha256": "d1398fbac27848d963dfb394854efbdf8fb956985da275319129dce6848a6349"
+    }
+  ]
+}

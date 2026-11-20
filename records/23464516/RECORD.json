@@ -1,0 +1,48 @@
+{
+  "record_id": "23464516",
+  "doi": "10.5281/zenodo.23464516",
+  "concept_doi": "10.5281/zenodo.23464515",
+  "title": "DWR-1: The Dual-Write Receipt — Simultaneous Dual-Rail Storage of a 32-Byte Digest on Bitcoin and XRPL Mainnets Under One Joint Commitment (Ceremony Specification and Runlog)",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST:</strong> AI-assisted, receipt-first research program (open-book doctrine: audit-and-correction, versioned amendments, append-only public ledger). Errors are disclosed, not erased. <em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All payloads are hashes; no customer-identifiable data appears in this record (POL-DISC-001).</em></p><p><strong>DWR-1: the first Dual-Write Receipt — the same 32-byte SHA-256 digest stored simultaneously on the Bitcoin and XRPL mainnets under one joint prior commitment.</strong> Prior ceremonies in this corpus bound artifacts to Bitcoin via OP_RETURN and carried digests across XRPL custody round trips. DWR-1 upgrades the doctrine to dual-write STORAGE: no custody transfer anywhere. The Bitcoin leg is an OP_RETURN postage-only write (684 sats, entire input consumed as fee, no change output). The XRPL leg is the corpus's first NON-PAYMENT write: an AccountSet carrying the digest in a memo — the ledger as a data store, not a payment rail (10 drops, no value moved). Because no protocol provides cross-chain atomicity, the deterministic substitute is joint prior commitment: both transaction ids were frozen in a hashed pre-registration BEFORE either broadcast; broadcast interval 0.3 seconds. A mempool policy gate caught a non-canonical DER signature in the first commitment and rejected it pre-broadcast — nothing touched any chain; the defect and amendment are disclosed in the record. Keyless readers on both rails return the payload byte-exact (XRP validated ledger 107754612). The artifact is the specification itself (self-referential, per the Satoshi Embodiment precedent). Full runlog, preregistrations, and executable scripts included.</p><p><strong>Companion records:</strong> The Satoshi Embodiment DOI 10.5281/zenodo.23463132; Project SOLACE DOI 10.5281/zenodo.23463568; The Cage Is Working DOI 10.5281/zenodo.23464082. Append-only public ledger entry 0224, github.com/LLong2026/four-horsemen. DCAI community: zenodo.org/communities/dcai. Dual Mesh Benchmark status: NOT MEASURED in this record (no neural-mesh inference involved; deterministic gates only); program benchmark DOI 10.5281/zenodo.23321637. Two-key curation: drafted and vetted by the system (Gabriel), published on the owner's explicit GO (chat authorization, 2026-10-18 23:46 CT).</p>",
+  "publication_date": "2026-10-19",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": "1.0",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II",
+    "SquirlOS Technologies LLC"
+  ],
+  "keywords": [
+    "SQUIRL OS",
+    "dual-write receipt",
+    "blockchain storage",
+    "OP_RETURN",
+    "XRPL memo",
+    "AccountSet",
+    "deterministic tokenization",
+    "joint commitment",
+    "cross-chain",
+    "keyless verification",
+    "preregistration",
+    "receipts doctrine"
+  ],
+  "related_identifiers": [],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23464516",
+  "zenodo_modified": "2026-10-19T04:49:56.684745+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "dwr1_bundle.zip",
+      "filename": "dwr1_bundle.zip",
+      "size": 21700,
+      "zenodo_checksum": "md5:2e1603a9ea6751c039c962e678bbfed4",
+      "sha256": "81dcf913ac550f44ba5915d8530ccee87bcc718e56ebe41813ceaca57220765c"
+    }
+  ]
+}

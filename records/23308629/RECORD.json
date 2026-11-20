@@ -1,0 +1,59 @@
+{
+  "record_id": "23308629",
+  "doi": "10.5281/zenodo.23308629",
+  "concept_doi": "10.5281/zenodo.23308628",
+  "title": "System and Method for Human-Approved Deterministic Finality of Probabilistic Agent Actions via Consensus Gating, Shape-Sum Verification, and Post-Quantum Commitment — U.S. Provisional Patent Application 64/174,202 (Public Filing Notice)",
+  "description": "<p><b>Public filing notice for U.S. Provisional Patent Application 64/174,202</b>, filed October 11, 2026 (priority date secured).</p>\n<p><b>Title:</b> SYSTEM AND METHOD FOR HUMAN-APPROVED DETERMINISTIC FINALITY OF PROBABILISTIC AGENT ACTIONS VIA CONSENSUS GATING, SHAPE-SUM VERIFICATION, AND POST-QUANTUM COMMITMENT</p>\n<p><b>Inventor:</b> Leon Calvin Long II (Briarcliff, Texas, US), inventor-owned.</p>\n<p><b>Abstract:</b> This invention addresses the gap between probabilistic AI agent behavior and deterministic business requirements. It provides a governance envelope in which actions proposed by probabilistic agents attain deterministic finality only after passing: (1) consensus gating across independent verification paths; (2) shape-sum verification of the action's structural fingerprint; and (3) post-quantum cryptographic commitment using approved PQC algorithms; with a human-approval step required before finality for operations of elevated consequence. The result is a system and method by which non-deterministic intelligence can operate inside auditable, deterministic control boundaries, with a verifiable audit trail for every committed action.</p>\n<p><b>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST:</b> This record is part of the Squirl OS research corpus and points at the public GitHub ledger (https://github.com/LLong2026) for implementation material. This disclosure is released under the patent-then-publish doctrine: the corresponding U.S. provisional application was filed and the priority date secured before this public release.</p>\n<p><b>Related public materials:</b> Master thesis monograph \"Deterministic Containment of Probabilistic Intelligence: The Squirl OS Journey\" (DOI 10.5281/zenodo.23303240); Dual Mesh Benchmark paper (DOI 10.5281/zenodo.23303081).</p>\n<p><i>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.</i></p><p><strong>Patent note:</strong> Priority date October 11, 2026. Application 64/174,202.</p>",
+  "publication_date": "2026-10-12",
+  "resource_type": "publication",
+  "resource_type_title": "Journal article",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin II"
+  ],
+  "keywords": [
+    "deterministic governance",
+    "AI agents",
+    "consensus gating",
+    "post-quantum cryptography",
+    "PQC",
+    "Squirl OS",
+    "human-in-the-loop",
+    "deterministic finality"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23303240",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23303081",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23308629",
+  "zenodo_modified": "2026-11-18T19:17:00.471424+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "patent-filing-notice.pdf",
+      "filename": "patent-filing-notice.pdf",
+      "size": 3405,
+      "zenodo_checksum": "md5:bf47e849ba390c04c02f104f83ce96f1",
+      "sha256": "b07cbe1ca85e7895fb6badfa231c3703ece58008dcab5ff1f17c55f15f40ee3c"
+    }
+  ]
+}

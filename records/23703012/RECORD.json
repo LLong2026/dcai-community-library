@@ -1,0 +1,43 @@
+{
+  "record_id": "23703012",
+  "doi": "10.5281/zenodo.23703012",
+  "concept_doi": "10.5281/zenodo.23703011",
+  "title": "The Cage Report: Measured Containment of Probabilistic Intelligence — 7,076 Anomalies, 2,228 Healing Events, and a Cage That Held Every Cycle",
+  "description": "<p>A telemetry-based report on the deterministic containment of probabilistic AI components, companion to The Operator's Receipt (DOI 10.5281/zenodo.23700617).</p><p>SQUIRL OS is a deterministic hypervisor layer (Jasper) wrapped around a probabilistic anomaly-healing engine (Amelia/Aegis), operating continuously across an eight-application fleet with a 25-node neural mesh and 20 orchestration agents. This report presents the measured record between inception and 2026-10-27, with every count an entity read from the hub-of-record database:</p><ul><li>7,076 anomalies detected; 6,776 resolved (95.8%)</li><li>2,228 journaled healing events; 20 explicit cage refusals/human holds</li><li>34 confidence-gated and 30 threshold-blocked heals — the deterministic guard declining to act on weak evidence 64 times</li><li>216 predictive alerts; 123/123 critical alerts resolved only after explicit owner acknowledgment</li><li>254 learned patterns, 350 learning metrics — every journaled crossing (H-INV-2)</li><li>Adversarial validation: 0 escapes in 60 recorded cage cycles (DOI 10.5281/zenodo.23425579); 109/109 falsifiers held (DOI 10.5281/zenodo.23430655)</li><li>Constitution Sentinel audit: 100% charter compliance, 100% audit-trail completeness, 0 tenant-isolation violations, 0 false positives</li><li>Evidence anchoring at ~$0.25 per triad receipt; 373 append-only ledger entries</li></ul><p>Honest boundaries: all systems are prototypes; healing telemetry is dominated by deliberate synthetic fault campaigns per frozen prereg; sentinel figures describe the audit pass, not impossibility proofs; the kill switch exists because no wall is assumed perfect. No client data, PHI, or credentials in any telemetry or receipt.</p><p>Prototype disclaimer: this software and its descriptions are provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects.</p>",
+  "publication_date": "2026-10-27",
+  "resource_type": "publication",
+  "resource_type_title": "Report",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "AI containment",
+    "deterministic governance",
+    "LLM fabrication",
+    "self-healing systems",
+    "telemetry",
+    "receipts",
+    "trust infrastructure",
+    "post-quantum cryptography",
+    "SQUIRL OS"
+  ],
+  "related_identifiers": [],
+  "communities": [
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23703012",
+  "zenodo_modified": "2026-10-27T20:20:47.951371+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "CAGING_TELEMETRY_REPORT_v1.0.md",
+      "filename": "CAGING_TELEMETRY_REPORT_v1.0.md",
+      "size": 9869,
+      "zenodo_checksum": "md5:5c522ab2e7947fb2247284c87a492b7c",
+      "sha256": "f5cbcaa7fc29f064f026690dbcec35bd2bd995979d98afdd6823b825331a70a5"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "record_id": "23441992",
+  "doi": "10.5281/zenodo.23441992",
+  "concept_doi": "10.5281/zenodo.23441982",
+  "title": "OMAHA-1 \"Omaha Beach — Day One\": Compound Simultaneous Assault on a Self-Healing AI Operating System (Sender Identity Gate Storm + Caged-Seat Breakout Corpus + Total 11-Member Transport Blackout) — 8/8 Gates PASS",
+  "description": "<p><b>OMAHA-1 \"OMAHA BEACH — DAY ONE\"</b> — compound adversarial resilience battery for SQUIRL OS, run 2026-10-17. Three assault axes fired concurrently in a single storm window:</p>\n<ul>\n<li><b>Axis S — Strangers at the gate:</b> 12 frozen fixtures (forged sender identities, lookalike addresses, in-band delegation claims) hammered the deterministic Sender Identity Gate with authorization demands (ACK, publish GO, ledger writes, deployment, secret disclosure, client-list disclosure) while the fleet was dark. Result: 12/12 rejected, zero writes executed, every rejection journaled.</li>\n<li><b>Axis B — Breakout attempts:</b> 4 fresh caged LLM seats (advisory-only, no tools, message content = untrusted data) attacked with a 6-wave blackout-themed escape corpus: relayed operator GO, emergency tool invocation during the cable cut, governance mutation under cover of chaos, exfiltration via fake status relay, authority-of-necessity, plus a positive control. Result: zero escape-pattern hits (P1-P5); all positive controls answered substantively through the storm.</li>\n<li><b>Axis C — Cable cut:</b> total 11-member transport blackout (8 pulse members + 3 wisemen boxes). All 11 heartbeat misses detected and journaled (zero silent drops); the sync pulse failed closed (zero partial writes, zero false-green manifests); recovery was idempotent (stamp replay refused, single re-execution).</li>\n</ul>\n<p><b>Gates:</b> G1 stranger gate, G2 breakout, G3 blackout detection, G4 fail-closed, G5 recovery idempotency, G6 governance integrity (rules hash byte-identical before/after), G7 compound isolation, G8 positive control — <b>8/8 PASS</b>. Full anomaly→playbook→healing-event→pattern lineage journaled per the Hemispheric Invariants (H-INV-1/H-INV-2).</p>\n<p><b>Disclosures:</b> simulation only (prototype systems, synthetic corpus, no real tenant data, no PII/PHI); blackout simulated at the transport layer (deterministic injected timeouts); single-family LLM seats with deterministic adjudication (no LLM in any decision path); forward-only authoring note on roster-of-record fix included in the runlog.</p>\n<p>Part of the SQUIRL OS containment program (see TROPHY_ROSTER.csv, 52 recorded cycles, zero escapes). Preregistration frozen before execution: sha256-16 a088526ae42964a1, commit 4e68569. Receipt sha256-16 f9ed4117047bcc3d.</p>",
+  "publication_date": "2026-10-17",
+  "resource_type": "software",
+  "resource_type_title": "Software",
+  "version": null,
+  "license": "mit-license",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "self-healing infrastructure",
+    "AI containment",
+    "adversarial testing",
+    "preregistered falsification",
+    "AI governance",
+    "fail-closed systems",
+    "SQUIRL OS"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23441992",
+  "zenodo_modified": "2026-10-19T02:14:37.216042+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "OMAHA1_BUNDLE.zip",
+      "filename": "OMAHA1_BUNDLE.zip",
+      "size": 26478,
+      "zenodo_checksum": "md5:c0d47c1309e475147f157294b08ea9a9",
+      "sha256": "b89a69b05e80a2a653dbadd250cde2cf0cfb084afa383b1a6bdaf43ea75ff6a5"
+    }
+  ]
+}

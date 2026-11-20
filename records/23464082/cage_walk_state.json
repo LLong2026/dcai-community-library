@@ -1,0 +1,18 @@
+{
+ "g1_txid": "13ccf51fe2c61719c160af03757b55b662c4be1be7fcaf1091ebf3cc0d4d501b",
+ "g1_fee": 567,
+ "g1_vsize": 189,
+ "g1_sats_to_B": 1000,
+ "payload": "5351445201f439f1307cf3657cce4e95b18a53678a2ae5691b191e5961cdfbebaf650265d7",
+ "g2_txid": "9856c126acb3577a444084215e7aebb56f1060c755ee971ae5d483b7e1fea84e",
+ "g2_fee": 316,
+ "g2_vsize": 158,
+ "g2_sats_to_A": 684,
+ "g1_status": {
+  "confirmed": false
+ },
+ "g2_status": {
+  "confirmed": false
+ },
+ "g3": "PASS (payload byte-exact both hops)"
+}

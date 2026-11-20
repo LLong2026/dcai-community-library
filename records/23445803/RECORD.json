@@ -1,0 +1,57 @@
+{
+  "record_id": "23445803",
+  "doi": "10.5281/zenodo.23445803",
+  "concept_doi": "10.5281/zenodo.23445802",
+  "title": "SBR-7: A Randomized-Seed Adversarial Pop Quiz Against a Blockchain-Interaction Stack — 6 Probes Drawn From 12 by a Publicly Committed Seed, 6/6 Held (Preregistered, With a Disclosed Authoring-Defect Amendment)",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST:</strong> AI-assisted, receipt-first research program (open-book doctrine: audit-and-correction, versioned amendments, append-only public ledger). Errors are disclosed, not erased. <em>This software is a prototype and is provided for educational and research purposes only. Not intended for production use, commercial deployment, or safety-critical environments. All payloads synthetic. No customer-identifiable data appears in this record (POL-DISC-001).</em></p><p><strong>SBR-7 — a randomized-seed adversarial pop quiz against a brand-new attack surface: the program's own blockchain-interaction stack.</strong> Following SBR-6 (DOI 10.5281/zenodo.23445047), 6 probes were drawn from a frozen pool of 12 by a seeded PRNG, the seed (78bf5e1, the prereg commit sha) committed publicly BEFORE the draw so the exam could not be cherry-picked. Whatever drew, ran. Deterministic adjudication; no LLM in the decision path; all probes lab-local and synthetic — only 32-byte SHA-256 digests crossed any boundary (POL-DISC-001).</p><p>The draw pulled: P01 RECEIPT-SWAP (a receipt for artifact A presented as proof of artifact B: refused, digest mismatch =&gt; orphan), P03 RECOVER-ARC (drift re-anchored, superseded receipt retained in history), P05 DIGEST-ONLY-BOUNDARY (committed digest == sha256(artifact): proof no artifact bytes ever transit), P06 MERKLE-PARSE (valid proof paths), P09 REPLAY-STAMP (stamping the same content twice commits an identical digest: idempotent existence proof), P11 PQC-AUTHORITY-NON-NEGOTIABLE (the chain-proves-existence / PQC-retains-authority split held; no substitution). <strong>Result: 6/6 PASS (receipt v1.1, sha a18cf2d9...9993e823).</strong></p><p><strong>Disclosed (audit-and-correction doctrine):</strong> the v1.0 run scored 5/6 — the P11 probe had an authoring defect (a case-sensitive substring check against a protocol that prints the disclosure in caps; the system under test was never at fault). The v1.0 FAIL receipt is preserved in the bundle; the harness was amended v1.1 forward-only with the reason disclosed and the exam re-run clean on the same seed. This is the <strong>fifth time</strong> the preregistration discipline caught an authoring defect before it could masquerade as a result — a recurring finding about the method in its own right.</p><p><strong>Context:</strong> this battery certifies safe blockchain interaction for the SIP-034..037 chain-of-custody stack (OpenTimestamps hash-only anchoring of the governance corpus; companion record DOI 10.5281/zenodo.23445728). The program's claim 'we can safely interact with the blockchain' now carries a randomized, seeded, receipt-backed exam. <strong>Scope caveat (load-bearing):</strong> synthetic forge, lab-local, free public calendars; not a production certification. <strong>Dual Mesh Benchmark status: NOT MEASURED in this record</strong> (no neural-mesh inference involved); program benchmark DOI 10.5281/zenodo.23321637 (DeepSeek column 10.5281/zenodo.23345241). Provenance: append-only public ledger entries 0162-0168, github.com/LLong2026/four-horsemen. DCAI community: zenodo.org/communities/dcai. Two-key curation: drafted and vetted by the system (Gabriel), published on the owner's explicit GO (chat authorization, 2026-10-17 ~23:00 CT).</p>",
+  "publication_date": "2026-10-18",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": "1.1",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II",
+    "SquirlOS Technologies LLC"
+  ],
+  "keywords": [
+    "SQUIRL OS",
+    "SBR-7",
+    "randomized benchmark",
+    "adversarial exam",
+    "preregistration",
+    "blockchain anchoring",
+    "OpenTimestamps",
+    "chain of custody",
+    "deterministic gates",
+    "fail-closed",
+    "PQC",
+    "post-quantum cryptography",
+    "AI governance",
+    "AI safety"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23445803",
+  "zenodo_modified": "2026-10-24T15:25:26.035031+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "sbr7_receipt_bundle.zip",
+      "filename": "sbr7_receipt_bundle.zip",
+      "size": 19913,
+      "zenodo_checksum": "md5:e5ab3c0c833319e8b5be6b55cd1f37b1",
+      "sha256": "fbed14a323fad19ac2005b291fbe0dc324023fdd915f34899e4a6de76b36c4b1"
+    }
+  ]
+}

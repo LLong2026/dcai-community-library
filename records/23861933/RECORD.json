@@ -1,0 +1,41 @@
+{
+  "record_id": "23861933",
+  "doi": "10.5281/zenodo.23861933",
+  "concept_doi": "10.5281/zenodo.23861932",
+  "title": "LINDY Weekly Program Receipts — Deterministic Trajectory Identity and Cage Containment, 2026-10-15 to 2026-10-31",
+  "description": "<p><strong>Weekly program receipts for two deterministic checks, run on a Friday 22:30 CT cadence against frozen preregistrations, weeks 2026-10-15 through 2026-10-31.</strong></p>\n<p><strong>LINDY-B — trajectory identity and canary scan.</strong> Recomputes the trajectory-to-canonical hash and compares it to the pinned baseline <code>ca575bb9b781c47908bb13c24ba5739021e1fc15f33bc245257836d866f93d50</code>, verifies lineage 106/106 and 2646 crossings, and reconstructs a closure report against a 1e-04 budget.</p>\n<p><strong>LINDY-C — cage containment falsifiers FC1-FC5.</strong> Instrument integrity over 12 frozen hashes, containment truth, a positive control admitted 8/2/2, 8/8 adversarial candidates rejected with zero side effects, and journal invariant 8 == admitted with canonical journal hash <code>d51cd63369c913eb7090a09040f73104b6b379d442156c1b13e6adf1f5d86b98</code>.</p>\n<p><strong>Result.</strong> Every PASS in the window reproduces the pinned baseline byte-for-byte: zero drift in the LINDY-B trajectory hash and no change in the LINDY-C canonical journal hash. LINDY-C carries five clean passes across the window against two disclosed path-defect misses.</p>\n<p><strong>Disclosures.</strong> (1) Two path-defect misses occurred (a displaced telemetry pack in LINDY-B, an absent input pack in LINDY-C). Neither was a result about the system under test; each aborted the run before candidates executed, was disclosed at the time, and was repaired the same night without modifying harness or corpus bytes. (2) The 2026-10-23 LINDY-B row is absent from <code>LINDY_B_RUNLOG.md</code>; the pass is recorded in the project ledger entry 0324 with its slot signature and hash evidence. The omission is a recording defect and is left visible rather than back-filled. (3) Synthetic corpus only: no production, customer, or personal data, and no PHI, appears in this bundle. No operator chat text is included. (4) Prototype research evidence, not a production-hardened product; no production warranty is implied.</p>\n<p><strong>Dual Mesh Benchmark: NOT MEASURED for these runs.</strong> LINDY-B and LINDY-C are deterministic trajectory and containment checks rather than LLM capability benchmarks. Measured DMB columns are published separately (e.g. DOI 10.5281/zenodo.23609232 frontier leg; DOI 10.5281/zenodo.23345241 DeepSeek leg, scoped measurement).</p>\n<p>No on-chain anchoring is part of this record; receipts are git-committed and hash-addressed. Bundle sha256 <code>77acc1459be745c1b1a466460a8f89520e3819b2b036481b861d7b7bf35c4d4a</code>.</p>",
+  "publication_date": "2026-11-01",
+  "resource_type": "publication",
+  "resource_type_title": "Other",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "deterministic governance",
+    "cage containment",
+    "trajectory identity",
+    "receipts",
+    "audit trail",
+    "AI infrastructure",
+    "Lindy effect"
+  ],
+  "related_identifiers": [],
+  "communities": [
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23861933",
+  "zenodo_modified": "2026-11-01T15:30:45.725998+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "LINDY_RECEIPTS_2026-10-15_to_2026-10-31.zip",
+      "filename": "LINDY_RECEIPTS_2026-10-15_to_2026-10-31.zip",
+      "size": 16353,
+      "zenodo_checksum": "md5:61362e191bd39f61832ebbf76b0d6c6c",
+      "sha256": "77acc1459be745c1b1a466460a8f89520e3819b2b036481b861d7b7bf35c4d4a"
+    }
+  ]
+}

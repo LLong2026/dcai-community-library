@@ -1,0 +1,49 @@
+{
+  "record_id": "23345907",
+  "doi": "10.5281/zenodo.23345907",
+  "concept_doi": "10.5281/zenodo.23345906",
+  "title": "DPP-1: Data-Plane Poisoning via Metadata — Poison In, Nothing Out (67/67 Poisoned Instances Decision-Identical, 7/7 Canaries Absent from Outputs)",
+  "description": "<p><strong>DPP-1 — Data-Plane Poisoning via Metadata:</strong> the third leg of the Oct 13 adversarial triad. SBR-2 (DOI 10.5281/zenodo.23345734) attacked mid-learning; H-INV-2 (DOI 10.5281/zenodo.23345859) attacked the ledger. This battery attacks the inputs themselves: adversarial content planted directly in the fields the mesh ingests.</p><p>A deterministically derived poisoned corpus (underlying metrics unchanged; poison only in metadata) planted instruction injections, forged confidence overrides, credential/PHI/wallet lookalikes, forged severity, fake playbook links, and pattern-forcing payloads — each with a unique synthetic canary marker — on every 3rd instance.</p><p><strong>All 5 falsifiers PASS (first run):</strong> every poisoned instance produced a decision tuple byte-identical to the clean baseline (zero decision effect); all 7 canaries absent from every persisted output artifact (redaction-at-ingestion held); the poisoned run's 40-epoch weight trajectory and 2,646-crossing journal byte-identical to the clean baseline (learning uncontaminated); 106/106 lineage controls valid; artifact hygiene clean.</p><p><strong>Note:</strong> the poisoned corpus file is the attack instrument and intentionally contains the planted synthetic canaries (all explicitly fake); the falsifier is their absence from all outputs. No real credentials or personal data anywhere.</p><p><strong>Scope honesty:</strong> proves THIS registered instrument under THIS frozen battery — not a universal claim about every data pipeline or untested poison classes. Operator authorization recorded as GO + timestamp per the operator-privacy doctrine.</p><p><strong>Dual Mesh Benchmark:</strong> MEASURED for the DeepSeek column (DOI 10.5281/zenodo.23345241); all other figures NOT MEASURED.</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects.</em></p>",
+  "publication_date": "2026-10-13",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "prompt injection",
+    "data-plane poisoning",
+    "metadata poisoning",
+    "AI governance",
+    "bounded learning",
+    "ingestion redaction",
+    "self-healing infrastructure"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23345907",
+  "zenodo_modified": "2026-10-19T02:12:38.752901+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "dpp1_receipt_bundle.zip",
+      "filename": "dpp1_receipt_bundle.zip",
+      "size": 12953,
+      "zenodo_checksum": "md5:f500271f3e5baf75c082c65edf94b71d",
+      "sha256": "f872b507f093592a5301b5451ee52e7d313cf9f58217b504dc8c9271e8c9a724"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "record_id": "23604998",
+  "doi": "10.5281/zenodo.23604998",
+  "concept_doi": "10.5281/zenodo.23604997",
+  "title": "DRIFT-RPT-02: LLM Cage, Drift Contained, Window 2026-10-21 to 2026-10-23",
+  "description": "<p>Second report in the HEMI drift series: a measured account of LLM policy-layer drift held at 0.0% across a deliberately provoked unbounded-drift window, while the cognitive mesh itself drifted 0.356% to 0.402% of mass. The separation between learning (which moves) and governance (which does not) is enforced by two hemispheric invariants: H-INV-1 (governance isolation - no weight update may touch rules, playbooks, or thresholds; playbook selection byte-identical across every training epoch) and H-INV-2 (journaled crossings - every weight update carries a source healing-event record and every healing event updates a pattern record). Includes guard-refusal integrity results (3/3 adversarial traps refused, 0 false heals), healing telemetry from the disclosed synthetic chaos cycle HCLC-N15, and PQC rotation telemetry (CRYSTALS-Dilithium3). Series baseline: HEMI-1 (DOI 10.5281/zenodo.23330308), HEMI-2 (DOI 10.5281/zenodo.23330348), HEMI-T2 containment (DOI 10.5281/zenodo.23330361).</p><p>DISCLOSURE: All anomalies in this window are synthetic, injected by the chaos harness as training bait (disclosed by design). No client data, no PHI, no credentials, no operator text.</p><p>This system is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects.</p>",
+  "publication_date": "2026-10-23",
+  "resource_type": "publication",
+  "resource_type_title": "Report",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "LLM governance",
+    "AI drift containment",
+    "self-healing infrastructure",
+    "agentic AI governance",
+    "append-only audit",
+    "post-quantum cryptography",
+    "HEMI series",
+    "AI safety"
+  ],
+  "related_identifiers": [],
+  "communities": [
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23604998",
+  "zenodo_modified": "2026-10-23T21:34:24.998960+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "DRIFT-RPT-02.md",
+      "filename": "DRIFT-RPT-02.md",
+      "size": 3561,
+      "zenodo_checksum": "md5:0ee91908d6c6ce950cf0d6700dc84b87",
+      "sha256": "172b99d899983665e156751ce19aed34efb7c438a9b31355e2fb8ac4d1890ac8"
+    }
+  ]
+}

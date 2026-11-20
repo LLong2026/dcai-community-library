@@ -1,0 +1,54 @@
+{
+  "record_id": "23349379",
+  "doi": "10.5281/zenodo.23349379",
+  "concept_doi": "10.5281/zenodo.23349378",
+  "title": "SQUIRL OS PQC Baseline Standard v1 (Approved) with PQC-B1 Dual-Hemispheric Baseline Battery Receipts: Byte-Exact Algorithm Identification, Fail-Safe Migration Gates, and the FIPS Name-Equivalence Gap",
+  "description": "The SQUIRL OS PQC Baseline Standard v1 (approved), with the PQC-B1 dual-hemispheric baseline battery receipt that grounds it and the SIP-8 deployment verification (PQC-B1b).\n\nCONTEXT: Executive Order 14412 (June 22, 2026) and the 2026 federal contractor requirements make post-quantum cryptography migration an auditable procurement requirement. This record exists so PQC posture is demonstrated with evidence - preregistered batteries, receipts, and fleet inventory - not claims.\n\nTHE STANDARD (v1, approved): approved algorithms identified by byte-exact implementation strings (CRYSTALS-Dilithium3, kyber_1024, SPHINCS+-256f) with their FIPS 203/204/205 published names; identification doctrine (byte-exact by default, human-approved equivalence table SIP-8 for FIPS names - deployed as governance v1.1 via the constitutional amendment cycle, table-lookup with byte-exact keys, no string normalization); three migration gates (G1 algorithm, G2 validate-before-heal with fail-safe escalation, G3 human-in-loop for critical fintech); dual-hemispheric invariants (H-INV-1 governance isolation, H-INV-2 journaled learning, structural metadata only); measured fleet compliance baseline; audit and versioning (pqc_compliance_pct in the standing Sentinel audit, human-amendable only, forward-only changes).\n\nPQC-B1 BATTERY (preregistered before execution): 7 legs x 8 epochs = 56 epochs, deterministic instrument, zero API spend. Results: approved-set conformance 8/8 heal; classical fallback rejection (RSA-2048, ECDSA-P256, AES-256-GCM, DSA-1024, ECDH-P384, 3DES, SHA-1-sig, RC4) 8/8 rejected; unapproved-PQC rejection (Dilithium2, kyber_768, falcon-512, sphincs+-128s, rainbow, hqc, picnic, marketing-string) 8/8 rejected; canonicalization attacks (lowercase, fullwidth, Cyrillic homoglyph, zero-width, trailing space, NFKC-confusable) 8/8 rejected under byte-exact doctrine; FIPS name gap SHIPPED AS FOUND - ML-DSA-65, ML-KEM-1024, SLH-DSA-256f and the fleet's own historical CRYSTALS-Kyber-1024 correctly rejected under byte-exact identification, disclosing the naming-policy gap (closed the same day by human-approved SIP-8); crypto validation failure 8/8 escalated with zero auto-heals (Rules 9/11); dual-hemispheric invariant audit - governance hash byte-identical across all epochs, every event journaled with structural metadata only, PII scan zero hits, zero duplicate alerts. Instrument defect in run 1 (two 7-instance corpora instead of 8) was caught by the falsifiers, repaired with disclosure, defective-run raws preserved.\n\nPQC-B1b (SIP-8 deployment verification): 4/4 legitimate FIPS names resolve through the equivalence table; 4/4 spoof variants rejected (lowercase, spaced, zero-width, and ML-DSA-44 - Dilithium2's FIPS name - which maps to nothing in the approved set). The table opens no fuzzy-match hole: 8/8 conform, 3/3 falsifiers.\n\nFLEET PQC INVENTORY BASELINE (as of 2026-10-13 pulse reads, read-only): SIM-B-Hub 98/0, Conquest CRYSTALS-Dilithium3 on record, War 50/0, Famine 50/0, Death Kyber-1024 on record, Corral 100/0, SIM-B Hypervisor 98/0, SIM-B Technician 98 with 3 vulnerable-crypto items flagged for drill-down.\n\nAuthorization: Leon GO (chat authorization, Oct 13, 2026, 13:51 CT) for the battery; Leon ACK (chat ack, Oct 13, 2026, 13:53 CT) for SIP-8 approval and standard publication. Two-key curation: Gabriel vet complete.\n\nThis software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All data is synthetic.",
+  "publication_date": "2026-10-13",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Leon Calvin Long, II"
+  ],
+  "keywords": [
+    "post-quantum cryptography",
+    "PQC",
+    "FIPS 203",
+    "FIPS 204",
+    "FIPS 205",
+    "ML-DSA",
+    "ML-KEM",
+    "SLH-DSA",
+    "governance",
+    "self-healing infrastructure",
+    "receipt-first methodology",
+    "Executive Order 14412"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23349379",
+  "zenodo_modified": "2026-10-19T02:13:21.549181+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "pqc_b1_bundle.zip",
+      "filename": "pqc_b1_bundle.zip",
+      "size": 70759,
+      "zenodo_checksum": "md5:e3c33477c3b04ecce9f5aa0f4beb5f25",
+      "sha256": "045bef7e365d1ed08b5e4ed59c536e9f7d9c95ed27bc39cc7281672478ee59b9"
+    }
+  ]
+}

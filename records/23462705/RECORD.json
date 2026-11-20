@@ -1,0 +1,46 @@
+{
+  "record_id": "23462705",
+  "doi": "10.5281/zenodo.23462705",
+  "concept_doi": "10.5281/zenodo.23462704",
+  "title": "Four-Tokenization Proof Day: Seed Reconstruct, Two Dual-Rail Digest Ceremonies, and a UI-Initiated Hash-Only Bind on Bitcoin and XRP Mainnets, with a Trustless Browser Verification Portal (Session Record, 2026-10-18)",
+  "description": "<p><strong>Session record for 2026-10-18: four artifacts tokenized in one day, without tokens, across two mainnets, every step receipted.</strong> \"The hash is the artifact\": only 32-byte SHA-256 fingerprints touch a chain; the assets never move; the proofs do. <em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments.</em> All payloads are the owner's own artifacts (POL-DISC-001); no customer-identifiable data appears in this record.</p><p><strong>The four ceremonies, all live on mainnet:</strong> (1) patent genesis seed 81d4a5cb...c456c dropped on Bitcoin tx 97d8cd38 (block 972023) and reconstructed byte-identically by a keyless reader (DOI 10.5281/zenodo.23455768); (2) DGPNM v1.1 digest 66dc843a...ee9de2b anchored on Bitcoin block 972047 and round-tripped through three XRP mainnet custody hops (ledgers 107746115-107746135) with the memo bytes exactly equal to the document hash; (3) the Governed Cognitive Training draft kept private and published hash-only - digest 7fe02586...e5b2c8b on Bitcoin block 972053 plus XRP ledgers 107746772/107746777 (DOI 10.5281/zenodo.23460521); (4) \"How to Patent in 2026\" digest 74084eff...af35a92 bound on Bitcoin block 972072 via the first UI-initiated hash-only bind through the Bridge intake queue.</p><p><strong>Public verification portal</strong> (in-browser, keyless, no Python): https://deterministic-code-dsos.base44.app/genesis-viewer - real-world end-user test passed on block 972053 with a byte-exact match banner. Hardening receipts 0209 (full 64-char XRPL hash restoration, defect disclosed) and 0210 (explorer hostname correction) are included verbatim, append-only doctrine intact. <strong>Dual Mesh Benchmark status: MEASURED (scoped)</strong> - no neural-mesh inference in this record's decision path (deterministic ceremonies and gates only); program benchmark DOI 10.5281/zenodo.23321637; containment lineage DOIs 10.5281/zenodo.23330308, 23330348, 23330361. Companion records: receipts corpus DOI 10.5281/zenodo.23455937; \"The Hash Is the Artifact\" paper DOI 10.5281/zenodo.23448049. Provenance: append-only public ledger, github.com/LLong2026/four-horsemen (entries 0205-0210 included in this bundle). Communities: DCAI (zenodo.org/communities/dcai) and SQUIRL OS. Two-key curation: drafted and vetted by the system (Gabriel), published on the owner's explicit GO (chat authorization, 2026-10-18). Operator chat text is not reproduced in this record.</p>",
+  "publication_date": "2026-10-18",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": "1.0",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II",
+    "SquirlOS Technologies LLC"
+  ],
+  "keywords": [
+    "SQUIRL OS",
+    "tokenization without tokens",
+    "hash anchoring",
+    "Bitcoin OP_RETURN",
+    "XRP ledger",
+    "chain of custody",
+    "seed-as-artifact",
+    "hash-only publication",
+    "deterministic anchoring",
+    "evidence over tokens"
+  ],
+  "related_identifiers": [],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23462705",
+  "zenodo_modified": "2026-10-24T15:25:08.512234+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "PROOF_DAY_2026-10-18.zip",
+      "filename": "PROOF_DAY_2026-10-18.zip",
+      "size": 6010,
+      "zenodo_checksum": "md5:31d1dea4c7b785bff0994fafedc819b9",
+      "sha256": "19344fdb85c9911b17d96d40728491d78a25a848f1bbe15f12e458a0cf18dbd6"
+    }
+  ]
+}

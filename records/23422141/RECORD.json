@@ -1,0 +1,86 @@
+{
+  "record_id": "23422141",
+  "doi": "10.5281/zenodo.23422141",
+  "concept_doi": "10.5281/zenodo.23422140",
+  "title": "HACK-3 BULLRUN: Nation-State Subversion vs. the PQC Perimeter — Deterministic Gate Adversarial Battery (6/6 PASS)",
+  "description": "<p>Third battery in the HACK adversarial series. Threat model: the NSA BULLRUN playbook (declassified 2013) — subverted standards (Dual_EC_DRBG), protocol downgrade, library attestation subversion, key-lifecycle abuse, process bypass, and harvest-now-decrypt-later. Explicit constraint: the lattice math is untouchable; every falsifier lands on the operational surface.</p><p>Six falsifiers were preregistered and committed (commit 56351d2) BEFORE any run, frozen manifest sha256 f2135c98...ac2b7, no edits after commit. Adjudication is a deterministic gate with no LLM in the decision path; all injections are synthetic and hub-local.</p><p>Result: 6/6 predicted verdicts, 0 violations, 1 deliberate critical hold (FC-4 retired-key resurrection failed closed and resolved only under a human ACK on the authorized channel). Thesis demonstrated: there is no implementation seam between the math and the enforcement — every route to the crypto passes through the frozen gate.</p><p>Bundle: preregistration spec, deterministic battery harness, run receipt (sha256 3c0e804b...f29059), runlog, and evidence bundle (sha256 560bd31b...086e64).</p><p>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects.</p>",
+  "publication_date": "2026-10-16",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "post-quantum cryptography",
+    "PQC",
+    "BULLRUN",
+    "adversarial testing",
+    "deterministic systems",
+    "AI governance",
+    "falsifiability",
+    "preregistration",
+    "CRYSTALS-Dilithium3",
+    "Kyber-1024",
+    "SPHINCS+-256f",
+    "Dual_EC_DRBG",
+    "harvest-now-decrypt-later"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/LLong2026/four-horsemen/blob/main/hack3_bullrun_prereg.md",
+      "relation": "isDerivedFrom",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23410960",
+      "relation": "isPartOf",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23422141",
+  "zenodo_modified": "2026-10-19T02:13:46.444920+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "hack3_evidence_bundle.zip",
+      "filename": "hack3_evidence_bundle.zip",
+      "size": 9648,
+      "zenodo_checksum": "md5:f48fabb25dbf9ec2188cb283712a9bc5",
+      "sha256": "560bd31b8483adac72a1343fb782b32d154e0dd4f4df77db9795f9d52e086e64"
+    },
+    {
+      "key": "hack3_bullrun_prereg.md",
+      "filename": "hack3_bullrun_prereg.md",
+      "size": 4400,
+      "zenodo_checksum": "md5:16c65a1b6207aa88b4385e9d6cc9c36f",
+      "sha256": "f2135c981a39f139bc27ed33176057bd467fcbd63ecadbb0b8ed9ae7367ac2b7"
+    },
+    {
+      "key": "HACK3_RUNLOG.md",
+      "filename": "HACK3_RUNLOG.md",
+      "size": 4596,
+      "zenodo_checksum": "md5:166bf88e891535b7b35888a8c9db9074",
+      "sha256": "4a9aa7f7123ca4c65a01b851b33e05d71807be1de0ea177b57a2a78fdd4ca405"
+    },
+    {
+      "key": "hack3_bullrun_battery.py",
+      "filename": "hack3_bullrun_battery.py",
+      "size": 6406,
+      "zenodo_checksum": "md5:cbd7c60d8b3bddd9620ca11302602c12",
+      "sha256": "10a86d1b6f32ff895fa1d1b28a43e3f0e4b717ddcc3ccc04163f79e6e35f2dad"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "record_id": "23463132",
+  "doi": "10.5281/zenodo.23463132",
+  "concept_doi": "10.5281/zenodo.23463131",
+  "title": "The Satoshi Embodiment: A 32-Byte Hash Riding Real Satoshis Across a Bitcoin Mainnet Custody Walk",
+  "description": "<p><strong>The core embodiment of hash-only tokenization, executed live on Bitcoin mainnet: a 32-byte SHA-256 digest rode real satoshis across a full custody walk, out and back.</strong> The asset digest (66dc843a...ee9de2b, paper \"Deterministically Governed Probabilistic Neural Mesh\" v1.1, patent application 64/119,191) was carried by 1,000 sats from wallet A to wallet B with the payload in OP_RETURN (tx c800820c..., block 972097), then returned to A on the same rails carrying the identical payload (tx ef1fce19...). Keyless pull-back verified both directions byte-exact. Total postage: 883 sats (about nine cents). No token issued; no coin created. This record is itself then tokenized on both rails (Bitcoin OP_RETURN + XRPL custody round trip), closing the loop: the paper about the embodiment carries the embodiment's receipts and rides them itself.</p><p><strong>Three proofs, one digest, one day:</strong> permanence (Bitcoin block 972047 hash-only anchor), velocity (XRP ledgers 107746115-107746135 custody walk), and embodiment (block 972097, the hash riding a satoshi). Public verification portal: https://deterministic-code-dsos.base44.app/genesis-viewer (keyless, in-browser).</p><p><strong>Dual Mesh Benchmark status: MEASURED (scoped)</strong> - no neural-mesh inference in any ceremony decision path; program benchmark DOI 10.5281/zenodo.23321637. Related records: 10.5281/zenodo.23448049 (Hash Is the Artifact), 10.5281/zenodo.23455768 (DROPBOX-M1-001), 10.5281/zenodo.23456550 (End-to-End Tokenization), 10.5281/zenodo.23462705 (Four-Tokenization Proof Day). Communities: DCAI and SQUIRL OS. Two-key curation: drafted and vetted by the system (Gabriel), published on the owner's explicit GO (chat authorization, 2026-10-18); operator chat text is not reproduced. <em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments.</em> No client-identifiable data, no PHI (POL-DISC-001).</p>",
+  "publication_date": "2026-10-18",
+  "resource_type": "publication",
+  "resource_type_title": "Technical note",
+  "version": "1.0",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II",
+    "SquirlOS Technologies LLC"
+  ],
+  "keywords": [
+    "SQUIRL OS",
+    "tokenization without tokens",
+    "satoshi",
+    "Bitcoin OP_RETURN",
+    "XRP ledger",
+    "chain of custody",
+    "hash anchoring",
+    "seed-as-artifact",
+    "evidence over tokens",
+    "deterministic anchoring"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23448049",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://deterministic-code-dsos.base44.app/genesis-viewer",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23463132",
+  "zenodo_modified": "2026-10-24T15:25:04.743702+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "PREREG_SAT-EMB-PUB-1.md",
+      "filename": "PREREG_SAT-EMB-PUB-1.md",
+      "size": 1626,
+      "zenodo_checksum": "md5:2feaeb314641c661fb12a1adcec05b27",
+      "sha256": "49e932e6b4079d8feb5d9b75021de8668db3d1fa0a7815b5efcdb227083263f2"
+    },
+    {
+      "key": "satoshi_walk_state.json",
+      "filename": "satoshi_walk_state.json",
+      "size": 488,
+      "zenodo_checksum": "md5:5941aa3b48b467bcac9101eac7d19681",
+      "sha256": "3ac9af11b94607f892ed57e36f3fc96471bdfad55d930d84607dcdaf8d822d4c"
+    },
+    {
+      "key": "SATOSHI_WALK_RUNLOG.md",
+      "filename": "SATOSHI_WALK_RUNLOG.md",
+      "size": 2221,
+      "zenodo_checksum": "md5:eed4bc692595724322a7e77beb5f2e86",
+      "sha256": "97efb740217c9c24ddd50279b35005c8094e7d16c8da0d75c79527230c116161"
+    },
+    {
+      "key": "SATOSHI_EMBODIMENT_PAPER_v1.0.pdf",
+      "filename": "SATOSHI_EMBODIMENT_PAPER_v1.0.pdf",
+      "size": 5737,
+      "zenodo_checksum": "md5:027b8991940c84c6892a4cdeaaf07c71",
+      "sha256": "493a45234bbed02f2a81384c943ba47ba4c4cd895d501d1a56e86e09989186bc"
+    },
+    {
+      "key": "PREREG_DGPNM-SAT-1.md",
+      "filename": "PREREG_DGPNM-SAT-1.md",
+      "size": 2070,
+      "zenodo_checksum": "md5:b3cddd1573d165161e64a9d0a7925d59",
+      "sha256": "a89ccbc653769d6a75f17558cd8bde4c0b85e7182db5799396ec6536a784f29a"
+    }
+  ]
+}

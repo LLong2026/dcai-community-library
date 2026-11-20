@@ -1,0 +1,73 @@
+{
+  "record_id": "23736140",
+  "doi": "10.5281/zenodo.23736140",
+  "concept_doi": "10.5281/zenodo.23736139",
+  "title": "The Rise of the Gatekeepers: Why Tokenization Rebuilt the Bank, and What a Quarter Still Buys",
+  "description": "A self-published research monograph arguing that institutional tokenization did not remove the intermediary, it rebuilt the intermediary and priced the rebuild as innovation. Status disclosure: NOT a university-issued document; confers no degree or credential; not peer reviewed.\n\nFIVE CLAIMS, DEVELOPED AND TESTED. (1) Every ownership system has three seats of power (issuance, custody, verification) and tokenization refilled all three with the class of occupant it claimed to displace. (2) The evidence is factual rather than interpretive: in September 2026 a consortium of 21 financial institutions including Goldman Sachs, Bank of America, Citi and Deutsche Bank announced they will issue a shared dollar stablecoin themselves for 2027, and a crypto-native venture founded to route around banking is reported to be seeking a bank charter. (3) Yield is the structural tell: every honest source of return in a tokenized asset (float, fees on movement, emissions) describes an intermediary, and the 2025 stablecoin legislation named who keeps the float when it prohibited paying holders interest on their own balances. (4) The instrument is not the business, so a wrapper-dependent model is repriced the moment a sovereign tokenizes its own currency, while evidence about events survives the change. (5) The real dividing line is gate versus runtime: a boundary filter that can refuse a transfer versus a property of state that a stranger can replay from the journal alone.\n\nCONSTRUCTIVE HALF, MEASURED. A three-way 30/30/40 fractional ownership split witnessed on three public chains for $0.2509 total (Bitcoin OP_RETURN 316 sats at 2 sat/vB; Stellar ledger 65140250 at 100 stroops; XRP Ledger 10 drops; two rails final in 5.9 seconds), verifiable with no account, custodian or permission. The disclosure that the first Bitcoin leg fired with a wrong class byte and was superseded by a corrected re-fire is retained in the paper, because omitting it would void the numbers.\n\nRECORD-KEEPING LAYER, MEASURED (2026-10-28): 7,083 anomalies detected and 6,789 resolved; 124 of 124 critical alerts closed, each only after explicit human acknowledgment; 61 entries on a public roster with 55 closed; 383 dated ledger rows in the 2026-09-24 to 2026-10-26 window; 207 published archival records (155 open, 52 restricted); 13 pending patents.\n\nDUAL MESH BENCHMARK reported as MEASURED (SCOPED) under standing publication policy, citing DOI 10.5281/zenodo.23303081 with its binding disclosure reproduced: the measured 1.018e+07 ratio (mesh median 0.000443 ms n=200 versus platform API baseline median 4509.1 ms n=20, zero failures both legs) characterizes the tested environment only, does not confirm, re-measure or supersede the historical 267x or 800 ms to 3 ms figures, is not model certification, and uses synthetic data only.\n\nSTATED LIMITS: the witness model attests integrity, not title (title lives in law; any claim that a digest reconstructs or replaces the asset is false and was corrected forward-only in this program's own materials); anchored data is public and permanent so no client data and no PHI may ever touch a rail; the per-transaction cost reasoning is analytical rather than a benchmark of any competing implementation; the sovereign-token section is structural reasoning, not a policy prediction; measurements describe a single-operator system over a bounded window.\n\nAI assistance disclosed: drafted and vetted by the operator's agent system; all measurements produced by instrumented systems, not language models.\n\nTwo-key curation: agent vet complete (redaction scan clean: no client identity, no PHI, no credentials, no wallet identifiers, no transaction amounts, no operator quotations); owner authorization Leon GO (chat authorization, 2026-10-28 10:56 CT) for documentation surfaces (Zenodo and GitHub). No social-media distribution accompanies this record.\n\nPrototype disclaimer: this software and its measurements are prototypes provided for educational and research purposes only. They are not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects. All fleet data referenced is synthetic.",
+  "publication_date": "2026-10-28",
+  "resource_type": "publication",
+  "resource_type_title": "Report",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "restricted",
+  "creators": [
+    "Long, Leon Calvin II"
+  ],
+  "keywords": [
+    "tokenization",
+    "real-world assets",
+    "stablecoins",
+    "intermediation",
+    "deterministic runtime",
+    "pre-execution gating",
+    "witness model",
+    "anchoring",
+    "receipt-first research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23655614",
+      "relation": "cites",
+      "resource_type": "publication",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23703012",
+      "relation": "cites",
+      "resource_type": "publication",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23734652",
+      "relation": "cites",
+      "resource_type": "publication",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23734654",
+      "relation": "cites",
+      "resource_type": "publication",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23734656",
+      "relation": "cites",
+      "resource_type": "publication",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23303081",
+      "relation": "cites",
+      "resource_type": "publication",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23736140",
+  "zenodo_modified": "2026-10-29T17:03:05.516056+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": []
+}

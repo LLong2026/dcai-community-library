@@ -1,0 +1,48 @@
+{
+  "record_id": "23331224",
+  "doi": "10.5281/zenodo.23331224",
+  "concept_doi": "10.5281/zenodo.23331223",
+  "title": "SBR-1: Randomized Security Benchmark Run — Seeded Adversarial Exam of a Bounded-Learning Aegis Brain (6/6 Pass)",
+  "description": "Deterministic release worker enforcing the machine-readable GitHub-DOI binding contract (BIND-2/v1) at publication time. Self-hosting release: this artifact is bound by the worker's first execution. Includes worker source reference, BIND-1 verification receipt, BIND-2 validator and schema, release note with preregistered falsifiers F1-F5. This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects. Dual Mesh Benchmark: NOT MEASURED.",
+  "publication_date": "2026-10-13",
+  "resource_type": "software",
+  "resource_type_title": "Software",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "deterministic governance",
+    "provenance",
+    "DOI binding",
+    "receipts",
+    "AI infrastructure",
+    "audit trail"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23331224",
+  "zenodo_modified": "2026-10-19T02:12:10.663966+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "SBR1_EVIDENCE.zip",
+      "filename": "SBR1_EVIDENCE.zip",
+      "size": 5581,
+      "zenodo_checksum": "md5:9044a23cd6ea1a5f99b3c7a787c21813",
+      "sha256": "a9a7eb553e550dde80ae021f5e6fd0d9a245defe8e22367bfd269ab4af6f1fae"
+    }
+  ]
+}

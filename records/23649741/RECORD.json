@@ -1,0 +1,44 @@
+{
+  "record_id": "23649741",
+  "doi": "10.5281/zenodo.23649741",
+  "concept_doi": "10.5281/zenodo.23649740",
+  "title": "The Chain Is the Witness, Not the Asset: Why Tokenization No Longer Requires Tokens On-Chain (Thesis and Practitioner Walkthrough)",
+  "description": "<p><b>The Chain Is the Witness, Not the Asset</b> — a two-part paper on why tokenization no longer requires tokens on-chain. Part I (Thesis, investor-facing) argues that the chain's comparative advantage is holding the witness rather than the asset: a SHA-256 digest of the artifact is anchored across three independent consensus networks (Bitcoin OP_RETURN, Stellar manage_data, XRP memo), producing tamper-evident receipts for existence, integrity, and ownership at a measured structural cost of about 1.9 cents per receipt under weekly batching — with no minted token, no smart-contract attack surface, and no bridge counterparty risk. Includes measured cost and latency data from live production anchors (XLM 100 stroops / 6.7 s; XRP 10 drops / 6.8 s; BTC 790 sats single-transaction), a cost-differential analysis against the token-on-chain stack, and worked examples with live transaction IDs: FRACTAL-1 (fractional sat ownership transfer, 18,329 sats, no token), XFER-1 (satoshi ownership round-trip on a video artifact), HEMI-DRIFT-1 (byte-exact artifact reconstruction), and two certification bundles with published DOIs. Part II (Practitioner Walkthrough) operationalizes the thesis: the full anchor lifecycle (vault, digest, envelope, triad fire, confirmation, verification, reconstruction) with a worked example, the ownership-transfer pattern, measured lifecycle economics, and a practitioner's checklist. Figures include comparison diagrams, the triad rail architecture, a measured cost chart, and product-surface screenshots of the Universal Anchoring System (UAS).</p><p>DISCLOSURE: all examples are operator-internal or publicly published receipts; no client-identifiable data, no PHI, no credentials, no operator communication.</p><p>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects.</p>",
+  "publication_date": "2026-10-25",
+  "resource_type": "publication",
+  "resource_type_title": "Journal article",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "tokenization",
+    "provenance",
+    "blockchain anchoring",
+    "hash-anchored provenance",
+    "real-world assets",
+    "intellectual property",
+    "receipts",
+    "Universal Anchoring System",
+    "SQUIRL OS"
+  ],
+  "related_identifiers": [],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23649741",
+  "zenodo_modified": "2026-10-25T20:25:01.047414+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "witness_bundle.zip",
+      "filename": "witness_bundle.zip",
+      "size": 1113775,
+      "zenodo_checksum": "md5:2f40cd97147adc33ed4dd304623059ae",
+      "sha256": "d855bef6c0ca845396ece7bb3af666f76bb6f9984aa6475728cffa529872133e"
+    }
+  ]
+}

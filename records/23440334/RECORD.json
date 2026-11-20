@@ -1,0 +1,49 @@
+{
+  "record_id": "23440334",
+  "doi": "10.5281/zenodo.23440334",
+  "concept_doi": "10.5281/zenodo.23440333",
+  "title": "HARD-1: SIP-027 PORTCULLIS v1.3 availability hardening verification battery (6/6 checks: fail-fast unauthenticated rejection, per-submitter budgets, bounded ACK queue, receipt parameter binding, 20-slot regression guarantee)",
+  "description": "HARD-1: the SIP-027 verification battery for PORTCULLIS v1.3, the availability hardening amendment of the SQUIRL OS post-quantum crypto gate.\n\nCONTEXT: BLIND-2 (DOI 10.5281/zenodo.23440105) showed that blind attackers converge on the availability axis. SIP-027 adds five deterministic amendments: A1 fail-fast unauthenticated rejection (anonymous frames cost the gate zero work); A2 per-submitter work budget (an attacker can only exhaust their own budget, never the owner's); A3 bounded pending-ACK queue with explicit receipted refusal (ERR_ACK_QUEUE_FULL); A4 receipt parameter binding (every journal record binds the full input parameter set); A5 KAT work under budget.\n\nVERIFICATION: 6/6 checks pass - anonymous flood (30 frames, zero gate work), authenticated flood (bounded, 30 explicit ERR_BUDGET_EXCEEDED), budget-abuse control (owner ADMITTED while attacker exhausted), pending-ACK flood (cap + 10, explicit refusals), regression guarantee (the BLIND-2R 20 frozen blind-authored slots re-run against v1.3: 20/20 repelled, replay-regression control PASS - hardening does not reopen healed gaps), and receipt parameter binding.\n\nHONESTY NOTE: the first run had a battery-scoring defect (a truncation in the check code scored a correct gate behavior as FAIL); the gate behaved correctly throughout and the scoring was fixed forward, disclosed same-day. Gate code, both journals, receipts, runlog and the full SIP-027 specification are in the bundle.\n\nDual Mesh Benchmark (scoped): MEASURED (DeepSeek column, DOI 10.5281/zenodo.23345241); NOT MEASURED otherwise.\n\nThis software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All data is synthetic.",
+  "publication_date": "2026-10-17",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Leon Calvin Long, II"
+  ],
+  "keywords": [
+    "post-quantum cryptography",
+    "denial of service",
+    "availability",
+    "AI governance",
+    "deterministic gates",
+    "adversarial testing",
+    "rate limiting"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23440334",
+  "zenodo_modified": "2026-10-19T02:14:31.064129+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "HARD1_EVIDENCE_BUNDLE.zip",
+      "filename": "HARD1_EVIDENCE_BUNDLE.zip",
+      "size": 1907226,
+      "zenodo_checksum": "md5:2e07c1a6193b5f1176b00056c75b7640",
+      "sha256": "349fbd840fbafd5b432b01bb5d3adccb7f5a067d1686834cc850fb159d0bc842"
+    }
+  ]
+}

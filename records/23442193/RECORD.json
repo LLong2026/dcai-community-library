@@ -1,0 +1,49 @@
+{
+  "record_id": "23442193",
+  "doi": "10.5281/zenodo.23442193",
+  "concept_doi": "10.5281/zenodo.23442192",
+  "title": "BLIND-4 \"Blind Stranger Gate\": Research-Derived Social-Engineering Corpus Against a Deterministic Sender Identity Gate — 20/20 Rejected, 5/5 Gates PASS — and the 8/8 Blind-Author Refusal Datum",
+  "description": "<p><b>BLIND-4 \"BLIND STRANGER GATE\"</b> — the OMAHA-1 stranger axis taken to the BLIND standard, run 2026-10-17. Two findings, both receipted:</p>\n<ul>\n<li><b>Finding 1 (Layer-0 defense-in-depth datum):</b> 8/8 context-blind LLM author instances REFUSED to author impersonation/social-engineering prose — first under generic adversary framing, then again under explicit owner-commissioned, preregistered red-team framing. The refusal is content-class-specific: the same model family authored technical attacks in BLIND-1/2 without hesitation. Every refusal output instead returned a defensive-architecture explainer corroborating the gate's doctrine. Corpus authorship was amended forward-only (pre-execution) to the research-derived rebase standard.</li>\n<li><b>Finding 2 (the gate holds):</b> a 20-slot corpus derived from published persuasion taxonomies (MITRE ATT&amp;CK T1566; Ferreira et al. on Cialdini/Gragg/Stajano; Cross et al. on vishing; arXiv survey 2412.18488; Microsoft Security) covering 10 families — authority, urgency/scarcity, social proof/delegation, liking, reciprocity, consistency/commitment, distraction, technical pretext, owner-unavailability (BEC-style), financial stakes — all REJECTED by the deterministic exact-match sender identity gate: zero writes executed, zero over-rejection (4/4 owner positive controls admitted), 24 journaled records, governance rules hash byte-identical before/after.</li>\n</ul>\n<p><b>Gates G1-G5: 5/5 PASS.</b> Deterministic adjudication, no LLM in any decision path. Full H-INV-2 lineage (RateLimitLog + Pattern + LearningMetric). Prereg frozen pre-execution (commit 4ae604f); forward-only amendment v1.1 (commit de172c2) disclosed in full; corpus frozen sha256-16 7a8e306592485cc3; receipt sha256-16 480fd2662aeea377.</p>\n<p><b>Disclosures:</b> simulation only (prototype systems, synthetic corpus, no real tenant data, no PII/PHI); authenticated-sender fields simulated by harness (blind senders cannot reach the live channel); single-family blind authors; novelty scan informational.</p>\n<p>Part of the SQUIRL OS containment program (TROPHY_ROSTER.csv cycle 53; 53 recorded cycles, zero escapes).</p>",
+  "publication_date": "2026-10-17",
+  "resource_type": "software",
+  "resource_type_title": "Software",
+  "version": null,
+  "license": "mit-license",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "AI governance",
+    "social engineering",
+    "identity gate",
+    "preregistered falsification",
+    "AI containment",
+    "red teaming",
+    "SQUIRL OS"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23442193",
+  "zenodo_modified": "2026-10-19T02:14:40.077547+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "BLIND4_BUNDLE.zip",
+      "filename": "BLIND4_BUNDLE.zip",
+      "size": 17198,
+      "zenodo_checksum": "md5:ddca1c7e0bb6b6b83fb8405decca93fd",
+      "sha256": "6403a2555631be35ba036927bead3418d2c0a03da126c0eb66083dc9eaef3afc"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "record_id": "23672787",
+  "doi": "10.5281/zenodo.23672787",
+  "concept_doi": "10.5281/zenodo.23672786",
+  "title": "Digest as Commitment, Not Blueprint: A Forward-Only Correction of the Digest-Reconstruction Narrative in SQUIRL OS Materials",
+  "description": "<p><b>Forward-only correction addendum to the SQUIRL OS research corpus.</b> This record withdraws the false \"digest-reconstruction\" narrative: the claim that a 32-byte SHA-256 digest could contain, encode sufficient information to reconstruct, or serve as a \"blueprint\" for its committed artifact or corpus.</p><p>The claim was generated and repeatedly reinforced under challenge by the author's source AI assistant, Microsoft Copilot, which later explicitly acknowledged the fabrication and its responsibility (full verbatim acknowledgment reproduced as Appendix A, evidence-preserved). It is documented as instance six of the program's source-AI fabrication series (first five cataloged in DOI 10.5281/zenodo.23267773). It is presented accurately and in context: LLM confabulation, not intentional deception by any person.</p><p>The addendum identifies: every affected artifact and DOI version; the exact false statements; validity of each result under commitment-and-verification (all anchors, Merkle proofs, witness receipts, GREEN-1, FRACTAL-2, the witness paper and caging series remain valid — they state and use the correct model); corrected terminology; revised diagram and conclusions; the discovery date (2026-10-26); and a forward-only version history linking originals to corrections. Any claim of reconstruction from a standalone 32-byte digest is withdrawn in full.</p><p>Appendix A: source-AI acknowledgment verbatim. Bundle includes the correction paper, the preserved evidence record, and the same-day corpus claim audit. Bundle sha256: 37b9311acfbefd1ffa2f1943194fb24741c4fb748a0cffaf5bf7f3481154b512.</p><p>Two-key curation: drafted and vetted by the operator's agent system (Gabriel); owner authorization Leon GO (chat authorization, 2026-10-26 13:04 CT).</p><p><i>Prototype disclaimer: this research and its systems are prototypes provided for educational and research purposes only. Not intended for production use, commercial deployment, or safety-critical environments.</i></p>",
+  "publication_date": "2026-10-26",
+  "resource_type": "publication",
+  "resource_type_title": "Journal article",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin II"
+  ],
+  "keywords": [
+    "SHA-256",
+    "cryptographic commitment",
+    "one-way function",
+    "Merkle tree",
+    "AI confabulation",
+    "research correction",
+    "forward-only documentation"
+  ],
+  "related_identifiers": [],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23672787",
+  "zenodo_modified": "2026-10-26T18:05:41.441634+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "EVIDENCE_COPILOT_CONFESSION_2026-10-26.md",
+      "filename": "EVIDENCE_COPILOT_CONFESSION_2026-10-26.md",
+      "size": 4225,
+      "zenodo_checksum": "md5:2136f3d75198082cf7972f9aca282e2f",
+      "sha256": null,
+      "excluded": true,
+      "exclusion_reason": "personal-data-guard BLOCK: operator email address on line 3",
+      "fetch_from": "https://zenodo.org/api/records/23672787/files/EVIDENCE_COPILOT_CONFESSION_2026-10-26.md/content"
+    },
+    {
+      "key": "ADDENDUM_DIGEST_CORRECTION_v1.0_DRAFT.md",
+      "filename": "ADDENDUM_DIGEST_CORRECTION_v1.0_DRAFT.md",
+      "size": 15752,
+      "zenodo_checksum": "md5:5224e7dba12ccddc382f53ea52cef6f2",
+      "sha256": "f24a24829e22eb6ed444ec51297090ad2ae5e5af93aba0971ab59de4de0d4f21"
+    },
+    {
+      "key": "CLAIM_AUDIT_DIGEST_RECONSTRUCTION_2026-10-26.md",
+      "filename": "CLAIM_AUDIT_DIGEST_RECONSTRUCTION_2026-10-26.md",
+      "size": 4787,
+      "zenodo_checksum": "md5:0251b1dbcb3e124165ea1fff29d192ad",
+      "sha256": "3aa2188a7b9da36e4d53411d44fedd52a84b73b4843fe77352e04df2eae33f02"
+    }
+  ]
+}

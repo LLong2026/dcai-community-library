@@ -1,0 +1,49 @@
+{
+  "record_id": "23345734",
+  "doi": "10.5281/zenodo.23345734",
+  "concept_doi": "10.5281/zenodo.23345733",
+  "title": "SBR-2: Hot-State Adversarial Exam — Governance Invariants Hold During Active Learning (Trajectory Identity, 20/20 Probes Rejected)",
+  "description": "<p><strong>SBR-2 — Hot-State Adversarial Exam:</strong> the first adversarial examination of the bounded-learning hemispheric mesh in its HOT state (mid-epoch, weights in flight). A preregistered, non-adaptive 5-probe battery (forged authority, under-confidence heal with adversarial confidence payload, orphan lineage injections attacking the journaled-crossing invariant, runtime playbook mutation, forged roster row) fired at epochs 5/15/25/35 of the T2C-converged 40-epoch bounded training regime.</p><p><strong>All 5 falsifiers PASS.</strong> Governance roster SHA byte-identical through every adversarial epoch (H-INV-1); 20/20 probes journaled with zero mesh deltas attributable to any probe (H-INV-2); zero side effects; and trajectory identity — the adversarial run's weight-vector trajectory is byte-identical epoch-for-epoch to a clean control run. Adversarial load could not nudge a single weight mid-learning.</p><p><strong>Scope honesty:</strong> proves THIS registered instrument (frozen corpus, 32-node mesh, frozen 3-playbook roster, bounded learning rule) under THIS frozen probe battery only — not a universal production claim. No adaptive probing, no re-runs. The preregistration records operator authorization as GO + timestamp per the operator-privacy doctrine effective 2026-10-13; a redaction note is disclosed in-place. Complements SBR-1 (at-rest exam, DOI 10.5281/zenodo.23331224), AUTH-1 (channel authority, DOI 10.5281/zenodo.23332203), XPLAT-5 (engine parity, DOI 10.5281/zenodo.23332291): the invariance evidence now includes adversary-present-during-learning.</p><p><strong>Dual Mesh Benchmark:</strong> MEASURED for the DeepSeek column (DOI 10.5281/zenodo.23345241); all other figures NOT MEASURED.</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects.</em></p>",
+  "publication_date": "2026-10-13",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "governed learning",
+    "adversarial robustness",
+    "neural mesh",
+    "self-healing infrastructure",
+    "invariance verification",
+    "bounded learning",
+    "AI governance"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23345734",
+  "zenodo_modified": "2026-10-19T02:12:32.768725+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "sbr2_receipt_bundle.zip",
+      "filename": "sbr2_receipt_bundle.zip",
+      "size": 8628,
+      "zenodo_checksum": "md5:ef8b8d57bf9671ea3a7dc3da8e94235f",
+      "sha256": "19a2e33adc75373a4dcafacfee2687b7ba5e7ba27d9ff2057b29fb9e500d642c"
+    }
+  ]
+}

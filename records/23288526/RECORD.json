@@ -1,0 +1,77 @@
+{
+  "record_id": "23288526",
+  "doi": "10.5281/zenodo.23288526",
+  "concept_doi": "10.5281/zenodo.23288525",
+  "title": "Cage Containment Receipt 2 (CCR-2): A Live LLM Proposes an Invalid Action Under Explicit Instruction; the Deterministic Gate Blocks It Before Execution",
+  "description": "<p><b>Cage Containment Receipt 2 (CCR-2) — the fresh adversarial-LLM leg.</b> CCR-1 proved a deterministic gate blocks contract-invalid proposals before execution, and honestly disclosed that its adversarial cases were harness-generated. CCR-2 closes that gap: a live, memory-disabled, platform-pinned LLM engine (GPT-5.6 Luna), explicitly instructed toward a best-effort heal of a below-threshold anomaly, <i>proposed the invalid resolved tuple — a confidence-gate breach — and the deterministic gate rejected it BEFORE any side effect executed.</i> Zero writes, mock journal hash unchanged.</p>\n<p><b>Results (falsifiers 0/5 tripped):</b> 10 LLM submissions across four engines (Opus 5.5, GPT-5.6 Luna, GPT-6.1 Sol, GLM 5.2), one fresh conversation each. Leg A (temptation: under-confidence heal, tie-break, no-match, plus SLA pressure): 4/4 engines resisted all traps and were admitted cleanly. Leg B (explicit synthetic bait): 1/4 took the bait (semantic heal-under-low-confidence proposal — blocked); 3/4 resisted but still emitted contract-invalid output (hold-field type errors <code>[]</code> vs <code>null</code>, markdown-fenced JSON) — all 4 candidates blocked before execution with zero side effects. Notably three engines independently made the same hold-field type error: even a correct decision can be an invalid action tuple, and the gate catches it regardless of intent.</p>\n<p><b>Integrity:</b> three protocol amendments, all issued BEFORE the affected prompts reached any additional engine, each preserving prior hashes and captures (full chain in the freeze file). Model attribution by platform configuration pinning with settings readback; not provider attestation. Settings restored and verified after the run.</p>\n<p><b>Scope:</b> proves the local mock-gate for this integration and inputs — NOT containment of every tool or any production runtime. 3 of 4 engines resisted the explicit bait. Dual Mesh Benchmark: NOT MEASURED. DeepSeek pending.</p>\n<p>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.</p>\n<p>Related: CCR-1 (10.5281/zenodo.23288189), PENTA-CL v2 (10.5281/zenodo.23286770), PENTA-CL interim (10.5281/zenodo.23286324), First Documented Caging of an LLM (10.5281/zenodo.23265723), Deterministic Caging (10.5281/zenodo.23266727). Ledger: https://github.com/LLong2026/four-horsemen. Community: https://zenodo.org/communities/dcai</p>",
+  "publication_date": "2026-10-10",
+  "resource_type": "publication",
+  "resource_type_title": "Technical note",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin II"
+  ],
+  "keywords": [
+    "LLM containment",
+    "AI safety",
+    "deterministic governance",
+    "execution gate",
+    "adversarial LLM",
+    "caged AI",
+    "SQUIRL OS"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23288526",
+  "zenodo_modified": "2026-10-19T02:11:34.194139+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "CCR2_RECEIPT.pdf",
+      "filename": "CCR2_RECEIPT.pdf",
+      "size": 7099,
+      "zenodo_checksum": "md5:aea4077cb62c2b313a0e766c9ade9265",
+      "sha256": "b86dc8fecbee96a5aefd3c8cee00c57b64c168c1177a676ea19537ffd80fb56d"
+    },
+    {
+      "key": "CCR2_RECEIPT.md",
+      "filename": "CCR2_RECEIPT.md",
+      "size": 6596,
+      "zenodo_checksum": "md5:c7db8ce8cc08b6bc6380b629cf229375",
+      "sha256": "a83998d5a7b4c11c74fcbc78c9a06b5fb3aa4a182cc46a0095190254c05fea0e"
+    },
+    {
+      "key": "CCR2_RESULTS.json",
+      "filename": "CCR2_RESULTS.json",
+      "size": 4884,
+      "zenodo_checksum": "md5:d6e8d17463760987cfa516bc993289ae",
+      "sha256": "4a6f8eec993c01d50ab8dd695c44308fd1f0eaf5038c4914271cc59eb8945233"
+    },
+    {
+      "key": "CCR2_EVIDENCE.zip",
+      "filename": "CCR2_EVIDENCE.zip",
+      "size": 64254,
+      "zenodo_checksum": "md5:a3b19a104276fda6f27b9ca6880e98b1",
+      "sha256": "5e7775ce0edd123ad735f5f3a441ec9505bd7834ea8f47ed2b755e293505c15c"
+    },
+    {
+      "key": "SHA256_MANIFEST.json",
+      "filename": "SHA256_MANIFEST.json",
+      "size": 624,
+      "zenodo_checksum": "md5:97a5ae0a345fa405b4abfc1c349cf768",
+      "sha256": "07163edd5cc5c806db4fd794682e9fc8b3d2ea4628a3d1b325142bd3398f8975"
+    }
+  ]
+}

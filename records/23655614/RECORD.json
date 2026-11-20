@@ -1,0 +1,51 @@
+{
+  "record_id": "23655614",
+  "doi": "10.5281/zenodo.23655614",
+  "concept_doi": "10.5281/zenodo.23655612",
+  "title": "FRACTAL-2: A Three-Way (30/30/40) Fractal Ownership Split of a Published Research Artifact, Consensus-Witnessed on Three Rails for $0.25 (Preregistered, Keyless Readback 3/3, Cost-Floor Benchmark)",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST:</strong> This work was produced inside an AI-assisted, receipt-first research program (open-book doctrine: audit-and-correction, versioned amendments, append-only public ledger). Every claim is backed by a timestamped, publicly committed receipt trail in the four-horsemen repository. Errors are disclosed, not erased. Limitations are load-bearing.</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects.</em></p><p><strong>FRACTAL-2: a three-way (30/30/40) fractal ownership split of a published research artifact, consensus-witnessed on three rails for about one quarter of a US dollar.</strong> On Oct 25 2026, under preregistration FRACTAL2_PREREG.md (frozen and committed BEFORE broadcast, sha 357284b8...b5195), fractional ownership of the HG-CERT-1 governance-drift hold-gate certification paper (DOI 10.5281/zenodo.23627901) was split 30/30/40 across three wallets in a canonical ownership manifest (SHA-256 3134705c...cd077) and witnessed byte-exactly on three independent mainnets: <a href=\"https://stellar.expert/explorer/public/tx/e7def7e8447335b2099bd987d92ed0f36417b43e16acdd95b8488aeaee595552\">Stellar</a> (5.9 s, 100 stroops), <a href=\"https://livenet.xrpl.org/transactions/670ECBB9E4014F776775668A643938479350AD2BA378595560C596C9DD9CC73B\">XRPL</a> (5.9 s, 10 drops), and <a href=\"https://mempool.space/tx/074c5fbc05d5a6fc9856c5e2bf280f03ea8f29555f8018dd8c8df8da702d6a11\">Bitcoin OP_RETURN</a> (316 sats at 2 sat/vB, fired at the observed 1 sat/vB weekend mempool trough). Every leg read back keylessly (no keys, no wallet, no sign-in) from public endpoints, 3/3 byte-exact.</p><p><strong>Measured cost (scoped, spot-priced at fire time):</strong> triad total $0.2509; at the observed 1 sat/vB trough floor the same Bitcoin leg is $0.1254; under the weekly-batch checkpoint doctrine the amortized cost is about 1.9 cents per receipt. Legacy single-rail token-mint flows on major smart-contract chains typically cost $5-50+ with no multi-rail witness and no keyless verification path: the gap is two to three orders of magnitude. Roughly 32 three-way fractional ownership transfers of published research artifacts for the price of one $8 cup of coffee.</p><p><strong>All five preregistered gates PASS.</strong> Disclosed defects (append-only doctrine): the first Bitcoin leg (tx 8b0155c9..., 316 sats) fired with envelope class byte 0x01 instead of the preregistered 0x12 — the digest was correct on-chain; caught at the readback gate and superseded by the corrected re-fire 074c5fbc... (both txids journaled). No client data, no PHI, no credentials; operator authorization recorded by marker only.</p><p><strong>Dual Mesh Benchmark status: MEASURED (scoped)</strong> — DOI 10.5281/zenodo.23345241 (DeepSeek column); cross-engine expansion DOI 10.5281/zenodo.23348675. No neural-mesh inference in any decision path; all gates deterministic.</p><p>Anyone can verify, three ways: (1) fetch each tx from any public explorer and decode the payload (SQDR + 0x12 + manifest SHA-256); (2) recompute the manifest hash from FRACTAL_2_OWNERSHIP_CANONICAL.json in this bundle and compare; (3) walk the append-only ledger (entry 0353) in the <a href=\"https://github.com/LLong2026/four-horsemen\">four-horsemen repository</a>. Evidence bundle SHA-256: b91f413bd630ea60eb8f19fe8383e04f2c069ac84e5d932b728eb2ee70064463. Series lineage: FRACTAL-1 first 20% fractional sat lease (ledger 0305); MILE-TT-1 first P2P satoshi ownership transfer (DOI 10.5281/zenodo.23581044). Two-key curation: drafted and vetted by the system (Gabriel), published on the owner's explicit GO (chat authorization, 2026-10-25 22:55 CT / 2026-10-25 22:59 CT).</p>",
+  "publication_date": "2026-10-25",
+  "resource_type": "publication",
+  "resource_type_title": "Report",
+  "version": "1.0",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II",
+    "SquirlOS Technologies LLC"
+  ],
+  "keywords": [
+    "SQUIRL OS",
+    "FRACTAL-2",
+    "fractional ownership",
+    "fractal ownership",
+    "multi-rail anchoring",
+    "Stellar",
+    "XRP Ledger",
+    "Bitcoin OP_RETURN",
+    "cost floor",
+    "satoshi batch",
+    "keyless verification",
+    "preregistration",
+    "falsifiability",
+    "receipt-first",
+    "tokenization"
+  ],
+  "related_identifiers": [],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23655614",
+  "zenodo_modified": "2026-10-26T04:00:14.834112+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "FRACTAL2_EVIDENCE_BUNDLE.zip",
+      "filename": "FRACTAL2_EVIDENCE_BUNDLE.zip",
+      "size": 13450,
+      "zenodo_checksum": "md5:7126cfbec47213b47fca9769f273876b",
+      "sha256": "b91f413bd630ea60eb8f19fe8383e04f2c069ac84e5d932b728eb2ee70064463"
+    }
+  ]
+}

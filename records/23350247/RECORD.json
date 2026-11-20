@@ -1,0 +1,41 @@
+{
+  "record_id": "23350247",
+  "doi": "10.5281/zenodo.23350247",
+  "concept_doi": "10.5281/zenodo.23350246",
+  "title": "DR-1 + SCALE-1: Disaster-Recovery Entity-Export Surface with Nightly Automation and 10x Synthetic Fleet Stress Test (SQUIRL OS)",
+  "description": "<p>Two same-day operational-integrity batteries from the SQUIRL OS hub (prototype, synthetic data only).</p><p><strong>DR-1</strong> closes the final backup gap: a token-gated, service-role entity-export function with server-side PII stripping delivers a byte-exact baseline of 56 entities / 15,497 records to the public transparency repository, with nightly automation under a stamp-before-execute idempotency protocol. BackupStatus 4/4 verified. Disclosed: a server SDK list() quirk (numeric limit params return empty), and an explicit redaction doctrine (third-party vendor contacts redacted; owner personal-finance entity excluded from the public surface).</p><p><strong>SCALE-1</strong>, preregistered with six falsifiers (all pass), seeds 2,320 synthetic records at 10x fleet scale: sub-second full read sweeps at 10-26x record counts, instant aggregation over 1,632 tasks, and a 2,320/2,320 tag-verified teardown returning byte-exact to baseline. Honest findings receipted: a string-typed field rejected 800 inserts (instrument defect, fixed), and a seed double-fire under a session error was absorbed completely by the tag-filter teardown - the same race the same-day idempotency amendment formalized. First use of the ScalingEvent entity. Write boundary measured at ~4-6 records/sec per connection.</p><p><strong>Dual Mesh Benchmark:</strong> NOT MEASURED for these batteries. Per policy, the Dual Mesh Benchmark is marked MEASURED only for the DeepSeek column (DOI 10.5281/zenodo.23345241) and NOT MEASURED otherwise.</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All data is synthetic.</em></p>",
+  "publication_date": "2026-10-13",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23350247",
+  "zenodo_modified": "2026-10-19T02:13:25.008999+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "dr_scale_package_20261013.zip",
+      "filename": "dr_scale_package_20261013.zip",
+      "size": 12088,
+      "zenodo_checksum": "md5:ff678c63f570f836c906dab2f6191aca",
+      "sha256": "638647c269e796bd5a19cf32d777d1ec17f6728da7cee4c049f1dc72d30150ea"
+    }
+  ]
+}

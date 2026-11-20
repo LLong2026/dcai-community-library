@@ -1,0 +1,98 @@
+{
+  "record_id": "23274887",
+  "doi": "10.5281/zenodo.23274887",
+  "concept_doi": "10.5281/zenodo.23274886",
+  "title": "SDR-CL1: First Model-Attribution Replay of a Registered Substrate Determinism Gauntlet Across LLMs (Claude Sonnet 5.5)",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST:</strong> This work was produced inside an AI-assisted, receipt-first research program (open-book doctrine: audit-and-correction, versioned amendments, append-only public ledger). Every claim is backed by a timestamped, publicly committed receipt trail in the four-horsemen repository. Errors are disclosed, not erased. Limitations are load-bearing.</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects.</em></p><p>On Oct 7 2026, substrate D (SIM-D, a zero-lineage standard Squirl OS v1.1 box on PQC rails) was certified under a preregistered determinism gauntlet (SDR-D): a public harness, a frozen seed, and a committed checksum prediction published BEFORE the run, with six registered falsifiers (DOI 10.5281/zenodo.23217495 line). On Oct 10 2026, the identical public gauntlet was replayed end-to-end under a Claude Sonnet 5.5-pinned agent session (SDR-CL1). No harness byte was modified.</p><p><strong>Result: CONVERGED — 13/13 checksums byte-identical to the registered prediction</strong> (Phase A parity 10x, Phase C temporal 3x; Phase B replay: 6 seeded anomalies x 2 identical submissions, all decision tuples identical, exact-match selection only).</p><p><strong>What this receipt establishes:</strong> the deterministic substrate's outputs are model-independent — the same registered bytes emerged under a Gemini 3.1 Pro-pinned session (original certification) and a Claude Sonnet 5.5-pinned session (this replay). The cage, not the language model, owns the output. This is scoped evidence for THIS registered gauntlet on THIS substrate under THESE two pinned orchestration contexts, not a determinism claim for arbitrary LLM behavior outside the governed boundary.</p><p>Disclosed deviations (audit-and-correction doctrine): Phase B executed against the hub canonical playbook roster (exact-match, lowest-record-id tie-break) rather than the SIM-D app-local anomaly-response, which was unreachable from this session type; the harness receipt date field carries the original certification date with the replay date in the run metadata; SDR-CL1 is a supplementary labeled run tracked separately from the 60-night battery series.</p><p>Provenance: public harness + registered prediction: <a href=\"https://github.com/LLong2026/squirrel-os-lindy-test\">github.com/LLong2026/squirrel-os-lindy-test</a> (docs/sim-d/). Battery ledger: <a href=\"https://github.com/LLong2026/four-horsemen\">github.com/LLong2026/four-horsemen</a>. Method covered by filed provisional 64/119,191 and PQC/DQCO filings; governance per DCAI (64/157,915). No new mechanism claimed. Information-theory lineage acknowledged: Nyquist (1924), Hartley (1928), Shannon (1948), Kolmogorov (1965).</p><p>Associated receipts: First LLM Cage milestone DOI 10.5281/zenodo.23265723; caging architecture paper DOI 10.5281/zenodo.23266727. DCAI community: <a href=\"https://zenodo.org/communities/dcai\">zenodo.org/communities/dcai</a>. Two-key curation: drafted and vetted by the system (Gabriel), published on the owner's explicit GO.</p>",
+  "publication_date": "2026-10-10",
+  "resource_type": "publication",
+  "resource_type_title": "Technical note",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin II"
+  ],
+  "keywords": [
+    "deterministic computing",
+    "LLM caging",
+    "model independence",
+    "reproducibility",
+    "substrate determinism receipt",
+    "determinism",
+    "PQC",
+    "SQUIRL OS",
+    "DCAI"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/LLong2026/squirrel-os-lindy-test",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/LLong2026/four-horsemen",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23265723",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23266727",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23274887",
+  "zenodo_modified": "2026-11-18T19:11:34.303576+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "SDR_CL1_RUN_METADATA.json",
+      "filename": "SDR_CL1_RUN_METADATA.json",
+      "size": 1938,
+      "zenodo_checksum": "md5:79268af81324c741a3428cb27a16d33f",
+      "sha256": "9ceccedcde671faea98d85251ac8f4fcaabda0e241464227bb1b6ff3cb7a6050"
+    },
+    {
+      "key": "MILESTONE_SDR_CL1.md",
+      "filename": "MILESTONE_SDR_CL1.md",
+      "size": 4874,
+      "zenodo_checksum": "md5:7cde22513e403c608172e2f03f92de2f",
+      "sha256": "401251ea0bec1086aba0ad66b1351825e778ba6140ca4e480b9c03e2d810a59a"
+    },
+    {
+      "key": "sdrd_phase_b.json",
+      "filename": "sdrd_phase_b.json",
+      "size": 4546,
+      "zenodo_checksum": "md5:112a6880e2464869ea6fb28dfc78d4cb",
+      "sha256": "c4993fce07a7d1fe059854401d6a96433569c138a706c2eae51ff291ec052d51"
+    },
+    {
+      "key": "SIMD_SDR_D_RECEIPT.json",
+      "filename": "SIMD_SDR_D_RECEIPT.json",
+      "size": 2060,
+      "zenodo_checksum": "md5:c9ac6d2391e3138a34648f3f2d3d55dd",
+      "sha256": "69a5fba969def4617e67f5113b3f4e62fd8d0b3edf92cec10f0544c8dc4acc71"
+    },
+    {
+      "key": "sdrd_phase_ac.json",
+      "filename": "sdrd_phase_ac.json",
+      "size": 1141,
+      "zenodo_checksum": "md5:e82a21bd7078003477840c8442a77979",
+      "sha256": "8fe698d557d17b56870c6cd4f75dcc269a382b62bf74e179d134520f1a098f6f"
+    }
+  ]
+}

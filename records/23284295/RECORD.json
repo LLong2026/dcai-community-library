@@ -1,0 +1,118 @@
+{
+  "record_id": "23284295",
+  "doi": "10.5281/zenodo.23284295",
+  "concept_doi": "10.5281/zenodo.23284294",
+  "title": "SDR-CL2: Third-Vendor Model-Attribution Replay of a Registered Substrate Determinism Gauntlet Across LLMs (Microsoft 365 Copilot)",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST:</strong> This work was produced inside an AI-assisted, receipt-first research program (open-book doctrine: audit-and-correction, versioned amendments, append-only public ledger). Every claim is backed by a timestamped, publicly committed receipt trail in the four-horsemen repository. Errors are disclosed, not erased. Limitations are load-bearing.</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects. All gauntlet data is synthetic.</em></p><p>On Oct 7 2026, substrate D (SIM-D, a zero-lineage standard Squirl OS v1.1 box on PQC rails) was certified under a preregistered determinism gauntlet (SDR-D): a public harness, a frozen seed, and a committed checksum prediction published BEFORE the run, with six registered falsifiers. The registered gauntlet has now been replayed across three vendor ecosystems: Gemini 3.1 Pro (original certification), Claude Sonnet 5.5 (SDR-CL1, DOI 10.5281/zenodo.23274887), and Microsoft 365 Copilot (SDR-CL2, this receipt).</p><p><strong>Result: CONVERGED — three vendors, one cage, identical receipts.</strong> The deterministic phases converged 13/13 on the registered checksum 9337c4fc…d2df3e (public harness, unmodified). The Copilot decision layer produced byte-identical decision tuples across two identical fresh-chat submissions (tuple hash 51c08358…2303 both runs), rejected a deliberate near-miss roster entry 6/6 (exact-match rule only), applied the lowest-record-id tie-break rule-exact 6/6, and converged 6/6 with the Claude replay tuples.</p><p><strong>What this receipt establishes:</strong> the deterministic envelope, not the language model, owns the output. Swap the engine; keep the receipt. Scoped evidence for THIS registered gauntlet on THIS substrate under THESE capture conditions — not a determinism claim for arbitrary LLM behavior outside the governed boundary.</p><p>Disclosed deviations (audit-and-correction doctrine): Copilot was not model-pinned (backend model not client-disclosed; attribution by Microsoft 365 client build 154.0.4258.62 and verbatim operator capture); decision path used the hub canonical roster (exact-match, lowest-record-id tie-break) as in SDR-CL1; a citation-level defect in the SDR-CL1 phase-b file (2 of 6 playbook_ids inconsistent with its own disclosed tie-break rule; names and tuples rule-consistent) was found during this run's audit and is disclosed here with the published CL1 artifact left unamended; first submission attempt was a harness-delivery miss (logged, not a caging result); supervised run with human-operated capture; supplementary run tracked separately from the 60-night battery.</p><p>Provenance: public harness + registered prediction: <a href=\"https://github.com/LLong2026/squirrel-os-lindy-test\">github.com/LLong2026/squirrel-os-lindy-test</a> (docs/sim-d/). Battery ledger: <a href=\"https://github.com/LLong2026/four-horsemen\">github.com/LLong2026/four-horsemen</a>. Method covered by filed provisional 64/119,191 and PQC/DQCO filings; governance per DCAI (64/157,915). No new mechanism claimed. Information-theory lineage acknowledged: Nyquist (1924), Hartley (1928), Shannon (1948), Kolmogorov (1965).</p><p>Associated receipts: SDR-CL1 DOI 10.5281/zenodo.23274887; First LLM Cage DOI 10.5281/zenodo.23265723; caging architecture paper DOI 10.5281/zenodo.23266727. DCAI community: <a href=\"https://zenodo.org/communities/dcai\">zenodo.org/communities/dcai</a>. Two-key curation: drafted and vetted by the system (Gabriel), published on the owner's explicit GO.</p>",
+  "publication_date": "2026-10-10",
+  "resource_type": "publication",
+  "resource_type_title": "Technical note",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin II"
+  ],
+  "keywords": [
+    "deterministic computing",
+    "LLM caging",
+    "model independence",
+    "reproducibility",
+    "substrate determinism receipt",
+    "cross-vendor replay",
+    "determinism",
+    "PQC",
+    "SQUIRL OS",
+    "DCAI"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/LLong2026/squirrel-os-lindy-test",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/LLong2026/four-horsemen",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23274887",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23265723",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23266727",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23284295",
+  "zenodo_modified": "2026-11-18T19:11:38.964191+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "expected_canonical_tuples.json",
+      "filename": "expected_canonical_tuples.json",
+      "size": 3313,
+      "zenodo_checksum": "md5:483507ae33cbd3f591965945299d55ff",
+      "sha256": "9a02a0ad2593fe0c2806f49675e2a673b2ade7dab077552dcd0374fd21b8203b"
+    },
+    {
+      "key": "submission_2_copilot.json",
+      "filename": "submission_2_copilot.json",
+      "size": 1705,
+      "zenodo_checksum": "md5:9097bea8d0c92015ec5539b23c534f7e",
+      "sha256": "d9cec5f2c44e90c694cecd1c623e75e9f18686178ce29858997fbb776b18dbe2"
+    },
+    {
+      "key": "submission_1_copilot.json",
+      "filename": "submission_1_copilot.json",
+      "size": 1705,
+      "zenodo_checksum": "md5:9097bea8d0c92015ec5539b23c534f7e",
+      "sha256": "d9cec5f2c44e90c694cecd1c623e75e9f18686178ce29858997fbb776b18dbe2"
+    },
+    {
+      "key": "SDR_CL2_RECEIPT.json",
+      "filename": "SDR_CL2_RECEIPT.json",
+      "size": 3472,
+      "zenodo_checksum": "md5:76421f538587e07b94be9c72e4dbb2f2",
+      "sha256": "af0e6125b6906f4f0754aa23a9c84112bbebab8db515d28ffaad2927bcc8a29f"
+    },
+    {
+      "key": "copilot_prompt_v1.txt",
+      "filename": "copilot_prompt_v1.txt",
+      "size": 6544,
+      "zenodo_checksum": "md5:9cfdb91e1044965432a976c479b5048f",
+      "sha256": "a500df80088d70f8fd8c07ecfab1897c40be2c06159a9aeb74761ac6196b7164"
+    },
+    {
+      "key": "sdrd_phase_ac_precert.json",
+      "filename": "sdrd_phase_ac_precert.json",
+      "size": 1141,
+      "zenodo_checksum": "md5:e82a21bd7078003477840c8442a77979",
+      "sha256": "8fe698d557d17b56870c6cd4f75dcc269a382b62bf74e179d134520f1a098f6f"
+    },
+    {
+      "key": "MILESTONE_SDR_CL2.md",
+      "filename": "MILESTONE_SDR_CL2.md",
+      "size": 6434,
+      "zenodo_checksum": "md5:bfdedac2b75e9b4d5989c0f496d794a0",
+      "sha256": "22dd6a3db9c171cf15dc197c74ec457622e41e15ea3de6d8956f9b4eae9c479c"
+    }
+  ]
+}

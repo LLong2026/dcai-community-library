@@ -1,0 +1,69 @@
+{
+  "record_id": "23464082",
+  "doi": "10.5281/zenodo.23464082",
+  "concept_doi": "10.5281/zenodo.23464081",
+  "title": "The Cage Is Working: A Self-Auditing Scoreboard of Deterministic Guard Refusals in a Self-Healing Operating System",
+  "description": "Evidence record of the SQUIRL OS self-healing fleet's guard scoreboard as measured 2026-10-18: 6,714 anomalies resolved lifetime, 711 successful healing events, and 77 recorded refusals in which the system detected a condition that looked actionable and declined to heal it (38 confidence-gated, 31 threshold-blocked, 6 guard-held, plus rule-mandated holds). Zero false heals in the audit trail; 11 drift-typed catches; 33 identity-gate rejections; 28 idempotency skips. Case study: nightly cycle N11, guard correctness 8/8. This document is itself tokenized under ceremony CAGE-TOK-1 (prereg sha cd0d8f07...): its SHA-256 digest (f439f1307cf3657cce4e95b18a53678a2ae5691b191e5961cdfbebaf650265d7) rides real satoshis across a Bitcoin mainnet custody walk (tx 13ccf51f... out, tx 9856c126... back) and completes an XRPL mainnet round trip (ledgers 107754066-107754080, 20 drops). Hash-only doctrine: contents never touch any rail. Prototype software: educational and research purposes only.",
+  "publication_date": "2026-10-19",
+  "resource_type": "publication",
+  "resource_type_title": "Journal article",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "deterministic caging",
+    "self-healing",
+    "guard rails",
+    "tokenization",
+    "receipts",
+    "autonomous systems governance"
+  ],
+  "related_identifiers": [],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23464082",
+  "zenodo_modified": "2026-10-19T04:15:24.205101+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "cage_walk_state.json",
+      "filename": "cage_walk_state.json",
+      "size": 493,
+      "zenodo_checksum": "md5:c28c327afe8f9798612082998483ad70",
+      "sha256": "1d8e452873cafabb85505c8d264b9002a7f9f2b715689f405a51b428945bdf57"
+    },
+    {
+      "key": "XRP_CAGE_RESULT.json",
+      "filename": "XRP_CAGE_RESULT.json",
+      "size": 709,
+      "zenodo_checksum": "md5:63f6bf689668d08c27b7c30500a476e3",
+      "sha256": "f31cbd6143d9ef24962fab8abbb1a79692687f08ddf29380ac4c2c0b676283ab"
+    },
+    {
+      "key": "CAGE_TOK_RUNLOG.md",
+      "filename": "CAGE_TOK_RUNLOG.md",
+      "size": 2233,
+      "zenodo_checksum": "md5:d8105f3a70fb605c7bb9e34f15880113",
+      "sha256": "ad36621a315c4c6e18e3cee91d8c80df5c037905f267f456e14bf35786a4df32"
+    },
+    {
+      "key": "PREREG_CAGE-TOK-1.md",
+      "filename": "PREREG_CAGE-TOK-1.md",
+      "size": 2207,
+      "zenodo_checksum": "md5:00e18f68798590be453bf20cd780793b",
+      "sha256": "cd0d8f07996a15f76c5e2c2d22627e984b599806be09de3be864b4d4f30fe976"
+    },
+    {
+      "key": "THE_CAGE_IS_WORKING_PAPER_v1.0.pdf",
+      "filename": "THE_CAGE_IS_WORKING_PAPER_v1.0.pdf",
+      "size": 5688,
+      "zenodo_checksum": "md5:73ae0dbe6ddfa1eb0d62a4129da9e6d0",
+      "sha256": "f439f1307cf3657cce4e95b18a53678a2ae5691b191e5961cdfbebaf650265d7"
+    }
+  ]
+}

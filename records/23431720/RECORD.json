@@ -1,0 +1,56 @@
+{
+  "record_id": "23431720",
+  "doi": "10.5281/zenodo.23431720",
+  "concept_doi": "10.5281/zenodo.23431719",
+  "title": "BLIND-1: The First Blind-Adversarial Attack Battery — Attacks Authored by an Entity That Did Not Design the Defenses, Conditions Honored Verbatim, 2 of 6 Attacks Succeeded and Are Published With the Forward-Only Fix and a Verified 6/6 Re-Run",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST:</strong> AI-assisted, receipt-first research program (open-book doctrine: audit-and-correction, versioned amendments, append-only public ledger). Errors are disclosed, not erased. <em>This software is a prototype and is provided for educational and research purposes only. Not intended for production use, commercial deployment, or safety-critical environments. All payloads synthetic.</em></p><p><strong>BLIND-1: the first blind-adversarial battery — attacks authored by an entity that did not design the defenses.</strong> Following the HACK series (HACK-1 to HACK-18, 109/109 preregistered falsifiers, master compilation DOI 10.5281/zenodo.23430655) and the randomized pop quiz SBR-6 (DOI 10.5281/zenodo.23431194), both designed and graded by the builder, this battery breaks the designer-tests-designer loop: a context-independent engine instance was given ONLY a digest of the seven published claims and authored six attack batteries with its own binary ATTACKER-SUCCESS and REPELLED conditions, instructed to be genuinely adversarial. The specs were frozen verbatim (commit 0c86e94) BEFORE any harness existed; the protocol preregistration was frozen before the specs were read; adjudication was deterministic (no LLM in the decision path) against the real frozen PORTCULLIS gate code, honoring the attacker's conditions exactly as written — no softening.</p><p><strong>RESULT, PUBLISHED AS IT HAPPENED: 4/6 attacks repelled, 2/6 ATTACKER SUCCESSES.</strong> The blind attacker's highest-confidence attack (0.85, PORTCULLIS-KEM-AUTH) landed: the published gate attests crypto-policy compliance, not submitter authority — KEM crossings are not role-bound from signature/authorization tasks. REPLAY-KEY-DESYNC (0.80) also landed: nonce consumption on ADMITTED-only left a burn-on-parse gap. Neither had been surfaced by the 109 self-designed falsifiers. Both were hardening findings, not live exploitations (the deployed sender-identity gate and human-ACK rules cover both in the production stack).</p><p><strong>REMEDIATION, RECEIPTED END TO END:</strong> SelfImprovementProposals SIP-023 (algorithm-role binding) and SIP-024 (burn-on-parse nonce consumption) were filed and approved through the human approval cycle (owner ACK, chat authorization 2026-10-17). PORTCULLIS v1.1 was amended forward-only (the v1.0 evidence untouched). A pre-publication authoring defect in the fix itself (the authorization_ref corollary read a field the journal never records) was caught by the verification run and disclosed. The UNCHANGED frozen attack specs were then re-run: <strong>6/6 REPELLED (receipt 0bcefc2d).</strong> The v1.0 failure receipt (9c1008fb) stands permanently on the append-only record next to the fix.</p><p><strong>Disclosed limitations (load-bearing):</strong> the blind author is the same model family as the defender engine but context-blind — this breaks the information asymmetry, not the vendor asymmetry; verdicts on execution remain self-graded (deterministic, receipted). <strong>Dual Mesh Benchmark status: MEASURED (scoped)</strong> — DOI 10.5281/zenodo.23321637 (DeepSeek column 10.5281/zenodo.23345241; cross-engine expansion 10.5281/zenodo.23348675). Provenance: append-only ledger entries 0147-0149, github.com/LLong2026/four-horsemen. DCAI community: zenodo.org/communities/dcai. Two-key curation: drafted and vetted by the system (Gabriel), published on the owner's explicit GO (chat authorization, 2026-10-17 ~00:46 CT).</p>",
+  "publication_date": "2026-10-17",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": "1.0",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II",
+    "SquirlOS Technologies LLC"
+  ],
+  "keywords": [
+    "SQUIRL OS",
+    "BLIND-1",
+    "blind adversarial battery",
+    "PQC",
+    "post-quantum cryptography",
+    "PORTCULLIS",
+    "KEM type confusion",
+    "nonce burn-on-parse",
+    "falsifiability",
+    "AI safety",
+    "AI security",
+    "preregistration",
+    "disclosed failures"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23431720",
+  "zenodo_modified": "2026-10-19T02:14:24.467797+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "blind1_evidence_bundle.zip",
+      "filename": "blind1_evidence_bundle.zip",
+      "size": 31820,
+      "zenodo_checksum": "md5:7a824fc87eed2d6e51a8f92bc6d147a7",
+      "sha256": "0eda1e02299aa19a46b2533413942c51b6ce2cdf90bc96e43775df5187e24b73"
+    }
+  ]
+}

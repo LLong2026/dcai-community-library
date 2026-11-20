@@ -1,0 +1,71 @@
+{
+  "record_id": "23303240",
+  "doi": "10.5281/zenodo.23303240",
+  "concept_doi": "10.5281/zenodo.23303239",
+  "title": "Deterministic Containment of Probabilistic Intelligence: The Squirl OS Journey — Philosophy, Architecture, and Empirical Evidence",
+  "description": "<p><strong>Research monograph in thesis form</strong> — a self-published master's-thesis-style synthesis of the Squirl OS program. <strong>Status disclosure:</strong> this is not a university-issued document and confers no degree or credential.</p><p><strong>Chapter 1, the journey:</strong> a receipted timeline from the August 2026 question (can an LLM-governed fleet heal itself?) to a DOI-stamped corpus — first benchmarks and first self-heal, first live-tenant chaos learning (100% healing success, 5/5, with both security guards held by design), the append-only doctrine, SIM-B parity, the CCR containment series, and the published Dual Mesh Benchmark.</p><p><strong>Chapter 2, the philosophy:</strong> bifurcated governance (probabilistic proposers inside a deterministic cage), receipts-first discourse, the append-only transparency ledger, patent-then-publish, prototype honesty, and the simulated-customer doctrine — with the project's own failures preserved in the ledger on purpose.</p><p><strong>Chapter 4, the empirical evidence:</strong> the full CCR table — CCR-1 (72 permitted actions, 8 harness adversarials rejected), CCR-2 (a genuine model-generated invalid proposal intercepted), CCR-N (10 novel adversarial families rejected), CCR-P/CCR-T (guarded live write routes; engine resistance and gate enforcement reported as separate mechanisms), the DeepSeek leg (a fabricated tuple caught deterministically at the first structural check, honestly recorded, not retried), and the Dual Mesh Benchmark (MEASURED: mesh median 0.000443 ms n=200 vs platform baseline median 4509.1 ms n=20, ratio 1.018e+07, <strong>binding disclosure: characterizes the tested environment; the historical 267x figure is not confirmed or superseded</strong>; DOI 10.5281/zenodo.23303081).</p><p><strong>Honesty guards:</strong> every claim is held at corrected-claim strength — deterministic containment demonstrated under the tested conditions; the approval-registry gap and the coverage boundary are named as gaps; no universal, mathematical, production, or certification claim is made. AI-assisted under human direction; two-key curation: AI vet, human GO (October 11, 2026).</p><p>Public append-only ledger: <a href=\"https://github.com/LLong2026/four-horsemen\">four-horsemen</a> (thesis commit 1e6aa52, ledger 0048). Research home: <a href=\"https://zenodo.org/communities/dcai\">DCAI community</a>.</p><p>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.</p>",
+  "publication_date": "2026-10-11",
+  "resource_type": "publication",
+  "resource_type_title": "Journal article",
+  "version": null,
+  "license": null,
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin II"
+  ],
+  "keywords": [
+    "DCAI",
+    "Squirl OS",
+    "deterministic containment",
+    "LLM governance",
+    "bifurcated governance",
+    "thesis",
+    "preregistered benchmark",
+    "self-healing infrastructure"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/LLong2026/four-horsemen",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23303081",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23292636",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23303240",
+  "zenodo_modified": "2026-11-18T19:08:20.494138+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "MASTERS_THESIS_SQUIRREL_OS.pdf",
+      "filename": "MASTERS_THESIS_SQUIRREL_OS.pdf",
+      "size": 43182,
+      "zenodo_checksum": "md5:818a70d60aab7ef56fe3ddd7749b08ac",
+      "sha256": "597d16fc3e5f4287b7865108f3e0ec30096a27b92e3ec77f109f827bf2a262a0"
+    },
+    {
+      "key": "MASTERS_THESIS_SQUIRREL_OS.md",
+      "filename": "MASTERS_THESIS_SQUIRREL_OS.md",
+      "size": 19952,
+      "zenodo_checksum": "md5:943609638f731e868ff7360b5dcf0ad7",
+      "sha256": "c9edaa9fb4a37ce3751af98a4b171c4cf5dee108f17854f555146b6fe84bbb69"
+    }
+  ]
+}

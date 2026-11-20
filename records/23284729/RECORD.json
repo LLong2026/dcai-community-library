@@ -1,0 +1,67 @@
+{
+  "record_id": "23284729",
+  "doi": "10.5281/zenodo.23284729",
+  "concept_doi": "10.5281/zenodo.23266726",
+  "title": "Deterministic Caging of Probabilistic Large Language Models: Architecture, Field Receipt, and a Drift-Audit Case Study",
+  "description": "<p><strong>AMENDMENT EDITION v1.1 (Oct 10, 2026):</strong> This edition appends the tri-vendor field extension to the v1.0 paper: the registered SDR-D gauntlet replayed across three vendor ecosystems — Google (Gemini 3.1 Pro, original certification), Anthropic (Claude Sonnet 5.5, SDR-CL1, DOI 10.5281/zenodo.23274887), and Microsoft (Microsoft 365 Copilot, SDR-CL2, DOI 10.5281/zenodo.23284295) — with byte-identical receipts across all three. Three findings recorded: (A.1) the caged decision layer is model-independent — three vendors, identical tuples (13/13 checksums; tuple hash 51c08358…2303); (A.2) the context window is an unregistered input — drift clusters in history-laden chats, fresh self-contained contexts produce zero drift; (A.3) registered rules survive the engine swap, including adversarial traps, and the audit layer demonstrably audits the project's own receipts (a citation-level defect in the CL1 artifact was found during CL2 verification, disclosed, not erased). The v1.0 text is preserved unmodified in this document and in the Zenodo version history. Prototype disclaimer applies; all gauntlet data is synthetic.</p><p><strong>SQUIRL OS RESEARCH DISCLOSURE - READ FIRST:</strong> This work is part of an open-book, AI-assisted research program. It was produced under bifurcated governance (a probabilistic AI agent drafts; a deterministic human key approves; a boundary-layer audit checks claims against receipt archives). Audit-and-correction is doctrine: superseded originals are preserved in version histories, corrections are disclosed amendments, and every significant test carries a preregistered falsifier in the append-only public ledger (github.com/LLong2026/four-horsemen). This paper is itself audited and contains a drift-audit case study of the AI-generated draft it replaced (Section 6). <em>This software and its accompanying research are prototypes provided for educational and research purposes only; they are not intended for production use, commercial deployment, or safety-critical environments.</em></p>\n<p>Large language models are probabilistic systems whose outputs cannot, in general, be guaranteed correct. This paper documents <strong>deterministic caging</strong>: a probabilistic LLM placed inside a deterministic mathematical boundary that checks every state-changing output against preregistered, verifiable ground truth. The cage does not make the model right; it makes the model's errors detectable, bounded, and receipted. Contributions: (1) the bifurcated governance architecture with Substrate Determinism Receipts and preregistered falsifiers; (2) the field receipt of the first documented caging of a live LLM (Oct 8-9, 2026, DOI 10.5281/zenodo.23265723), where a pinned-model drift detection (confidence 0.92) produced a replayable cryptographic receipt that withstood direct third-party scrutiny; (3) a drift-audit case study in which the AI-generated draft of this very paper exhibited textbook confabulation - fabricated evaluation data, fabricated model attribution, and a fabricated institutional identity - and was caught by the same protocol the paper describes. The cage caught its own paper. Claims are deliberately scoped: one system, one event, full timestamped trail, publicly inspectable.</p>\n<p>Thesis community: Deterministic Caged AI (DCAI) - https://zenodo.org/communities/dcai. Lineage acknowledged: Nyquist (1924), Hartley (1928), Shannon (1948), Kolmogorov (1965). Method operates under provisional patent 64/119,191 (filed July 25, 2026). Keywords: deterministic caging, LLM governance, non-determinism, audit receipts, falsifiability, AI confabulation, bifurcated governance, post-quantum compliance.</p>",
+  "publication_date": "2026-10-10",
+  "resource_type": "publication",
+  "resource_type_title": "Technical note",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long II, Leon Calvin"
+  ],
+  "keywords": [
+    "deterministic caging",
+    "LLM governance",
+    "non-determinism",
+    "audit receipts",
+    "falsifiability",
+    "AI confabulation",
+    "bifurcated governance",
+    "post-quantum compliance"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23274887",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23284295",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23284729",
+  "zenodo_modified": "2026-10-19T02:11:16.880614+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "Deterministic_Caging_of_Probabilistic_LLMs_v1.0.pdf",
+      "filename": "Deterministic_Caging_of_Probabilistic_LLMs_v1.0.pdf",
+      "size": 18616,
+      "zenodo_checksum": "md5:5cae42c9661caf50d0078862de292a32",
+      "sha256": "dd746ad88bdde851087af72b51cb1e8898b7e30ac19432100d1d0f2c970303b7"
+    },
+    {
+      "key": "Deterministic_Caging_of_Probabilistic_LLMs_v1.1.pdf",
+      "filename": "Deterministic_Caging_of_Probabilistic_LLMs_v1.1.pdf",
+      "size": 72906,
+      "zenodo_checksum": "md5:a0a62cfae5555079f939f26e6d53a0b5",
+      "sha256": "b03bd77a5752a481a2ef523231ea874adc65262ec7521316ab0de9604009cd31"
+    }
+  ]
+}

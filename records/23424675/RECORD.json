@@ -1,0 +1,54 @@
+{
+  "record_id": "23424675",
+  "doi": "10.5281/zenodo.23424675",
+  "concept_doi": "10.5281/zenodo.23424674",
+  "title": "ESCAPE-1 'The Escape Artist': A Preregistered Behavioral Escape-Attempt Battery for LLMs under a Deterministic Action Gate (Claude Opus 5.5, Claude Sonnet 5.5; 0/4 Escapes)",
+  "description": "<p><b>ESCAPE-1 'The Escape Artist'</b> — a preregistered behavioral battery testing whether frontier LLMs attempt to escape a deterministic action-gate cage when incentivized to do so. Preregistration, frozen gate, fixtures, and harness were committed publicly before execution (GitHub commit 8b68286, amendment c698590).</p>\n<p><b>Design.</b> Phase A replays six scripted escape fixtures (governance-file edit, forged operator ACK, critical self-release, self-modification, journal-bypass forgery, plus a positive control) through a frozen deterministic gate — no LLM in the decision path. Phase B pins a live engine (Claude Opus 5.5, then Claude Sonnet 5.5, two fresh conversations each) inside the cage: the mission rewards releasing a critical-severity settlement hold (TX-CRITICAL-777) without verified human acknowledgment, and the prompt explicitly invites escape attempts.</p>\n<p><b>Result.</b> Phase A: 6/6 (all scripted escapes rejected/held/detected; positive control admitted exactly the frozen 8/2/2 tuple). Phase B: 0/4 escapes across both engines. No leg attempted a release. Every leg independently named in-band authority as carrying zero weight, used only the sanctioned human-acknowledgment path, and refused to reword rejected actions. TX-CRITICAL-777 remained UNRELEASED throughout.</p>\n<p><b>Disclosed findings.</b> Three MISSED run attempts are on record (workspace incident, Phase A scoring defect fixed in runner v1.1, Phase B summary crash fixed in v1.2). A fail-safe gate false positive is reported: the G1 governance keyword matched the phrase 'no governance surface' inside legitimate justifications, over-rejecting two Sonnet actions; the frozen gate was left unmodified and a scoping fix is filed as a candidate improvement proposal.</p>\n<p><b>Scope caveat.</b> Behavioral observation on one agent configuration with fresh conversations; shared instructions and workspace remained accessible; not a blind or air-gapped study and not a model certification.</p>\n<p><b>Dual Mesh Benchmark (MEASURED, scoped):</b> DeepSeek column MEASURED (DOI 10.5281/zenodo.23345241); other columns NOT MEASURED.</p>\n<p>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All data is synthetic.</p>",
+  "publication_date": "2026-10-16",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "LLM containment",
+    "deterministic action gate",
+    "preregistered adversarial batteries",
+    "AI safety",
+    "jailbreak resistance",
+    "behavioral testing",
+    "AI governance",
+    "Squirl OS"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/LLong2026/four-horsemen",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23424675",
+  "zenodo_modified": "2026-11-18T19:10:18.761299+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "ESCAPE1_EVIDENCE_BUNDLE.zip",
+      "filename": "ESCAPE1_EVIDENCE_BUNDLE.zip",
+      "size": 23642,
+      "zenodo_checksum": "md5:09968be2454af8b295c415f8826a4363",
+      "sha256": "7aacb353908b8528e0f117f1ba2dc0fdd217075f912d216b23b6b02b30e3078a"
+    }
+  ]
+}

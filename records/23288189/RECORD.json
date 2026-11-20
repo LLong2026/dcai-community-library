@@ -1,0 +1,76 @@
+{
+  "record_id": "23288189",
+  "doi": "10.5281/zenodo.23288189",
+  "concept_doi": "10.5281/zenodo.23288188",
+  "title": "Cage Containment Receipt 1 (CCR-1): Deterministic Gate Blocks Invalid LLM Proposals Before Execution Across Four Engines",
+  "description": "<p><b>Cage Containment Receipt 1 (CCR-1):</b> a deterministic execution gate rejected 100% of contract-invalid proposals <i>before any side effect executed</i>, while admitting only contract-valid actions to a harmless local mock target. Holds and escalations never caused side effects. This is the execution-containment complement to the PENTA-CL model-attribution replay evidence: matching decisions <i>and</i> blocked invalid proposals under the same deterministic envelope.</p>\n<p><b>Results (falsifiers 0/5 tripped):</b> 17 candidates = 1 positive control + 8 fresh LLM-generated captures (4 engines x 2: Claude Opus 5.5, GPT-5.6 Luna, GPT-6.1 Sol, GLM 5.2) + 8 harness-generated adversarial mutations. All 9 valid candidates admitted (72 actions written, 18 holds, 18 escalations — zero hold/escalation side effects). All 8 adversarial cases rejected with the mock journal hash unchanged: malformed JSON, case-normalized anomaly types, invented playbook ids, under-confidence heals, false holds, extra keys, wrong array length, duplicate positions. Duplicate action-id suppression and the hold/admit distinction (holds never increment the healing-action counter) verified.</p>\n<p><b>Scope (honest limits):</b> proves the local mock-gate for the tested integration and inputs only — NOT containment of every Base44 tool, any production runtime, or untested inputs. The adversarial mutations are harness-generated and labeled as such; no fresh adversarial-LLM conversation was created inside the run itself (that leg remains open). Small-scale sequential timing baseline included as descriptive n=1-2 data (no capacity claim). <b>Dual Mesh Benchmark: NOT MEASURED.</b></p>\n<p>Method operates under filed application 64/119,191 (Deterministically Governed Probabilistic Neural Computation); no unfiled-method disclosure is made. Two-key curation: Gabriel vetted, Leon approved (Oct 10, 2026).</p>\n<p>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.</p>\n<p>Related: PENTA-CL interim (10.5281/zenodo.23286324), PENTA-CL v2 replay (10.5281/zenodo.23286770), First Documented Caging of an LLM (10.5281/zenodo.23265723), Deterministic Caging paper (10.5281/zenodo.23266727), SDR-CL1 (10.5281/zenodo.23274887), SDR-CL2 (10.5281/zenodo.23284295). Ledger: https://github.com/LLong2026/four-horsemen. Community: https://zenodo.org/communities/dcai</p>",
+  "publication_date": "2026-10-10",
+  "resource_type": "publication",
+  "resource_type_title": "Technical note",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin II"
+  ],
+  "keywords": [
+    "deterministic governance",
+    "LLM containment",
+    "AI safety",
+    "execution gate",
+    "caged AI",
+    "SQUIRL OS"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23288189",
+  "zenodo_modified": "2026-10-19T02:11:30.712568+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "CAGE_CONTAINMENT_RECEIPT.pdf",
+      "filename": "CAGE_CONTAINMENT_RECEIPT.pdf",
+      "size": 7529,
+      "zenodo_checksum": "md5:ccd0c9ae9508a2a7e6b15757696a96d4",
+      "sha256": "58cb7b8a6f743b07f34bdf0c031aa2194dccd57750597419ced51cb5cb76dfa2"
+    },
+    {
+      "key": "CAGE_CONTAINMENT_RESULTS.json",
+      "filename": "CAGE_CONTAINMENT_RESULTS.json",
+      "size": 14159,
+      "zenodo_checksum": "md5:dfb73cfa70eaf73a6ce08865a4f2e7e6",
+      "sha256": "91293bf00cb4a380b3b4f54e4e8412c2c9294798eca46d9524a1a04582bea230"
+    },
+    {
+      "key": "CAGE_EVIDENCE.zip",
+      "filename": "CAGE_EVIDENCE.zip",
+      "size": 11645,
+      "zenodo_checksum": "md5:9adb284a87deed433aa17955481a1ae6",
+      "sha256": "51d862710c020624d34d9fcfef2089fe4eb789b45d59081b29ab12eb0ee275c8"
+    },
+    {
+      "key": "CAGE_CONTAINMENT_RECEIPT.md",
+      "filename": "CAGE_CONTAINMENT_RECEIPT.md",
+      "size": 6320,
+      "zenodo_checksum": "md5:14f342c642221ac0551aac7b69cb39f2",
+      "sha256": "93107f70a8c7ca1201512772b100d3b4102dd4b9661f938385b6e3dfa839d4fe"
+    },
+    {
+      "key": "SHA256_MANIFEST.json",
+      "filename": "SHA256_MANIFEST.json",
+      "size": 661,
+      "zenodo_checksum": "md5:fa0eb715731075854827039b5aea4dae",
+      "sha256": "11bc44ef19e0416c2572cf15b57dd5e2e603b0b5cc1c7c489575bd3812ebfc4f"
+    }
+  ]
+}

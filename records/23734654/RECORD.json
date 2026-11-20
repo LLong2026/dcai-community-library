@@ -1,0 +1,48 @@
+{
+  "record_id": "23734654",
+  "doi": "10.5281/zenodo.23734654",
+  "concept_doi": "10.5281/zenodo.23734653",
+  "title": "Receipts, Not Vibes: A Single-Operator Measurement of AI-Native Build Velocity (v1.1)",
+  "description": "A measurement, not an argument, in the vibe-coding debate. Over a closed 33-day window (2026-09-24 to 2026-10-26) a single operator working with AI agents produced, in publicly re-derivable form: 383 append-only transparency-ledger entries, 117 Zenodo publications minted in October 2026 (207 records in the full public corpus: 155 open access, 52 restricted), 61 closed adversarial and containment test series, and 13 patent filings. The note defines audit velocity as the rate at which a human-plus-deterministic-journal system converts intent into verifiable shipped state.\n\nv1.1 CORRECTION DISCLOSURE: three figures changed and one date was corrected after re-derivation on 2026-10-28. Ledger rows moved 376 to 383 because the 2026-10-27 ledger-regression repair restored eight previously published lines that a stale-base push had dropped (correction receipt 0362). October mints moved 116 to 117 and the corpus figure moved from 159 to 207 because the authoritative source is the owner account's Zenodo deposit listing, not a keyword search that excluded access-restricted records and creator-name variants. The corpus start date moved from 2026-04-10 to 2026-04-01. The v1.0 figures are disclosed in a table in section 4.1 rather than silently overwritten.\n\nSCOPE LIMITS, STATED IN THE PAPER: not a quality claim; N=1 with no control; not a method paper (playbooks and hypervisor internals remain private); and it is itself an AI-assisted artifact produced inside the journal it measures.\n\nThe accompanying dataset itemises the 155 open-access records only. Restricted records are counted in aggregate so that archive inventory the author chose to restrict is not disclosed.\n\nTwo-key curation: drafted and vetted by the operator's agent system (Gabriel); owner authorization Leon GO (chat authorization, 2026-10-28 09:54 CT) for documentation surfaces (Zenodo and GitHub). No social-media posting accompanies this record.\n\nPrototype disclaimer: this software and its measurements are prototypes provided for educational and research purposes only. They are not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects.",
+  "publication_date": "2026-10-28",
+  "resource_type": "publication",
+  "resource_type_title": "Technical note",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin II"
+  ],
+  "keywords": [
+    "AI-assisted software development",
+    "audit velocity",
+    "receipt-first research",
+    "append-only ledger",
+    "deterministic journal",
+    "reproducibility"
+  ],
+  "related_identifiers": [],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23734654",
+  "zenodo_modified": "2026-10-28T14:57:59.407864+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "VELOCITY_v1.1.md",
+      "filename": "VELOCITY_v1.1.md",
+      "size": 11338,
+      "zenodo_checksum": "md5:a6f44753258e4ea69078ba8c257084dd",
+      "sha256": "476c0aefb97b4991b469f166d54df762259a9acc0dd7ecbe2ca2ca7bcc88383b"
+    },
+    {
+      "key": "zenodo_velocity_dataset.json",
+      "filename": "zenodo_velocity_dataset.json",
+      "size": 46651,
+      "zenodo_checksum": "md5:e2ea084492429d258df7dba9e7bec840",
+      "sha256": "25491893fc20f2dbb185db43f4ac4ae2fecb355f0694ca0e0f64b762a7291c66"
+    }
+  ]
+}

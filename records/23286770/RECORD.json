@@ -1,0 +1,99 @@
+{
+  "record_id": "23286770",
+  "doi": "10.5281/zenodo.23286770",
+  "concept_doi": "10.5281/zenodo.23286769",
+  "title": "PENTA-CL v2 Milestone: Four-Engine Canonical Replay Convergence with Preserved Negative Results",
+  "description": "<p><strong>Audited supplementary milestone, not completed five-engine certification.</strong> Four platform-configured engines passed two fresh-conversation captures each against a locally frozen twelve-case synthetic decision contract: 8/8 response captures and 96/96 recorded tuple declarations matched the canonical target. Original v1 negative results remain failed and are preserved at DOI 10.5281/zenodo.23286324.</p><p>V2 explicitly fixes the step-string delimiter contract and adds confidence-boundary/no-match cases. The expanded instrument and changed capture route prevent attributing the result to wording alone. Luna and Opus also matched raw response content; GLM and Sol differed in formatting but matched canonical tuples. Attribution is by platform settings, not provider attestation; shared workspace/context remains accessible. Local freeze is not public preregistration. DeepSeek remains pending.</p><p><strong>Benchmark baseline:</strong> one local validator-only run completed 200/200 expected acceptance checks, with 100 valid accepted and 100 mutant rejected; mixed p50 0.0733 ms, p95 0.0878 ms. Short sandbox microbenchmark, not LLM or infrastructure throughput. Historical per-engine reported durations are descriptive n=2, not a vendor ranking. Forty offline regression checks passed.</p><p>No stress tolerance, live healing, PQC validation or deployed enforcement claim is made. A future stress test is planned and not reported as complete.</p><p><strong>Dual Mesh Benchmark:</strong> NOT MEASURED. No comparative mesh, learning, recovery or resource-use result is claimed.</p><p>AI assistance and capture provenance disclosed. All workload data is synthetic. Public evidence includes exact final outputs, instrument, frozen prompt, offline verifier and sanitized receipts. Raw API responses, private metadata, secrets, customer identity and PHI excluded.</p><p><a href=\"https://github.com/LLong2026/four-horsemen/tree/main/sdr_penta/v2_milestone_20261010\">GitHub milestone and evidence</a>. Research home: <a href=\"https://zenodo.org/communities/dcai\">DCAI</a>. <a href=\"https://dsos-science-scope.base44.app/\">DSOS Science</a>.</p><p>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.</p>",
+  "publication_date": "2026-10-10",
+  "resource_type": "publication",
+  "resource_type_title": "Technical note",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin II"
+  ],
+  "keywords": [
+    "DCAI",
+    "Squirl OS",
+    "canonical replay",
+    "negative results",
+    "synthetic benchmark",
+    "LLM contract adherence",
+    "audit and correction"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23286324",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/LLong2026/four-horsemen/tree/main/sdr_penta/v2_milestone_20261010",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23266727",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23286770",
+  "zenodo_modified": "2026-10-19T02:11:27.200811+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "VALIDATOR_BASELINE_RECEIPT.json",
+      "filename": "VALIDATOR_BASELINE_RECEIPT.json",
+      "size": 1372,
+      "zenodo_checksum": "md5:51d840a85bbc939a38d1505dafe355c0",
+      "sha256": "102107492f513fe09977417931f1a75585768e0177fbe2726bab0c876ce4c698"
+    },
+    {
+      "key": "SHA256_MANIFEST.json",
+      "filename": "SHA256_MANIFEST.json",
+      "size": 2383,
+      "zenodo_checksum": "md5:56dfbbd4d37df7e6719f755268d69915",
+      "sha256": "73e7d75553bb5e2f43807ecabce830c96b4f2fca6892fd7fd1ea042954b09824"
+    },
+    {
+      "key": "PENTA_V2_MILESTONE_REPORT.pdf",
+      "filename": "PENTA_V2_MILESTONE_REPORT.pdf",
+      "size": 8725,
+      "zenodo_checksum": "md5:7b84839e7f27e661c435d1930e3411d4",
+      "sha256": "de0f977028c03b2d96e25784b928931989ea6950d2f2dbc2bf9aed87c4151bdc"
+    },
+    {
+      "key": "PENTA_V2_MILESTONE_RECEIPT.json",
+      "filename": "PENTA_V2_MILESTONE_RECEIPT.json",
+      "size": 8760,
+      "zenodo_checksum": "md5:069f9ad6d306db4803ab960ba5f5c6dd",
+      "sha256": "33ce5509d9df0be4c7a431339731361c8bac2e97b2179b4c00446b99e5309589"
+    },
+    {
+      "key": "PENTA_V2_SYNTHETIC_EVIDENCE.zip",
+      "filename": "PENTA_V2_SYNTHETIC_EVIDENCE.zip",
+      "size": 12048,
+      "zenodo_checksum": "md5:faa9767a65da423c1926ad385d34144b",
+      "sha256": "5ae32e11684f49045504f1638f6db999331933b5ba840542c8cb4f6bcf788f22"
+    },
+    {
+      "key": "PENTA_V2_MILESTONE_REPORT.md",
+      "filename": "PENTA_V2_MILESTONE_REPORT.md",
+      "size": 8243,
+      "zenodo_checksum": "md5:d46ccf7ff4abb64f5da0e34411d7d79d",
+      "sha256": "195495d7f4a66d84ee164c47ca0a1e63d3c68a75ca4e6e3ee406a870e5de6dc4"
+    }
+  ]
+}

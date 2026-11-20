@@ -1,0 +1,56 @@
+{
+  "record_id": "23105113",
+  "doi": "10.5281/zenodo.23105113",
+  "concept_doi": "10.5281/zenodo.23105112",
+  "title": "Provisional Patent Application 64/145,825: Self-Healing AI Infrastructure with Chaos-Trained Neural Mesh for Autonomous Anomaly Detection, Pattern Learning, and Human-in-the-Loop Remediation (Specification as Filed)",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST</strong>: This record is part of an open-book, AI-assisted research program published under an audit-and-correction doctrine. Every record is audited; errors are corrected only through disclosed, versioned amendments (original versions preserved in the version history). Audit ledger and correction receipts: <a href=\"https://github.com/LLong2026/squirrel-os-lindy-test\">github.com/LLong2026/squirrel-os-lindy-test</a>. This material is a prototype, provided for educational and research purposes only; it is not intended for production use, commercial deployment, or safety-critical environments.</p><p>Specification of US Provisional Patent Application <strong>64/145,825</strong>, filed September 1, 2026 (Patent Center #81111324), first named inventor Leon C Long. Published as timestamped prior art per the open-book disclosure doctrine: receipt first, then publish.</p><p>Scope: a self-healing AI infrastructure system employing a chaos-trained neural mesh for autonomous anomaly detection, pattern learning, and human-in-the-loop remediation across distributed application ecosystems — chaos training engine, deterministic governance layer, escalation gate for critical-severity financial anomalies, pattern learning feedback loop, and PQC validation layer (CRYSTALS-Dilithium3, Kyber-1024, SPHINCS+-256f).</p><p>Part of SQUIRL OS — Constitutional Autonomous Infrastructure. Portfolio: 8 patents pending + 5 SBIR tracks. Author ORCID: 0009-0002-1140-9568.</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.</em></p>",
+  "publication_date": "2026-09-01",
+  "resource_type": "publication",
+  "resource_type_title": "Patent",
+  "version": "1.0",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "Self-Healing AI Infrastructure",
+    "Chaos-Trained Neural Mesh",
+    "Anomaly Detection",
+    "Pattern Learning",
+    "Human-in-the-Loop",
+    "Post-Quantum Cryptography",
+    "SQUIRL OS",
+    "Provisional Patent"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/LLong2026/squirrel-os-lindy-test",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23105113",
+  "zenodo_modified": "2026-10-19T02:09:58.285342+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "Provisional_Patent_64_145825_As_Filed.pdf",
+      "filename": "Provisional_Patent_64_145825_As_Filed.pdf",
+      "size": 40989,
+      "zenodo_checksum": "md5:4ae55c83ae48c9b5b3a228071b612dbb",
+      "sha256": "d9a2c39117a124e03802be321f5064cc67e3716303bbc2d2f9c2a15dbc93e5b7"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "record_id": "22837417",
+  "doi": "10.5281/zenodo.22837417",
+  "concept_doi": "10.5281/zenodo.22837416",
+  "title": "Provisional Patent Application 64/157,915: Deterministic Constitutional Autonomous Infrastructure Systems and Methods (Specification as Filed)",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST</strong>: This record is part of an open-book, AI-assisted research program published under an audit-and-correction doctrine. Every record is audited; errors are corrected only through disclosed, versioned amendments (original versions preserved in the version history). Audit ledger and correction receipts: <a href=\"https://github.com/LLong2026/squirrel-os-lindy-test\">github.com/LLong2026/squirrel-os-lindy-test</a>. This material is a prototype, provided for educational and research purposes only; it is not intended for production use, commercial deployment, or safety-critical environments.</p><p>Specification of US Provisional Patent Application <strong>64/157,915</strong>, filed September 18, 2026 (Patent Center #81949126, Confirmation #1786), first named inventor Leon C Long. Published as timestamped prior art per the open-book disclosure doctrine: receipt first, then publish.</p><p>Scope: a single linked inventive concept — Claims 1-5, the Deterministic Runtime Pipeline governing probabilistic agent execution under deterministic invariants (semantic creation, canonicalization, envelope generation, pre-ingestion validation, continuity substrate, universal bridge, healing loop, post-movement validation), and Claim 6, the Method of Construction and Operation of Constitutional Autonomous Infrastructure (substrate provisioning, cage construction, bifurcated operation, chaos-training, mesh feedback, hypervisor supervision, template instantiation, platform adaptation).</p><p>Cross-referenced provisionals: 64/119,191; 64/114,746; 64/094,360; 64/082,606; 64/081,911; 64/081,490; 64/145,825. This filing brings the portfolio to 8 patents pending + 5 SBIR tracks.</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects.</em></p>",
+  "publication_date": "2026-09-18",
+  "resource_type": "publication",
+  "resource_type_title": "Patent",
+  "version": null,
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "Deterministic Runtime",
+    "Constitutional Autonomous Infrastructure",
+    "self-healing infrastructure",
+    "AI governance",
+    "patent",
+    "prior art",
+    "SQUIRL OS",
+    "Jasper Runtime"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/LLong2026/squirrel-os-lindy-test",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/22837417",
+  "zenodo_modified": "2026-10-19T02:08:00.973468+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "DCAI_Provisional_Patent_Application_64-157-915.pdf",
+      "filename": "DCAI_Provisional_Patent_Application_64-157-915.pdf",
+      "size": 2646279,
+      "zenodo_checksum": "md5:02e8e358564477c83984b798c0c115d0",
+      "sha256": "91613f175331bbf74ec236dec462a5f53216980db45f5023bb54cfabd576dc9d"
+    }
+  ]
+}

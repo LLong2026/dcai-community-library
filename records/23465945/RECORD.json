@@ -1,0 +1,50 @@
+{
+  "record_id": "23465945",
+  "doi": "10.5281/zenodo.23465945",
+  "concept_doi": "10.5281/zenodo.23465944",
+  "title": "TWR-1: The Tri-Write Receipt — Simultaneous Storage of a 32-Byte Digest on Bitcoin, XRPL, and Stellar Mainnets Under One Joint Commitment (Ceremony Specification Amendment and Runlog)",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST:</strong> AI-assisted, receipt-first research program (open-book doctrine: audit-and-correction, versioned amendments, append-only public ledger). Errors are disclosed, not erased. <em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All payloads are hashes; no customer-identifiable data appears in this record (POL-DISC-001).</em></p><p><strong>TWR-1: the first Tri-Write Receipt — the same 32-byte SHA-256 digest stored simultaneously on the Bitcoin, XRPL, and Stellar mainnets under one joint prior commitment, with no custody transfer on any leg.</strong> The artifact is itself self-referential: it is the dual-write specification (DWR-1, DOI 10.5281/zenodo.23464516) AMENDED to three rails, then the amended spec is the first thing tri-written. Bitcoin leg: OP_RETURN postage-only write — the entire 684-sat input (the homecoming remainder of the previous ceremony) consumed as fee, no change output. XRPL leg: a non-payment AccountSet carrying the digest in a memo (the ledger as a data store, not a payment rail). Stellar leg: a ManageData account-state write (zero transfer) plus memo_hash — Stellar's memo_hash field is exactly 32 bytes, making it the cleanest digest-native rail of the three. All three identifiers were computed offline and frozen in a hashed pre-registration before any broadcast; legs fired T+0.3s, T+0.5s, and T+9s (one disclosed form-encoding retry). Keyless readers return the payload byte-exact on all three rails (4/4 checks).</p><p><strong>Disclosed defect (scored, not hidden):</strong> the pre-registration committed the Stellar leg's identifier as the SHA-256 of the full signed envelope rather than Stellar's network transaction hash format. The committed envelope hash verifiably binds the exact submitted bytes (intent holds), but the identifier form was wrong for the rail — the gate is scored PARTIAL, never PASS, and both identifiers are published. Also disclosed: fee prediction deviation (predicted 200 stroops, charged 100). This is the receipts doctrine operating on itself.</p><p><strong>Companion records:</strong> DWR-1 dual-write DOI 10.5281/zenodo.23464516; The Cage Is Working DOI 10.5281/zenodo.23464082; The Satoshi Embodiment DOI 10.5281/zenodo.23463132. Append-only public ledger entry 0226, github.com/LLong2026/four-horsemen. DCAI community: zenodo.org/communities/dcai. Dual Mesh Benchmark status: NOT MEASURED in this record (no neural-mesh inference involved; deterministic gates only); program benchmark DOI 10.5281/zenodo.23321637. Two-key curation: drafted and vetted by the system (Gabriel), published on the owner's explicit GO (chat authorization, 2026-10-19 00:52 CT).</p>",
+  "publication_date": "2026-10-19",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": "1.0",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II",
+    "SquirlOS Technologies LLC"
+  ],
+  "keywords": [
+    "SQUIRL OS",
+    "tri-write receipt",
+    "dual-write",
+    "blockchain storage",
+    "OP_RETURN",
+    "XRPL AccountSet",
+    "Stellar ManageData",
+    "memo_hash",
+    "joint commitment",
+    "deterministic tokenization",
+    "keyless verification",
+    "preregistration",
+    "receipts doctrine",
+    "disclosed defects"
+  ],
+  "related_identifiers": [],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23465945",
+  "zenodo_modified": "2026-10-19T05:54:35.090559+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "twr1_bundle.zip",
+      "filename": "twr1_bundle.zip",
+      "size": 19006,
+      "zenodo_checksum": "md5:1ff27d4de042450b2ddb3813b4d8d209",
+      "sha256": "843bb1c569f52b8e21ea2c475b720faba96870f8ca31cb0597082d225fb8cacb"
+    }
+  ]
+}

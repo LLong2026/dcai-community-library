@@ -1,0 +1,48 @@
+{
+  "record_id": "23347657",
+  "doi": "10.5281/zenodo.23347657",
+  "concept_doi": "10.5281/zenodo.23347656",
+  "title": "SBR-3 Combined-Arms Composite Hot-State Battery — The Guarantees Compose (All 6 Falsifiers Pass)",
+  "description": "<p>Combined-arms composite hot-state battery: every previously tested attack class fired together during active learning. 54 exotic composite forgeries were held; 12 inert legs executed as designed (none degraded a live guarantee); 20/20 hot-state probes were contained; 48/48 lineage forgeries were rejected by the crossing audit. Three instrument defects were disclosed between runs, and SIP-2 observations on composite interactions recorded. The guarantees compose: no cross-class interaction opened a gap that single-class batteries left closed. Operator authorization: Leon GO (chat authorization, 11:55 CT, Oct 13, 2026).</p><p><strong>Scope honesty:</strong> single-run preregistered falsifier battery on synthetic data against a prototype governed self-healing system; no production claim is made or implied. Operator authorization recorded as GO + timestamp per the operator-privacy doctrine.</p><p><em>This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.</em></p>",
+  "publication_date": "2026-10-13",
+  "resource_type": "dataset",
+  "resource_type_title": "Dataset",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "combined-arms adversarial testing",
+    "hot-state probing",
+    "lineage forgery",
+    "preregistered falsifiers",
+    "LLM governance",
+    "self-healing infrastructure"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23347657",
+  "zenodo_modified": "2026-10-19T02:12:56.484980+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "sbr3_receipt_bundle.zip",
+      "filename": "sbr3_receipt_bundle.zip",
+      "size": 11137,
+      "zenodo_checksum": "md5:0b4452c690b9cd1618535a23a90c43ea",
+      "sha256": "8ce2df87858685d43b9069811bd7c45975b97d2858681a34558a4a5949934f66"
+    }
+  ]
+}

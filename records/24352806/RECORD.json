@@ -1,0 +1,91 @@
+{
+  "record_id": "24352806",
+  "doi": "10.5281/zenodo.24352806",
+  "concept_doi": "10.5281/zenodo.23482710",
+  "title": "Deterministic Containment of Probabilistic Intelligence, Multi-Rail Evidence Anchoring, and Intelligent Route Selection: The Squirl OS Journey, Volume II",
+  "description": "Volume II of the Squirl OS research thesis (v2.1, adds Section 2.5 — the payload doctrine (byte-level wrapping conventions across nine rails) and the receipts-counted proof-corpus figure (76 mainnet proof transactions). The v2.0 edition ( supersedes-and-extends v1.0, DOI 10.5281/zenodo.23303240) and v2.0 (DOI 10.5281/zenodo.23482711) remain live per the append-only doctrine. Documents the multi-rail evidence anchoring protocol family (DWR-1, TWR-1, RTWR-1, QWR-1/2, PWR-1, wallet crossfire, DeWR-1), the ten-route certification program with measured finality and cost per rail, the XTR-1 five-hop XRP custody speed record (35.45 s total, 7.09 s per validated hop), the IR-1 deterministic intelligent routing engine (live predictions within 0.6 s), the Cloudflare Workers + OpenRouter speed stack, and the patent layer (SQUIRL-IP-011, SQUIRL-OS-IP-012, IP ledger anchored at Bitcoin block 972026). Every claim scoped to its receipts; keyless byte-exact read-backs; all defects disclosed forward-only. This software is a prototype and is provided for educational and research purposes only. It is not intended for production use, commercial deployment, or safety-critical environments. All systems are experimental and may contain defects on them.",
+  "publication_date": "2026-11-18",
+  "resource_type": "publication",
+  "resource_type_title": "Journal article",
+  "version": "v2.2",
+  "license": "mit-license",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin II"
+  ],
+  "keywords": [
+    "deterministic containment",
+    "LLM safety",
+    "multi-rail evidence anchoring",
+    "intelligent routing",
+    "route certification",
+    "Squirl OS",
+    "receipts-first research",
+    "preregistration"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23303240",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23448010",
+      "relation": "isReferencedBy",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23464516",
+      "relation": "isReferencedBy",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23465945",
+      "relation": "isReferencedBy",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23466738",
+      "relation": "isReferencedBy",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23467440",
+      "relation": "isReferencedBy",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23477976",
+      "relation": "isReferencedBy",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23464082",
+      "relation": "isReferencedBy",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null,
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/24352806",
+  "zenodo_modified": "2026-11-18T19:33:09.919679+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "MASTERS_THESIS_SQUIRL_OS_V2_v2.1.md",
+      "filename": "MASTERS_THESIS_SQUIRL_OS_V2_v2.1.md",
+      "size": 26337,
+      "zenodo_checksum": "md5:fb41a74cde443b0e16291e307d4360a0",
+      "sha256": "f365f9b06189906af259a9ccb86154d558062610ecff603cebc15599fb84613e"
+    },
+    {
+      "key": "MASTERS_THESIS_SQUIRL_OS_V2_v2.1.pdf",
+      "filename": "MASTERS_THESIS_SQUIRL_OS_V2_v2.1.pdf",
+      "size": 170620,
+      "zenodo_checksum": "md5:c6c8548cf31416fe96eb6d868744c031",
+      "sha256": "63d38dbf0c960684d6af024454d96f19cad035809efaf76d3cc6640ad0f3884b"
+    }
+  ]
+}

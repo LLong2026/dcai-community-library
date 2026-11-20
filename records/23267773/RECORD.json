@@ -1,0 +1,49 @@
+{
+  "record_id": "23267773",
+  "doi": "10.5281/zenodo.23267773",
+  "concept_doi": "10.5281/zenodo.23267772",
+  "title": "Receipts Over Genius: An Audited Account of an 18-Month, AI-Assisted, Solo Invention Cycle",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE - READ FIRST:</strong> This work is part of an open-book, AI-assisted research program produced under bifurcated governance (a probabilistic AI agent drafts; a deterministic human key approves; a boundary-layer audit checks claims against receipt archives). Audit-and-correction is doctrine: superseded originals are preserved in version histories, corrections are disclosed amendments, and every significant test carries a preregistered falsifier in the append-only public ledger (github.com/LLong2026/four-horsemen). <em>This software and its accompanying research are prototypes provided for educational and research purposes only; they are not intended for production use, commercial deployment, or safety-critical environments.</em></p>\n<p>In April 2025 the author, a working technologist with no background in AI, set himself a falsifiable experiment: use AI assistance to travel the complete invention cycle - conceive, develop the mathematics, build the working system, file the patents, publish the science, demonstrate the result - with every significant step verified by a timestamped, publicly inspectable receipt. This paper is the closing account of that experiment, written under the same rules it describes. Result, scoped honestly: in 18 months a single operator completed the cycle - eight U.S. provisional patent applications pending; a working self-healing infrastructure platform across a live app fleet; the first documented caging of an LLM inside a deterministic mathematical boundary (DOI 10.5281/zenodo.23265723), a receipt that survived direct third-party scrutiny; and a public research line (the DCAI community) walking from theory to governance proof to field event. Two findings carry the paper: (1) the experiment succeeded because of the boundary, not despite it - bifurcated governance turned the operator's lack of background into an auditable process; (2) the program generated its own counter-evidence, reported here rather than discarded: five cataloged instances of AI confabulation inside the program itself (fabricated statuses, fabricated evaluation data, a fabricated institutional identity), every one caught by the same receipt discipline the experiment was testing. The method worked on its author's own tooling.</p>\n<p>Thesis community: Deterministic Caged AI (DCAI) - https://zenodo.org/communities/dcai. Lineage acknowledged: Nyquist (1924), Hartley (1928), Shannon (1948), Kolmogorov (1965), Popper (1959). Companion paper: Deterministic Caging of Probabilistic Large Language Models (DOI 10.5281/zenodo.23266727).</p>",
+  "publication_date": "2026-10-09",
+  "resource_type": "publication",
+  "resource_type_title": "Technical note",
+  "version": null,
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long II, Leon Calvin"
+  ],
+  "keywords": [
+    "AI-assisted invention",
+    "deterministic governance",
+    "audit receipts",
+    "confabulation",
+    "falsifiability",
+    "solo inventor",
+    "bifurcated governance",
+    "post-quantum compliance"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23462705",
+      "relation": "cites",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
+  ],
+  "communities": [
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/23267773",
+  "zenodo_modified": "2026-10-19T02:11:01.275534+00:00",
+  "mirrored_at": "2026-11-20T22:56:01Z",
+  "files": [
+    {
+      "key": "Receipts_Over_Genius_v1.0.pdf",
+      "filename": "Receipts_Over_Genius_v1.0.pdf",
+      "size": 13595,
+      "zenodo_checksum": "md5:9d4c0500e833496879d79348d44c9f5d",
+      "sha256": "469c3b8fa63a8245f10f86afc11c329104a64fa95bf2994a3bfe1e1febf0e638"
+    }
+  ]
+}
