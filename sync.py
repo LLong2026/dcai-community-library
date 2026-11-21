@@ -17,6 +17,7 @@ Stdlib only. No credentials: every record in this community is public.
 """
 import hashlib
 import json
+import re
 import os
 import sys
 import time
@@ -96,6 +97,53 @@ def safe_name(key):
     return name or "unnamed"
 
 
+# --- change detection -------------------------------------------------------
+# A quiet night must produce no diff. mirrored_at is a run timestamp, so a file
+# whose only difference is that timestamp is left alone on disk, and its stored
+# value keeps meaning "when this record last actually changed".
+
+VOLATILE = "mirrored_at"
+
+
+def _norm_json(obj):
+    if isinstance(obj, dict):
+        return {k: _norm_json(v) for k, v in obj.items() if k != VOLATILE}
+    if isinstance(obj, list):
+        return [_norm_json(v) for v in obj]
+    return obj
+
+
+def write_json_if_changed(path, payload):
+    if os.path.isfile(path):
+        try:
+            with open(path, encoding="utf-8") as fh:
+                if _norm_json(json.load(fh)) == _norm_json(payload):
+                    return False
+        except Exception:
+            pass
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(payload, fh, indent=2, ensure_ascii=False)
+        fh.write("\n")
+    return True
+
+
+def _norm_readme(text):
+    return re.sub(r"(\| Last mirror \| )[^|]*(\|)", r"\1__T__\2", text)
+
+
+def write_readme_if_changed(path, text):
+    if os.path.isfile(path):
+        try:
+            with open(path, encoding="utf-8") as fh:
+                if _norm_readme(fh.read()) == _norm_readme(text):
+                    return False
+        except Exception:
+            pass
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write(text)
+    return True
+
+
 def main():
     started = now()
     records = fetch_all()
@@ -161,9 +209,7 @@ def main():
             "mirrored_at": started,
             "files": files,
         }
-        with open(os.path.join(d, "RECORD.json"), "w", encoding="utf-8") as fh:
-            json.dump(rec, fh, indent=2, ensure_ascii=False)
-            fh.write("\n")
+        write_json_if_changed(os.path.join(d, "RECORD.json"), rec)
 
         nb = sum(x["size"] for x in files if not x.get("excluded"))
         total_files += sum(1 for x in files if not x.get("excluded"))
@@ -194,9 +240,7 @@ def main():
         "total_bytes": total_bytes,
         "records": sorted(entries, key=lambda e: e["publication_date"] or "", reverse=True),
     }
-    with open(os.path.join(ROOT, "MANIFEST.json"), "w", encoding="utf-8") as fh:
-        json.dump(manifest, fh, indent=2, ensure_ascii=False)
-        fh.write("\n")
+    write_json_if_changed(os.path.join(ROOT, "MANIFEST.json"), manifest)
 
     excl_rows = []
     for p in sorted(os.listdir(os.path.join(ROOT, "records"))):
@@ -273,8 +317,7 @@ python3 sync.py
 | Published | DOI | Title | Version | Files | Record |
 |---|---|---|---|---|---|
 """ + "\n".join(rows) + "\n"
-    with open(os.path.join(ROOT, "README.md"), "w", encoding="utf-8") as fh:
-        fh.write(readme)
+    write_readme_if_changed(os.path.join(ROOT, "README.md"), readme)
 
     print(f"files downloaded this run: {downloaded}")
     print(f"mirror: {len(entries)} records, {total_files} files, {total_bytes:,} bytes")
