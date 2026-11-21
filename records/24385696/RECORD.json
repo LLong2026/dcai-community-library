@@ -1,0 +1,51 @@
+{
+  "record_id": "24385696",
+  "doi": "10.5281/zenodo.24385696",
+  "concept_doi": "10.5281/zenodo.24385596",
+  "title": "A quorum that cannot be forged: building a safer AI by making it falsifiable",
+  "description": "<p><strong>SQUIRL OS RESEARCH DISCLOSURE — READ FIRST.</strong> This record is part of the Squirrel OS research corpus. All measurements are reported with their denominators and their limits. Where a result is a development set, an unverifiable corpus, or a single-custodian artefact, the record says so in the same sentence as the result. The companion ledger is the public GitHub repository four-horsemen-public.</p>\n<p>This paper is not a claim to have made a safe AI. It is an account of what happened when one was built to be falsified, and it reports the falsifications.</p>\n<p>The work began with a narrow ambition: not a better model, but a better system around one. That ambition produced four legs over roughly a year: a cage whose behaviour is measured by adversarial probes rather than by the model's own assurances; a grounding check that refuses a claim unless it resolves to a hashed artifact with a matching span; an approval path that binds a human's intent to one exact state and makes the approval unusable afterwards; and a crossing gate requiring distinct post-quantum seat signatures over escrowed payload bytes, backed by an audit that recomputes the whole relation from stored state.</p>\n<p>The result that matters is not that the last leg passed its tests. It is that the last leg, when finally measured, was broken in four ways, and that the measurements which broke it are the same measurements that now certify it. A quorum counted vote rows instead of distinct seats and never read the vote value, so one assent plus one abstention agreed. A vote function verified a signature and then discarded it, so every row it wrote was unsigned. A vote row omitted the one field its own audit needed to choose a verification contract, so 24 correct signatures were reported invalid. A proposal path never held the payload bytes, so a payload that did not hash to its own digest was accepted.</p>\n<p>Three of those four were silences. The system did not fail loudly; it reported clean. We describe how each was found, what each cost, and the reporting discipline that keeps a clean audit count from being read as a clean system: every audit verdict in this paper is accompanied by the count of records it could not reach.</p>\n<p>We make no primacy claim. The components are old. What we claim is one specific combination and one transferable habit: a gate that states what it cannot verify, in the same sentence as what it can.</p>\n<p>What it buys is narrower than safety and more useful than assurance. An organisation that adopts this can show a third party, from a receipt alone, that a given effect was authorised by a named person against one exact state, that no agent's own judgement entered the path, that the approval cannot be reused, and that the keys doing the authorising never sat on the server. It also inherits the four questions that catch a governance system reporting green while broken.</p>\n<p>Two limits are stated here rather than buried in a limits section, because both bear on how the result should be read. The V2 vote contract binds the payload and the seat but not the vote value, so a signed row does not by itself prove what the seat voted. And every seat private key is held by one custodian, so 2-of-3 certifies that three distinct keys signed, not that three independent people consented.</p>",
+  "publication_date": "2026-11-20",
+  "resource_type": "publication",
+  "resource_type_title": "Preprint",
+  "version": "0.3.1",
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "creators": [
+    "Long, Leon Calvin, II"
+  ],
+  "keywords": [
+    "AI safety",
+    "containment",
+    "post-quantum",
+    "ML-DSA-87",
+    "FIPS 204",
+    "quorum",
+    "falsifiability",
+    "audit",
+    "escrow",
+    "governance"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/LLong2026/four-horsemen-public/blob/main/docs/receipts/A_QUORUM_THAT_CANNOT_BE_FORGED_20261120.md",
+      "relation": "isSupplementedBy",
+      "resource_type": "publication-other",
+      "scheme": "url"
+    }
+  ],
+  "communities": [
+    null
+  ],
+  "zenodo_url": "https://zenodo.org/records/24385696",
+  "zenodo_modified": "2026-11-21T06:54:41.939760+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
+  "files": [
+    {
+      "key": "A_QUORUM_THAT_CANNOT_BE_FORGED_20261120.md",
+      "filename": "A_QUORUM_THAT_CANNOT_BE_FORGED_20261120.md",
+      "size": 30497,
+      "zenodo_checksum": "md5:e89fbbfdca455abc6e0b07ca4559a39c",
+      "sha256": "41c8134cbe060a9bf6645ec204df038dfa4487299d15f4505371d2baffec207e"
+    }
+  ]
+}

@@ -8,7 +8,7 @@
   "resource_type": "publication",
   "resource_type_title": "Report",
   "version": "1.1",
-  "license": "cc-by-4.0",
+  "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
     "Long, Leon Calvin, II"
@@ -57,8 +57,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23448049",
-  "zenodo_modified": "2026-10-24T15:25:00.874633+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:13:25.045775+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "hash_is_the_artifact_paper.zip",

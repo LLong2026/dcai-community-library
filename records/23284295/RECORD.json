@@ -11,7 +11,7 @@
   "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
-    "Long, Leon Calvin II"
+    "Long, Leon Calvin, II"
   ],
   "keywords": [
     "deterministic computing",
@@ -62,8 +62,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23284295",
-  "zenodo_modified": "2026-11-18T19:11:38.964191+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:17:23.408791+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "expected_canonical_tuples.json",

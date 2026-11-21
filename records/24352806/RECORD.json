@@ -11,7 +11,7 @@
   "license": "mit-license",
   "access_right": "open",
   "creators": [
-    "Long, Leon Calvin II"
+    "Long, Leon Calvin, II"
   ],
   "keywords": [
     "deterministic containment",
@@ -70,8 +70,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/24352806",
-  "zenodo_modified": "2026-11-18T19:33:09.919679+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:10:38.418921+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "MASTERS_THESIS_SQUIRL_OS_V2_v2.1.md",

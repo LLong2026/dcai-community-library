@@ -11,7 +11,7 @@
   "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
-    "Leon Calvin Long, II"
+    "Long, Leon Calvin, II"
   ],
   "keywords": [
     "post-quantum cryptography",
@@ -40,8 +40,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23349379",
-  "zenodo_modified": "2026-10-19T02:13:21.549181+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:15:06.932072+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "pqc_b1_bundle.zip",

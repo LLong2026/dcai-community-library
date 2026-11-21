@@ -11,7 +11,7 @@
   "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
-    "long, Leon Calvin II"
+    "Long, Leon Calvin, II"
   ],
   "keywords": [
     "Deterministic AI Governance  Probabilistic Neural Computation  LLM-as-Compute-Engine  Neural Mesh Architecture  Entity-Based Neural Network Topology  Bifurcated Proposal-Validation Model  Multi-LLM Comparative Filtering  Deterministic Runtime (JasperOS)  Adaptive Self-Healing Systems  Operational Learning Loop",
@@ -79,8 +79,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/21567914",
-  "zenodo_modified": "2026-10-19T02:07:31.561581+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:20:33.788125+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "Neural Mesh Architecture — Squirrel OS and JasperOS.pdf",

@@ -8,7 +8,7 @@
   "resource_type": "dataset",
   "resource_type_title": "Dataset",
   "version": null,
-  "license": "cc-by-4.0",
+  "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
     "Long, Leon Calvin, II"
@@ -31,8 +31,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23608167",
-  "zenodo_modified": "2026-10-24T02:15:43.312671+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:12:03.914399+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "DOORS2_EVIDENCE_BUNDLE.zip",

@@ -8,10 +8,10 @@
   "resource_type": "publication",
   "resource_type_title": "Report",
   "version": "Edition 3",
-  "license": "cc-by-4.0",
+  "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
-    "Long II, Leon Calvin"
+    "Long, Leon Calvin, II"
   ],
   "keywords": [],
   "related_identifiers": [
@@ -47,8 +47,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23270092",
-  "zenodo_modified": "2026-10-19T02:11:05.008628+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:17:29.957487+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "SOVEREIGN_BRIEFING_HITL_N10-ACK.pdf",

@@ -8,10 +8,10 @@
   "resource_type": "publication",
   "resource_type_title": "Technical note",
   "version": null,
-  "license": "cc-by-4.0",
+  "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
-    "Long, Leon Calvin II"
+    "Long, Leon Calvin, II"
   ],
   "keywords": [
     "tokenization",
@@ -41,8 +41,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23734656",
-  "zenodo_modified": "2026-10-28T14:58:02.186158+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:11:09.706480+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "SCALE-1_v1.1.md",

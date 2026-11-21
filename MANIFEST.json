@@ -1,13 +1,25 @@
 {
   "community": "dcai",
   "source": "https://zenodo.org/communities/dcai",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "mirror_rule": "one Zenodo record = one directory under records/, files byte-identical except named policy exclusions",
-  "record_count": 110,
-  "file_count": 184,
+  "record_count": 111,
+  "file_count": 185,
   "excluded_file_count": 1,
-  "total_bytes": 18299557,
+  "total_bytes": 18330054,
   "records": [
+    {
+      "record_id": "24385696",
+      "doi": "10.5281/zenodo.24385696",
+      "title": "A quorum that cannot be forged: building a safer AI by making it falsifiable",
+      "publication_date": "2026-11-20",
+      "version": "0.3.1",
+      "resource_type_title": "Preprint",
+      "files": 1,
+      "excluded": 0,
+      "bytes": 30497,
+      "path": "records/24385696"
+    },
     {
       "record_id": "24352806",
       "doi": "10.5281/zenodo.24352806",

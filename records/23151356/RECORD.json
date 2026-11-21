@@ -8,10 +8,10 @@
   "resource_type": "publication",
   "resource_type_title": "Journal article",
   "version": null,
-  "license": "cc-by-4.0",
+  "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
-    "Long, Leon Calvin II"
+    "Long, Leon Calvin, II"
   ],
   "keywords": [],
   "related_identifiers": [
@@ -27,8 +27,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23151356",
-  "zenodo_modified": "2026-10-19T02:10:05.445024+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:18:26.169251+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "HITL_Critical_Receipt_N10-ACK.pdf",

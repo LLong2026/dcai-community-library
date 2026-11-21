@@ -8,11 +8,10 @@
   "resource_type": "publication",
   "resource_type_title": "Report",
   "version": "1.0",
-  "license": "cc-by-4.0",
+  "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
-    "Long, Leon Calvin, II",
-    "SquirlOS Technologies LLC"
+    "Long, Leon Calvin, II"
   ],
   "keywords": [
     "SQUIRL OS",
@@ -40,8 +39,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23609818",
-  "zenodo_modified": "2026-10-24T04:52:34.142383+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:11:57.631588+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "PQC_E0_RECEIPT_BUNDLE.zip",

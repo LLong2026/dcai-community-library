@@ -8,7 +8,7 @@
   "resource_type": "software",
   "resource_type_title": "Software",
   "version": null,
-  "license": "cc-by-4.0",
+  "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
     "Long, Leon Calvin, II"
@@ -52,9 +52,16 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23422693",
-  "zenodo_modified": "2026-10-19T02:13:56.200756+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:14:32.522765+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
+    {
+      "key": "pab_template_prereg.md",
+      "filename": "pab_template_prereg.md",
+      "size": 1184,
+      "zenodo_checksum": "md5:dc04a5bc9ee77f24f4ed91d2d9bbb544",
+      "sha256": "f316c79d3dbd8f575001c3d7810784e708e7989eb31c0b2869fa7022d1ef9a41"
+    },
     {
       "key": "pab_harness_skeleton.py",
       "filename": "pab_harness_skeleton.py",
@@ -68,13 +75,6 @@
       "size": 4965,
       "zenodo_checksum": "md5:14770934a7026bb525e4b551603fa615",
       "sha256": "c6bb9811a775e205c1bf1615828924feb743a11c63edc91451e94fdd37be5d63"
-    },
-    {
-      "key": "pab_template_prereg.md",
-      "filename": "pab_template_prereg.md",
-      "size": 1184,
-      "zenodo_checksum": "md5:dc04a5bc9ee77f24f4ed91d2d9bbb544",
-      "sha256": "f316c79d3dbd8f575001c3d7810784e708e7989eb31c0b2869fa7022d1ef9a41"
     }
   ]
 }

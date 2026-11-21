@@ -11,8 +11,7 @@
   "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
-    "Long, Leon Calvin, II",
-    "SquirlOS Technologies LLC"
+    "Long, Leon Calvin, II"
   ],
   "keywords": [
     "SQUIRL OS",
@@ -39,8 +38,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23425017",
-  "zenodo_modified": "2026-10-19T02:14:02.435630+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:14:25.817152+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "HACK7_PORTCULLIS_EVIDENCE_BUNDLE.zip",

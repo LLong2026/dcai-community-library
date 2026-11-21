@@ -8,11 +8,10 @@
   "resource_type": "publication",
   "resource_type_title": "Technical note",
   "version": "1.0",
-  "license": "cc-by-4.0",
+  "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
-    "Long, Leon Calvin, II",
-    "SquirlOS Technologies LLC"
+    "Long, Leon Calvin, II"
   ],
   "keywords": [
     "SQUIRL OS",
@@ -48,9 +47,23 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23463132",
-  "zenodo_modified": "2026-10-24T15:25:04.743702+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:13:00.313744+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
+    {
+      "key": "SATOSHI_EMBODIMENT_PAPER_v1.0.pdf",
+      "filename": "SATOSHI_EMBODIMENT_PAPER_v1.0.pdf",
+      "size": 5737,
+      "zenodo_checksum": "md5:027b8991940c84c6892a4cdeaaf07c71",
+      "sha256": "493a45234bbed02f2a81384c943ba47ba4c4cd895d501d1a56e86e09989186bc"
+    },
+    {
+      "key": "PREREG_DGPNM-SAT-1.md",
+      "filename": "PREREG_DGPNM-SAT-1.md",
+      "size": 2070,
+      "zenodo_checksum": "md5:b3cddd1573d165161e64a9d0a7925d59",
+      "sha256": "a89ccbc653769d6a75f17558cd8bde4c0b85e7182db5799396ec6536a784f29a"
+    },
     {
       "key": "PREREG_SAT-EMB-PUB-1.md",
       "filename": "PREREG_SAT-EMB-PUB-1.md",
@@ -71,20 +84,6 @@
       "size": 2221,
       "zenodo_checksum": "md5:eed4bc692595724322a7e77beb5f2e86",
       "sha256": "97efb740217c9c24ddd50279b35005c8094e7d16c8da0d75c79527230c116161"
-    },
-    {
-      "key": "SATOSHI_EMBODIMENT_PAPER_v1.0.pdf",
-      "filename": "SATOSHI_EMBODIMENT_PAPER_v1.0.pdf",
-      "size": 5737,
-      "zenodo_checksum": "md5:027b8991940c84c6892a4cdeaaf07c71",
-      "sha256": "493a45234bbed02f2a81384c943ba47ba4c4cd895d501d1a56e86e09989186bc"
-    },
-    {
-      "key": "PREREG_DGPNM-SAT-1.md",
-      "filename": "PREREG_DGPNM-SAT-1.md",
-      "size": 2070,
-      "zenodo_checksum": "md5:b3cddd1573d165161e64a9d0a7925d59",
-      "sha256": "a89ccbc653769d6a75f17558cd8bde4c0b85e7182db5799396ec6536a784f29a"
     }
   ]
 }

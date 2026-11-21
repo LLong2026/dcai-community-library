@@ -11,7 +11,7 @@
   "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
-    "Long II, Leon Calvin"
+    "Long, Leon Calvin, II"
   ],
   "keywords": [
     "deterministic caging",
@@ -46,8 +46,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23284729",
-  "zenodo_modified": "2026-10-19T02:11:16.880614+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:17:19.601625+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "Deterministic_Caging_of_Probabilistic_LLMs_v1.0.pdf",

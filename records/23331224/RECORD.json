@@ -8,7 +8,7 @@
   "resource_type": "software",
   "resource_type_title": "Software",
   "version": null,
-  "license": "cc-by-4.0",
+  "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
     "Long, Leon Calvin, II"
@@ -34,8 +34,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23331224",
-  "zenodo_modified": "2026-10-19T02:12:10.663966+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:16:18.777508+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "SBR1_EVIDENCE.zip",

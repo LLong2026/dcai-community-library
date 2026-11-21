@@ -11,7 +11,7 @@
   "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
-    "Leon Calvin Long, II"
+    "Long, Leon Calvin, II"
   ],
   "keywords": [
     "adversarial testing",
@@ -35,8 +35,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23440105",
-  "zenodo_modified": "2026-10-19T02:14:27.618701+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:14:04.995289+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "BLIND2_EVIDENCE_BUNDLE.zip",

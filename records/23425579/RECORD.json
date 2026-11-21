@@ -8,7 +8,7 @@
   "resource_type": "dataset",
   "resource_type_title": "Dataset",
   "version": null,
-  "license": "cc-by-4.0",
+  "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
     "Long, Leon Calvin, II"
@@ -36,8 +36,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23425579",
-  "zenodo_modified": "2026-10-19T02:14:05.819712+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:14:22.290655+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "escape2_siege_bundle.zip",

@@ -8,7 +8,7 @@
   "resource_type": "dataset",
   "resource_type_title": "Dataset",
   "version": null,
-  "license": "cc-by-4.0",
+  "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
     "Long, Leon Calvin, II"
@@ -56,16 +56,9 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23422495",
-  "zenodo_modified": "2026-10-19T02:13:49.629558+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:14:39.330194+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
-    {
-      "key": "hack5_ant_beacon_prereg.md",
-      "filename": "hack5_ant_beacon_prereg.md",
-      "size": 2520,
-      "zenodo_checksum": "md5:888f5403cb2845d316282553275e906a",
-      "sha256": "d3df2e1f1238a0f4e446ee98bf1ecff1658178b4a4677d2fe220bdbc63bb7ad8"
-    },
     {
       "key": "HACK456_RUNLOG.md",
       "filename": "HACK456_RUNLOG.md",
@@ -86,6 +79,13 @@
       "size": 16194,
       "zenodo_checksum": "md5:7eb4d05a2f766ad9be0fba7a848611d5",
       "sha256": "634b4bae84dc486dc2a1b661fdc69869144d693732739a4a0953378edfa7eee0"
+    },
+    {
+      "key": "hack5_ant_beacon_prereg.md",
+      "filename": "hack5_ant_beacon_prereg.md",
+      "size": 2520,
+      "zenodo_checksum": "md5:888f5403cb2845d316282553275e906a",
+      "sha256": "d3df2e1f1238a0f4e446ee98bf1ecff1658178b4a4677d2fe220bdbc63bb7ad8"
     },
     {
       "key": "hack4_cottonmouth_prereg.md",

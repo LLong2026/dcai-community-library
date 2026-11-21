@@ -8,11 +8,10 @@
   "resource_type": "dataset",
   "resource_type_title": "Dataset",
   "version": "1.0",
-  "license": "cc-by-4.0",
+  "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
-    "Long, Leon Calvin, II",
-    "SquirlOS Technologies LLC"
+    "Long, Leon Calvin, II"
   ],
   "keywords": [
     "SQUIRL OS",
@@ -41,8 +40,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23446655",
-  "zenodo_modified": "2026-10-24T15:25:22.190711+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:13:30.993789+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "council_session04_bundle.zip",

@@ -8,7 +8,7 @@
   "resource_type": "dataset",
   "resource_type_title": "Dataset",
   "version": null,
-  "license": "cc-by-4.0",
+  "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
     "Long, Leon Calvin, II"
@@ -30,8 +30,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23477976",
-  "zenodo_modified": "2026-10-19T15:00:47.735631+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:12:40.512358+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "QWR2_BUNDLE.zip",

@@ -8,7 +8,7 @@
   "resource_type": "publication",
   "resource_type_title": "Preprint",
   "version": null,
-  "license": "cc-by-4.0",
+  "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
     "Long, Leon Calvin, II"
@@ -68,8 +68,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23422632",
-  "zenodo_modified": "2026-10-19T02:13:52.656014+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:14:36.182876+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "pab_methodology_preprint_v1.md",

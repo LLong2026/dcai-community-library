@@ -11,7 +11,7 @@
   "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
-    "Long, Leon Calvin II"
+    "Long, Leon Calvin, II"
   ],
   "keywords": [
     "deterministic governance",
@@ -34,9 +34,16 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23288189",
-  "zenodo_modified": "2026-10-19T02:11:30.712568+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:17:04.392952+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
+    {
+      "key": "SHA256_MANIFEST.json",
+      "filename": "SHA256_MANIFEST.json",
+      "size": 661,
+      "zenodo_checksum": "md5:fa0eb715731075854827039b5aea4dae",
+      "sha256": "11bc44ef19e0416c2572cf15b57dd5e2e603b0b5cc1c7c489575bd3812ebfc4f"
+    },
     {
       "key": "CAGE_CONTAINMENT_RECEIPT.pdf",
       "filename": "CAGE_CONTAINMENT_RECEIPT.pdf",
@@ -64,13 +71,6 @@
       "size": 6320,
       "zenodo_checksum": "md5:14f342c642221ac0551aac7b69cb39f2",
       "sha256": "93107f70a8c7ca1201512772b100d3b4102dd4b9661f938385b6e3dfa839d4fe"
-    },
-    {
-      "key": "SHA256_MANIFEST.json",
-      "filename": "SHA256_MANIFEST.json",
-      "size": 661,
-      "zenodo_checksum": "md5:fa0eb715731075854827039b5aea4dae",
-      "sha256": "11bc44ef19e0416c2572cf15b57dd5e2e603b0b5cc1c7c489575bd3812ebfc4f"
     }
   ]
 }

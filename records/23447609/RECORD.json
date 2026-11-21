@@ -8,11 +8,10 @@
   "resource_type": "dataset",
   "resource_type_title": "Dataset",
   "version": "2.0",
-  "license": "cc-by-4.0",
+  "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
-    "Long, Leon Calvin, II",
-    "SquirlOS Technologies LLC"
+    "Long, Leon Calvin, II"
   ],
   "keywords": [
     "SQUIRL OS",
@@ -40,22 +39,22 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23447609",
-  "zenodo_modified": "2026-10-19T02:15:01.378528+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:13:28.108255+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
-    {
-      "key": "patent_genesis_bundle_v2.zip",
-      "filename": "patent_genesis_bundle_v2.zip",
-      "size": 109657,
-      "zenodo_checksum": "md5:6b9f6ed8fd8f23ba09a183cb86e88519",
-      "sha256": "bdca786c3625160ef1a1f538fe08c927119f629dd28cf6010433be88a790c758"
-    },
     {
       "key": "patent_genesis_bundle.zip",
       "filename": "patent_genesis_bundle.zip",
       "size": 55685,
       "zenodo_checksum": "md5:14869e7c783bfec3197356da979e136f",
       "sha256": "683f3960da6bdb49aed25e1de43c124e36cbd59e2b06fba3d8aef0d62c4d5b87"
+    },
+    {
+      "key": "patent_genesis_bundle_v2.zip",
+      "filename": "patent_genesis_bundle_v2.zip",
+      "size": 109657,
+      "zenodo_checksum": "md5:6b9f6ed8fd8f23ba09a183cb86e88519",
+      "sha256": "bdca786c3625160ef1a1f538fe08c927119f629dd28cf6010433be88a790c758"
     }
   ]
 }

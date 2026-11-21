@@ -26,11 +26,11 @@ reordered or summarised.
 
 | | |
 |---|---|
-| Records | 110 |
-| Files | 184 |
-| Bytes | 18,299,557 |
+| Records | 111 |
+| Files | 185 |
+| Bytes | 18,330,054 |
 | Excluded by policy | 1 |
-| Last mirror | 2026-11-20T22:56:01Z |
+| Last mirror | 2026-11-21T23:48:14Z |
 
 ## Excluded by policy
 
@@ -52,6 +52,7 @@ python3 sync.py
 
 | Published | DOI | Title | Version | Files | Record |
 |---|---|---|---|---|---|
+| 2026-11-20 | [10.5281/zenodo.24385696](https://doi.org/10.5281/zenodo.24385696) | A quorum that cannot be forged: building a safer AI by making it falsifiable | 0.3.1 | 1 | [24385696](records/24385696/) |
 | 2026-11-18 | [10.5281/zenodo.24352806](https://doi.org/10.5281/zenodo.24352806) | Deterministic Containment of Probabilistic Intelligence, Multi-Rail Evidence Anchoring, and Intelligent Route Selection: The Squirl OS Journey, Volume II | v2.2 | 2 | [24352806](records/24352806/) |
 | 2026-11-09 | [10.5281/zenodo.24088967](https://doi.org/10.5281/zenodo.24088967) | SQUIRL OS: Containment Report 01. Containment of Invalid Machine Actions, Tested in the Open | 1.0 | 3 | [24088967](records/24088967/) |
 | 2026-11-03 | [10.5281/zenodo.23922526](https://doi.org/10.5281/zenodo.23922526) | The Cage Takes Live Model Traffic: Deterministic Refusal of Model Drift Against a Derived Expectation (DRIFT-RPT-03) | 1.0 | 1 | [23922526](records/23922526/) |

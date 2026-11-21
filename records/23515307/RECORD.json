@@ -8,11 +8,10 @@
   "resource_type": "publication",
   "resource_type_title": "Journal article",
   "version": "1.0",
-  "license": "cc-by-4.0",
+  "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
-    "Long, Leon Calvin, II",
-    "SquirlOS Technologies LLC"
+    "Long, Leon Calvin, II"
   ],
   "keywords": [
     "Fractal Tokenization",
@@ -31,8 +30,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23515307",
-  "zenodo_modified": "2026-10-20T22:01:55.148545+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:12:25.090376+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "FL1_BREAKTHROUGH_NOTE.md",

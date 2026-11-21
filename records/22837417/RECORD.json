@@ -8,7 +8,7 @@
   "resource_type": "publication",
   "resource_type_title": "Patent",
   "version": null,
-  "license": "cc-by-4.0",
+  "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
     "Long, Leon Calvin, II"
@@ -42,8 +42,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/22837417",
-  "zenodo_modified": "2026-10-19T02:08:00.973468+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:20:10.518120+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "DCAI_Provisional_Patent_Application_64-157-915.pdf",

@@ -8,7 +8,7 @@
   "resource_type": "publication",
   "resource_type_title": "Technical note",
   "version": "1.2",
-  "license": "cc-by-4.0",
+  "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
     "Long, Leon Calvin, II"
@@ -40,8 +40,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23816751",
-  "zenodo_modified": "2026-10-30T19:13:49.651726+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:11:00.104115+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "PQC_TRANSITION_READINESS_v1.2.md",

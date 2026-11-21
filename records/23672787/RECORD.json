@@ -8,10 +8,10 @@
   "resource_type": "publication",
   "resource_type_title": "Journal article",
   "version": null,
-  "license": "cc-by-4.0",
+  "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
-    "Long, Leon Calvin II"
+    "Long, Leon Calvin, II"
   ],
   "keywords": [
     "SHA-256",
@@ -28,8 +28,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23672787",
-  "zenodo_modified": "2026-10-26T18:05:41.441634+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:11:34.457423+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "EVIDENCE_COPILOT_CONFESSION_2026-10-26.md",

@@ -11,7 +11,7 @@
   "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
-    "Long, Leon Calvin II"
+    "Long, Leon Calvin, II"
   ],
   "keywords": [
     "DCAI",
@@ -50,8 +50,8 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23286770",
-  "zenodo_modified": "2026-10-19T02:11:27.200811+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:17:07.855782+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
     {
       "key": "VALIDATOR_BASELINE_RECEIPT.json",

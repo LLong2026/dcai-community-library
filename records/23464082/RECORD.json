@@ -8,7 +8,7 @@
   "resource_type": "publication",
   "resource_type_title": "Journal article",
   "version": null,
-  "license": "cc-by-4.0",
+  "license": "cc-by-nc-nd-4.0",
   "access_right": "open",
   "creators": [
     "Long, Leon Calvin, II"
@@ -27,23 +27,9 @@
     null
   ],
   "zenodo_url": "https://zenodo.org/records/23464082",
-  "zenodo_modified": "2026-10-19T04:15:24.205101+00:00",
-  "mirrored_at": "2026-11-20T22:56:01Z",
+  "zenodo_modified": "2026-11-21T07:12:57.131339+00:00",
+  "mirrored_at": "2026-11-21T23:48:14Z",
   "files": [
-    {
-      "key": "cage_walk_state.json",
-      "filename": "cage_walk_state.json",
-      "size": 493,
-      "zenodo_checksum": "md5:c28c327afe8f9798612082998483ad70",
-      "sha256": "1d8e452873cafabb85505c8d264b9002a7f9f2b715689f405a51b428945bdf57"
-    },
-    {
-      "key": "XRP_CAGE_RESULT.json",
-      "filename": "XRP_CAGE_RESULT.json",
-      "size": 709,
-      "zenodo_checksum": "md5:63f6bf689668d08c27b7c30500a476e3",
-      "sha256": "f31cbd6143d9ef24962fab8abbb1a79692687f08ddf29380ac4c2c0b676283ab"
-    },
     {
       "key": "CAGE_TOK_RUNLOG.md",
       "filename": "CAGE_TOK_RUNLOG.md",
@@ -64,6 +50,20 @@
       "size": 5688,
       "zenodo_checksum": "md5:73ae0dbe6ddfa1eb0d62a4129da9e6d0",
       "sha256": "f439f1307cf3657cce4e95b18a53678a2ae5691b191e5961cdfbebaf650265d7"
+    },
+    {
+      "key": "cage_walk_state.json",
+      "filename": "cage_walk_state.json",
+      "size": 493,
+      "zenodo_checksum": "md5:c28c327afe8f9798612082998483ad70",
+      "sha256": "1d8e452873cafabb85505c8d264b9002a7f9f2b715689f405a51b428945bdf57"
+    },
+    {
+      "key": "XRP_CAGE_RESULT.json",
+      "filename": "XRP_CAGE_RESULT.json",
+      "size": 709,
+      "zenodo_checksum": "md5:63f6bf689668d08c27b7c30500a476e3",
+      "sha256": "f31cbd6143d9ef24962fab8abbb1a79692687f08ddf29380ac4c2c0b676283ab"
     }
   ]
 }
