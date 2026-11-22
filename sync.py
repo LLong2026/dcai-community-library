@@ -280,6 +280,17 @@ file(s) byte-identical under their original keys, plus `RECORD.json` with the re
 public metadata and a locally computed SHA-256 for every file. Nothing is rewritten,
 reordered or summarised.
 
+## Naming: Jasper and Testari
+
+**Naming note (added 2026-11-22, forward-only).** Jasper is the name of the prototype and of the
+deterministic hypervisor component described in several records here. Testari is the commercial name
+of the finished product built from it. They are the same lineage under two names, not two systems.
+
+No mirrored record has been rewritten to say otherwise. Records are left exactly as published, so a
+2026 paper that says Jasper still says Jasper, because that is what the system was called when the
+work was done. Where a name in this library differs from the name of the product you are looking at,
+this note is the reason, and the DOI record remains the authority.
+
 ## What this is, and what it is not
 
 - It is a mirror of *public* metadata and *public* files. Every record here was already
